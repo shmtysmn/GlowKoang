@@ -192,6 +192,288 @@
     line-height: 24px;
     word-wrap: break-word;
 }
+
+/* bagian footer */
+.Group100 {
+    width: 1530px;
+    height: 335px;
+    left: 0px;
+    top: 4129px;
+    position: absolute;
+}
+
+.Group99 {
+    width: 1530px;
+    height: 335px;
+    position: relative;
+}
+
+.Rectangle73 {
+    width: 1530px;
+    height: 335px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.90;
+    background: #DBC5AE;
+}
+
+.ContactUs {
+    width: 123px;
+    left: 1043px;
+    top: 0px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    font-family: Petrona;
+    font-weight: 600;
+    line-height: 57.60px;
+    word-wrap: break-word;
+}
+
+.PhoneNumber {
+    width: 220px;
+    height: 58px;
+    left: 1083px;
+    top: 40px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: Petrona;
+    font-weight: 300;
+    line-height: 57.60px;
+    word-wrap: break-word;
+}
+
+.GlowkoangEmail {
+    width: 202px;
+    left: 1092px;
+    top: 116px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: Petrona;
+    font-weight: 300;
+    line-height: 57.60px;
+    word-wrap: break-word;
+}
+
+.Telp, .Pesan, .Twitter, .Facebook, .Instagram, .Youtube {
+    position: absolute;
+}
+
+.Telp {
+    width: 28px;
+    height: 19px;
+    left: 1029px;
+    top: 109px;
+}
+
+.Pesan {
+    width: 28px;
+    height: 19px;
+    left: 1029px;
+    top: 141px;
+}
+
+.Twitter {
+    width: 45px;
+    height: 40px;
+    left: 1102px;
+    top: 265px;
+}
+
+.Facebook {
+    width: 45px;
+    height: 40px;
+    left: 1057px;
+    top: 265px;
+}
+
+.Instagram {
+    width: 45px;
+    height: 40px;
+    left: 1147px;
+    top: 265px;
+}
+
+.Youtube {
+    width: 45px;
+    height: 40px;
+    left: 1192px;
+    top: 265px;
+}
+
+.TandaAir {
+    width: 443.35px;
+    height: 19.50px;
+    left: 586px;
+    top: 285px;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 19.50px;
+    word-wrap: break-word;
+}
+
+.Glowkoang {
+    width: 199px;
+    height: 42px;
+    left: 25px;
+    top: 20px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.SubscribeNow {
+    width: 210px;
+    height: 34px;
+    left: 25px;
+    top: 180px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Rectangle74 {
+    width: 133px;
+    height: 47px;
+    left: 17px;
+    top: 270px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+}
+
+.Subscribe {
+    width: 109px;
+    height: 47px;
+    left: 29px;
+    top: 265px;
+    position: absolute;
+    text-align: justify;
+    color: #B6A99B;
+    font-size: 25px;
+    font-family: Petrona;
+    font-weight: 300;
+    line-height: 57.60px;
+    word-wrap: break-word;
+}
+
+.HomeAboutUsProductAktifitas {
+    width: 124px;
+    height: 42px;
+    left: 779px;
+    top: 80px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 275;
+    line-height: 35px;
+    word-wrap: break-word;
+}
+.HomeAboutUsProductAktifitas1{
+    width: 124px;
+    height: 42px;
+    left: 550px;
+    top: 80px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 275;
+    line-height: 35px;
+    word-wrap: break-word;
+}
+
+.OurServices {
+    width: 143px;
+    left: 753px;
+    top: 0px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    font-family: Petrona;
+    font-weight: 600;
+    line-height: 57.60px;
+    word-wrap: break-word;
+}
+
+.Information {
+    width: 139px;
+    left: 538px;
+    top: 0px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    font-family: Petrona;
+    font-weight: 600;
+    line-height: 57.60px;
+    word-wrap: break-word;
+}
+
+.Description {
+    width: 426px;
+    height: 53px;
+    left: 25px;
+    top: 70px;
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 275;
+    word-wrap: break-word;
+}
+
+.EnterYourEmail {
+    width: 243px;
+    height: 54px;
+    left: 50px;
+    top: 205px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: Petrona;
+    font-weight: 300;
+    line-height: 57.60px;
+    word-wrap: break-word;
+}
+
+.Letter {
+    width: 28px;
+    height: 19px;
+    left: 20px;
+    top: 225px;
+    position: absolute;
+}
+
+.Line9 {
+    width: 210px;
+    height: 0px;
+    left: 16px;
+    top: 250px;
+    position: absolute;
+    border: 1px white solid;
+}
+
     </style>
     </head>
     <body>
@@ -258,23 +540,23 @@
   </div>
   <div class="Rectangle76" style="width: 400px; height: 100px; left: 800px; top: 1785px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
   <div class="ProdukGlowkoang" style="width: 392px; height: 52.54px; left: 850px; top: 1803px; position: absolute"><span style="color: black; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Produk</span><span style="color: #FF7B00; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word"> GlowKoang</span></div>
-  <div class="bgtesti" style="width: 314px; height: 494px; left: 50px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-  <div class="bginflue" style="width: 306px; height: 494px; left: 830px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-  <div class="bgpromo" style="width: 306px; height: 494px; left: 1190px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-  <div class="Rectangle82" style="width: 196px; height: 64px; left: 1146px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
-  <img class="influencer" style="width: 200px; height: 285px; left: 805px; top: 3492px; position: absolute" alt="gambar influe" src="uploads/influe.png" />
-  <img class="Testi" style="width: 230px; height: 296px; left: 75px; top: 3485px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
-  <div class="bguji" style="width: 335px; height: 494px; left: 425px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-  <div class="Rectangle79" style="width: 309px; height: 64px; left: 395px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
-  <div class="UjiKelayakanProduk" style="width: 288px; height: 49px; left: 411px; top: 3821px; position: absolute; text-align: justify; color: black; font-size: 30px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">Uji  Kelayakan Produk</div>
-  <div class="Rectangle81" style="width: 223px; height: 64px; left: 805px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
-  <div class="Influencer" style="left: 820px; top: 3817px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
-  <img class="uji" style="width: 230px; height: 277px; left: 450px; top: 3504px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
-  <img class="promo" style="width: 231px; height: 265px; left: 1130px; top: 3492px; position: absolute" alt="gambar promo" src="uploads/promo.png" />
-  <div class="Promo" style="left: 1185px; top: 3817px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>
+  <div class="bgtesti" style="width: 300px; height: 494px; left: 50px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <div class="bginflue" style="width: 300px; height: 494px; left: 815px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <div class="bgpromo" style="width: 300px; height: 494px; left: 1190px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <img class="influencer" style="width: 230px; height: 296px; left: 865px; top: 3485px; position: absolute" alt="gambar influe" src="uploads/influe.png" />
+  <img class="Testi" style="width: 230px; height: 296px; left: 85px; top: 3485px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
+  <div class="bguji" style="width: 300px; height: 494px; left: 425px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <div class="Rectangle79" style="width: 260px; height: 55px; left: 445px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+  <div class="UjiKelayakanProduk" style="height: 20px; left: 455px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 57.60px; white-space: nowrap;">UJI KELAYAKAN PRODUK</div>
+  <div class="Rectangle81" style="width: 205px; height: 55px; left: 880px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+  <div class="Influencer" style="left: 910px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
+  <img class="uji" style="width: 230px; height: 296px; left: 460px; top: 3485px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
+  <div class="Rectangle82" style="width: 130px; height: 55px; left: 1275px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+  <img class="promo" style="width: 230px; height: 296px; left: 1230px; top: 3485px; position: absolute" alt="gambar promo" src="uploads/promo.png" />
+  <div class="Promo" style="left: 1300px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>
   <div class="Line11" style="width: 146px; height: 0px; left: 906px; top: 1145px; position: absolute; border: 5px black solid"></div>
-  <div class="Rectangle78" style="width: 196px; height: 64px; left: 100px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
-  <div class="Testimoni" style="left: 105px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">TESTIMONI</div>
+  <div class="Rectangle78" style="width: 165px; height: 55px; left: 100px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+  <div class="Testimoni" style="left: 115px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">TESTIMONI</div>
   <div class="Group110" style="width: 339px; height: 73px; left: 210px; top: 2572px; position: absolute">
     <div class="Rectangle83" style="width: 300px; height: 73px; left: 20px; top: 130px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
     <div class="BacaSelengkapnya2" style="left: 58px; top: 150px; position: absolute; color: black; font-size: 25px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Baca selengkapnya ....</div>
@@ -283,14 +565,20 @@
     <div class="Rectangle83" style="width: 300px; height: 73px; left: 20px; top: 60px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
     <div class="BacaSelengkapnya3" style="left:58px; top: 80px; position: absolute; color: black; font-size: 25px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Baca selengkapnya ....</div>
   </div>
-  <div class="Group111" style="width: 339px; height:310px73px; left: 876px; top: 2159px; position: absolute">
-    <div class="Rectangle83" style="width: 300px; height: 73px; left: 20px; top: 100px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
-    <div class="BacaSelengkapnya1" style="left: 58px; top: 120px; position: absolute; color: black; font-size: 25px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Baca selengkapnya ....</div>
-  </div>
-  <div class="Group114" style="left: 531px; top: 3322px; position: absolute">
-    <div class="Glowkoang" style="left: 173px; top: 50px; position: absolute; text-align: justify; color: #FF7B00; font-size: 35px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">GlowKoang</div>
-    <div class="Aktivitas" style="left: 0px; top: 50px; position: absolute; text-align: justify; color: black; font-size: 35px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Aktivitas</div>
-  </div>
+  <div class="Group111" style="width: 339px; height: 310px; left: 876px; top: 2159px; position: absolute">
+    <!-- Membuat Rectangle83 sebagai tombol -->
+    <a href="/produk1" style="text-decoration: none;">
+        <div class="Rectangle83" style="width: 300px; height: 73px; left: 20px; top: 100px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
+        <div class="BacaSelengkapnya1" style="left: 58px; top: 120px; position: absolute; color: black; font-size: 25px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Baca selengkapnya ....</div>
+    </a>
+</div>
+
+  
+  <div class="AktivitasGlowkoang" style="display: flex; justify-content: center; align-items: center; position: absolute; top: 3400px; left: 800px; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
+    <span style="color: black;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
+</div>
+
+  
           <div class="Vector" style="width: 14px; height: 9px; left: 57px; top: 16px; position: absolute; background: black"></div>
         </div>
       </div>
@@ -303,37 +591,33 @@
       <div class="Glowkoang">GlowKoang</div>
     </div>
   </div>
-  <div class="Group100" style="width: 1440px; height: 335px; left: 0px; top: 4129px; position: absolute">
-    <div class="Frame307" style="width: 1530px; height: 335px; left: 0px; top: 0px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-      <div class="Group99" style="width: 1530px; height: 335px; position: relative">
-        <div class="Rectangle73" style="width: 1440px; height: 335px; left: 0px; top: 0px; position: absolute; opacity: 0.90; background: #DBC5AE"></div>
-        <div class="ContactUs" style="width: 123px; left: 1043px; top: 24px; position: absolute; text-align: justify; color: white; font-size: 25px; font-family: Petrona; font-weight: 600; line-height: 57.60px; word-wrap: break-word">Contact Us</div>
-        <div class="62852253734374" style="width: 220px; height: 58px; left: 1083px; top: 87px; position: absolute; text-align: justify; color: white; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">+62 852 253 734 374</div>
-        <div class="GlowkoangGmailCom" style="width: 202px; left: 1092px; top: 116px; position: absolute; text-align: justify; color: white; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">GlowKoang@gmail.com</div>
-        <img class="Telp" style="width: 28px; height: 19px; left: 1029px; top: 109px; position: absolute" alt="gambar telp" src="uploads/Ringer Volume.png" />
-        <img class="Pesan" style="width: 28px; height: 19px; left: 1029px; top: 141px; position: absolute" alt="gambar pesan" src="uploads/letter.png" />
-        <img class="Twitter" style="width: 45px; height: 40px; left: 1102px; top: 205px; position: absolute" alt="gambar twitter" src="uploads/twitter.png" />
-        <img class="Facebook" style="width: 45px; height: 40px; left: 1057px; top: 206px; position: absolute" alt="gambar fb" src="uploads/link.png" />
-        <img class="Instagram" style="width: 45px; height: 40px; left: 1147px; top: 206px; position: absolute" alt="gambar ig" src="uploads/instagram.png" />
-        <img class="Youtube" style="width: 45px; height: 40px; left: 1192px; top: 206px; position: absolute" alt="gambar ytb" src="uploads/youtube.png" />
-        <div class="TandaAir" style="width: 443.35px; height: 19.50px; left: 586px; top: 299px; position: absolute; color: white; font-size: 13px; font-family: DM Sans; font-weight: 400; line-height: 19.50px; word-wrap: break-word">Copyright © 2024 GlowKoang,  Design by GlowKoang</div>
-      </div>
+  <div class="Group100">
+    <div class="Group99">
+        <div class="Rectangle73"></div>
+        <div class="ContactUs">Contact Us</div>
+        <div class="PhoneNumber">+62 852 253 734 374</div>
+        <div class="GlowkoangEmail">GlowKoang@gmail.com</div>
+        <img class="Telp" alt="gambar telp" src="uploads/Ringer Volume.png" />
+        <img class="Pesan" alt="gambar pesan" src="uploads/letter.png" />
+        <img class="Twitter" alt="gambar twitter" src="uploads/twitter.png" />
+        <img class="Facebook" alt="gambar fb" src="uploads/link.png" />
+        <img class="Instagram" alt="gambar ig" src="uploads/instagram.png" />
+        <img class="Youtube" alt="gambar ytb" src="uploads/youtube.png" />
+        <div class="TandaAir">Copyright © 2024 GlowKoang,  Design by GlowKoang</div>
+        <div class="Glowkoang">GlowKoang</div>
+        <div class="SubscribeNow">Subscribe Now</div>
+        <div class="Rectangle74"></div>
+        <div class="Subscribe">Subscribe</div>
+        <div class="HomeAboutUsProductAktifitas">Home<br/>About Us<br/>Product<br/>Aktifitas</div>
+        <div class="OurServices">Our Services</div>
+        <div class="HomeAboutUsProductAktifitas1">Home<br/>About Us<br/>Product<br/>Aktifitas</div>
+        <div class="Information">Information</div>
+        <div class="Description">Dapatkan Kulit Glowing dan Sehat dengan Manfaat Alami Bengkoang. Cerahkan Kulit Secara Alami, Percaya Diri Bersinar Setiap Hari</div>
+        <div class="EnterYourEmail">Enter your Email</div>
+        <img class="Letter" alt="gambar pesan" src="uploads/Letter.png" />
+        <div class="Line9"></div>
     </div>
-    <div class="Group99" style="width: 903px; height: 263px; left: 68px; top: 23px; position: absolute">
-      <div class="Glowkoang" style="width: 199px; height: 42px; left: 17px; top: 5px; position: absolute; color: white; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">GlowKoang</div>
-      <div class="SubscribeNow" style="width: 210px; height: 34px; left: 16px; top: 120px; position: absolute; text-align: justify; color: white; font-size: 25px; font-family: Petrona; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Subscribe Now</div>
-      <div class="Rectangle74" style="width: 133px; height: 47px; left: 17px; top: 216px; position: absolute; background: white; border-radius: 10px"></div>
-      <div class="Subscribe" style="width: 109px; height: 47px; left: 29px; top: 216px; position: absolute; text-align: justify; color: #B6A99B; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">Subscribe</div>
-      <div class="HomeAboutUsProductAktifitas" style="width: 124px; height: 42px; left: 779px; top: 117px; position: absolute; text-align: justify; color: white; font-size: 20px; font-family: Poppins; font-weight: 275; line-height: 35px; word-wrap: break-word">Home<br/>About Us<br/>Product<br/>Aktifitas</div>
-      <div class="OurServices" style="width: 143px; left: 753px; top: 0px; position: absolute; text-align: justify; color: white; font-size: 25px; font-family: Petrona; font-weight: 600; line-height: 57.60px; word-wrap: break-word">Our Services</div>
-      <div class="HomeAboutUsProductAktifitas" style="width: 124px; height: 42px; left: 545px; top: 117px; position: absolute; text-align: justify; color: white; font-size: 20px; font-family: Poppins; font-weight: 275; line-height: 35px; word-wrap: break-word">Home<br/>About Us<br/>Product<br/>Aktifitas</div>
-      <div class="Information" style="width: 139px; left: 538px; top: 0px; position: absolute; text-align: justify; color: white; font-size: 25px; font-family: Petrona; font-weight: 600; line-height: 57.60px; word-wrap: break-word">Information</div>
-      <div class="DapatkanKulitGlowingDanSehatDenganManfaatAlamiBengkoangCerahkanKulitSecaraAlamiPercayaDiriBersinarSetiapHari" style="width: 426px; height: 53px; left: 16px; top: 53px; position: absolute; color: white; font-size: 13px; font-family: Poppins; font-weight: 275; word-wrap: break-word">Dapatkan Kulit Glowing dan Sehat dengan Manfaat Alami Bengkoang. Cerahkan Kulit Secara Alami,      Percaya Diri Bersinar Setiap Hari</div>
-      <div class="EnterYourEmail" style="width: 243px; height: 54px; left: 50px; top: 148px; position: absolute; text-align: justify; color: white; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">Enter your Email</div>
-      <img class="Letter" style="width: 28px; height: 19px; left: 20px; top: 170px; position: absolute" alt="gambar pesan" src="uploads/Letter.png" />
-      <div class="Line9" style="width: 210px; height: 0px; left: 16px; top: 198px; position: absolute; border: 1px white solid"></div>
-    </div>
-  </div>
 </div>
+
 </body>
 </lang>

@@ -143,35 +143,7 @@
             height: 100%;
             background: rgba(0, 0, 0, 0);
         }
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 90px;
-            background-color: #E1CFBD;
-            border-top: 1px solid rgba(255, 255, 255, 0.17);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
-        }
-
-        .copyright {
-            font-size: 13px;
-            color: #FDFCE8;
-        }
-
-        .social-links {
-            display: flex;
-            margin-left: auto;
-        }
-
-        .social-links img {
-            width: 32px;
-            height: 32px;
-            margin-left: 10px;
-            border-radius: 16px;
-        }
+        
            /* Footer Styles */
 .footer {
     width: 1530px;
@@ -187,7 +159,7 @@
     width: 443.35px;
     height: 19.50px;
     position: absolute;
-    left: 320px;
+    left: 310px;
     top: 39.25px;
     color: #FDFCE8;
     font-size: 13px;
@@ -267,13 +239,16 @@
         </div>
     </div>
 
-    <div class="Group73" style="width: 345px; height: 454.37px; position: absolute; top: 0;">
-        <div class="Rectangle10" style="width: 345px; height: 131.05px; position: absolute; top: 323.32px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;"></div>
-        <img class="Image" style="width: 345px; height: 374.02px; position: absolute; top: 0; border-radius: 20px;" alt="gambar citra" src="uploads/citra.png" />
-        <div class="Rectangle11" style="width: 185px; height: 68.87px; position: absolute; top: 331.93px; left: 80px; background: white; border-radius: 15px; border: 5px #F8EDE3 solid; display: flex; justify-content: center; align-items: center;">
-            <div class="VivaPelembab" style="color: rgba(8, 0, 94, 0.70); font-size: 16px; font-family: Inter; font-weight: 500; text-align: center;">Viva Pelembab</div>
-        </div>
-    </div>
+   <div class="Group73" style="width: 345px; height: 454.37px; position: absolute; top: 0;">
+    <div class="Rectangle10" style="width: 345px; height: 131.05px; position: absolute; top: 323.32px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;"></div>
+    <img class="Image" style="width: 345px; height: 374.02px; position: absolute; top: 0; border-radius: 20px;" alt="gambar citra" src="uploads/citra.png" />
+    
+    <!-- Rectangle11 sebagai tombol -->
+    <a href="/produk1" class="Rectangle11" style="width: 185px; height: 68.87px; position: absolute; top: 331.93px; left: 80px; background: white; border-radius: 15px; border: 5px #F8EDE3 solid; display: flex; justify-content: center; align-items: center; text-decoration: none;">
+        <div class="VivaPelembab" style="color: rgba(8, 0, 94, 0.70); font-size: 16px; font-family: Inter; font-weight: 500; text-align: center;">Viva Pelembab</div>
+    </a>
+</div>
+
 
     <div class="Group72" style="width: 311px; height: 454.37px; position: absolute; top: 0; left: 502px;">
         <div class="Rectangle12" style="width: 311px; height: 131.05px; position: absolute; top: 323.32px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;"></div>
