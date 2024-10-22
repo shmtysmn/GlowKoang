@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
+    <meta name="title" content="GlowKoang - Beranda">
+<meta name="description" content="">
+
+ <!-- Canonical Tag -->
+ <link rel="canonical" href="<?= current_url() ?>">
     <style>
        body {
     margin: 0;
@@ -13,6 +18,7 @@
 
          /* Navbar styling */
          .navbar {
+          display: flex;
             width: 100%;
             height: 60px;
             position: fixed; /* Navbar tetap berada di atas */
@@ -95,14 +101,14 @@
         }
         .logo {
             position: absolute;
-            top: 3px;
+            top: 5px;
             left: 152px;
             display: flex;
             align-items: center;
         }
         .logo img {
             width: 65px;
-            height: 70px;
+            height: 50px;
         }
         .logo span {
             font-size: 20px;
@@ -189,9 +195,8 @@
     </style>
     </head>
     <body>
-    <body>
-   <!-- Navbar Section -->
-<div class="navbar">
+ <!-- Navbar Section -->
+ <div class="navbar">
     <!-- Logo Section -->
     <div class="logo">
         <img src="uploads/logo.png" alt="Logo">
@@ -200,12 +205,12 @@
 
     <!-- Navigation Links -->
     <div>
-        <a href="#beranda">Beranda</a>
-        <a href="#tentang">Tentang</a>
-        <a href="#artikel">Artikel</a>
-        <a href="#produk">Produk</a>
-        <a href="#aktivitas">Aktivitas</a>
-        <a href="#kontak">Kontak</a>
+        <a href="/">Beranda</a>
+        <a href="/tentang">Tentang</a>
+        <a href="/artikel1">Artikel</a>
+        <a href="/produk">Produk</a>
+        <a href="/aktivitas">Aktivitas</a>
+        <a href="/kontak">Kontak</a>
 
         <!-- Dropdown Bahasa -->
         <div class="dropdown">
@@ -217,28 +222,12 @@
         </div>
     </div>
 </div>
-<script>
-    // Fungsi untuk menampilkan dan menyembunyikan dropdown
-    document.querySelector('.dropbtn').addEventListener('click', function() {
-        var dropdownContent = document.querySelector('.dropdown-content');
-        dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
-    });
 
-    // Menyembunyikan dropdown jika diklik di luar
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-            var dropdownContent = document.querySelector('.dropdown-content');
-            if (dropdownContent.style.display === 'block') {
-                dropdownContent.style.display = 'none';
-            }
-        }
-    }
-</script>
 <div class="HalamanBeranda" style="width: 1440px; height: 4464px; position: relative">
   <div class="Rectangle80" style="width: 196px; height: 64px; left: 514px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
   <div class="bgluar" style="width: 1439px; height: 912px; left: 0px; top: 3209px; position: absolute; background: white"></div>
   <div class="Rectangle46" style="width: 1440px; height: 69px; left: 0px; top: 0px; position: absolute; background: white"></div>
-  <div class="bgAktifitas" style="width: 1450px; height: 392px; left: 39px; top: 3295px; position: absolute; background: #E2CEB1; border-radius: 25px"></div>
+  <div class="bgAktifitas" style="width: 1470px; height: 392px; left: 39px; top: 3295px; position: absolute; background: #E2CEB1; border-radius: 25px"></div>
   <div class="Ellipse5" style="width: 478px; height: 389px; left: -183px; top: 1581px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
   <div class="Rectangle48" style="width: 1437px; height: 1433px; left: 0px; top: 1776px; position: absolute; background: white"></div>
   <div class="Vector produk" style="width: 1530px; height: 250px; left: 0px; top: 3000px; position: absolute; background: rgba(250, 229, 198, 0.80)"></div>
@@ -265,23 +254,22 @@
     <div class="Vector" style="width: 1530px; height: 150px; left: 4px; top: -150px; position: absolute; background: #B6A99B"></div>
     <div class="TentangKami" style="width: 257px; height: 52.97px; left: 880px; top: 120px; position: absolute; color: black; font-size: 38px; font-family: Inika; font-weight: 400; line-height: 57.60px; word-wrap: break-word">Tentang Kami</div>
   </div>
-  
     </div>
   </div>
   <div class="Rectangle76" style="width: 400px; height: 100px; left: 800px; top: 1785px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
   <div class="ProdukGlowkoang" style="width: 392px; height: 52.54px; left: 850px; top: 1803px; position: absolute"><span style="color: black; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Produk</span><span style="color: #FF7B00; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word"> GlowKoang</span></div>
-  <div class="Rectangle72" style="width: 314px; height: 494px; left: 38px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-  <div class="Rectangle70" style="width: 306px; height: 494px; left: 755px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-  <div class="Rectangle73" style="width: 306px; height: 494px; left: 1093px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <div class="bgtesti" style="width: 314px; height: 494px; left: 50px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <div class="bginflue" style="width: 306px; height: 494px; left: 830px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <div class="bgpromo" style="width: 306px; height: 494px; left: 1190px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <div class="Rectangle82" style="width: 196px; height: 64px; left: 1146px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
   <img class="influencer" style="width: 200px; height: 285px; left: 805px; top: 3492px; position: absolute" alt="gambar influe" src="uploads/influe.png" />
-  <img class="Testi" style="width: 266px; height: 296px; left: 60px; top: 3485px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
-  <div class="Rectangle71" style="width: 335px; height: 494px; left: 382px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  <img class="Testi" style="width: 230px; height: 296px; left: 75px; top: 3485px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
+  <div class="bguji" style="width: 335px; height: 494px; left: 425px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <div class="Rectangle79" style="width: 309px; height: 64px; left: 395px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
   <div class="UjiKelayakanProduk" style="width: 288px; height: 49px; left: 411px; top: 3821px; position: absolute; text-align: justify; color: black; font-size: 30px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">Uji  Kelayakan Produk</div>
   <div class="Rectangle81" style="width: 223px; height: 64px; left: 805px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
   <div class="Influencer" style="left: 820px; top: 3817px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
-  <img class="uji" style="width: 230px; height: 277px; left: 436px; top: 3504px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
+  <img class="uji" style="width: 230px; height: 277px; left: 450px; top: 3504px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
   <img class="promo" style="width: 231px; height: 265px; left: 1130px; top: 3492px; position: absolute" alt="gambar promo" src="uploads/promo.png" />
   <div class="Promo" style="left: 1185px; top: 3817px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>
   <div class="Line11" style="width: 146px; height: 0px; left: 906px; top: 1145px; position: absolute; border: 5px black solid"></div>

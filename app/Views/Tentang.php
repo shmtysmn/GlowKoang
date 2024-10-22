@@ -101,14 +101,14 @@
         }
         .logo {
             position: absolute;
-            top: 3px;
+            top: 5px;
             left: 152px;
             display: flex;
             align-items: center;
         }
         .logo img {
             width: 65px;
-            height: 70px;
+            height: 50px;
         }
         .logo span {
             font-size: 20px;
@@ -241,12 +241,12 @@
 
     <!-- Navigation Links -->
     <div>
-        <a href="#beranda">Beranda</a>
-        <a href="#tentang">Tentang</a>
-        <a href="#artikel">Artikel</a>
-        <a href="#produk">Produk</a>
-        <a href="#aktivitas">Aktivitas</a>
-        <a href="#kontak">Kontak</a>
+        <a href="/">Beranda</a>
+        <a href="/tentang">Tentang</a>
+        <a href="/artikel1">Artikel</a>
+        <a href="/produk">Produk</a>
+        <a href="/aktivitas">Aktivitas</a>
+        <a href="/kontak">Kontak</a>
 
         <!-- Dropdown Bahasa -->
         <div class="dropdown">

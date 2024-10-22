@@ -103,14 +103,14 @@
         }
         .logo {
             position: absolute;
-            top: 3px;
+            top: 5px;
             left: 152px;
             display: flex;
             align-items: center;
         }
         .logo img {
             width: 65px;
-            height: 70px;
+            height: 50px;
         }
         .logo span {
             font-size: 20px;
@@ -411,12 +411,12 @@
 
     <!-- Navigation Links -->
     <div>
-        <a href="#beranda">Beranda</a>
-        <a href="#tentang">Tentang</a>
-        <a href="#artikel">Artikel</a>
-        <a href="#produk">Produk</a>
-        <a href="#aktivitas">Aktivitas</a>
-        <a href="#kontak">Kontak</a>
+        <a href="/">Beranda</a>
+        <a href="/tentang">Tentang</a>
+        <a href="/artikel1">Artikel</a>
+        <a href="/produk">Produk</a>
+        <a href="/aktivitas">Aktivitas</a>
+        <a href="/kontak">Kontak</a>
 
         <!-- Dropdown Bahasa -->
         <div class="dropdown">
@@ -428,23 +428,7 @@
         </div>
     </div>
 </div>
-<script>
-    // Fungsi untuk menampilkan dan menyembunyikan dropdown
-    document.querySelector('.dropbtn').addEventListener('click', function() {
-        var dropdownContent = document.querySelector('.dropdown-content');
-        dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
-    });
 
-    // Menyembunyikan dropdown jika diklik di luar
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-            var dropdownContent = document.querySelector('.dropdown-content');
-            if (dropdownContent.style.display === 'block') {
-                dropdownContent.style.display = 'none';
-            }
-        }
-    }
-</script>
 <div class="artikel1">
     <!-- Section Background -->
     <div class="group65">
