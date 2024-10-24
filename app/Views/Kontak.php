@@ -135,28 +135,28 @@ body {
         }
         /* Kontak Section */
 .kontak {
-    width: 1440px;
+    width: 100%;
     height: 1024px;
     position: relative;
     background: white;
 }
 
 .group-65 {
-    width: 1440px;
+    width: 100%;
     height: 233px;
     position: absolute;
     top: 82px;
 }
 
 .image-4 {
-    width: 1530px;
+    width: 100%;
     height: 258px;
     position: absolute;
     top: -90px;
 }
 
 .rectangle-58 {
-    width: 1530px;
+    width: 100%;
     height: 258px;
     position: absolute;
     top: -90px;
@@ -292,7 +292,7 @@ body {
 
         /* Footer Styles */
 .footer {
-    width: 1530px;
+    width: 100%;
     height: 105px;
     position: absolute;
     left: 0;
@@ -404,25 +404,35 @@ body {
 
 <!-- Footer -->
 <div class="footer">
- <div class="copyright-text">
-     Copyright © 2024 GlowKoang, Design by GlowKoang
- </div>
+    <div class="copyright-text">
+        Copyright © 2024 GlowKoang, Design by GlowKoang
+    </div>
 
- <!-- Social Media Icons -->
- <div class="social-icons">
-     <div class="link">
-         <img src="uploads/link.png" alt="Icon 1">
-     </div>
-     <div class="link">
-         <img src="uploads/twitter.png" alt="Icon 2">
-     </div>
-     <div class="link">
-         <img src="uploads/instagram.png" alt="Icon 3">
-     </div>
-     <div class="link">
-         <img src="uploads/youtube.png" alt="Icon 4">
-     </div>
- </div>
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+        <div class="link">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="uploads/link.png" alt="Icon 1">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://twitter.com/" target="_blank">
+                <img src="uploads/twitter.png" alt="Icon 2">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="uploads/instagram.png" alt="Icon 3">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="uploads/youtube.png" alt="Icon 4">
+            </a>
+        </div>
+    </div>
+</div>
+
 </div>
 </body>
 </html>

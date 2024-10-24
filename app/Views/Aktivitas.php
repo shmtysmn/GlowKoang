@@ -127,7 +127,7 @@
         }
           /* Footer Styles */
 .footer {
-    width: 1530px;
+    width: 100%;
     height: 105px;
     position: absolute;
     left: 0;
@@ -202,10 +202,10 @@
     </div>
 </div>
 
-<div class="Aktivitas" style="width: 1440px; height: 1072px; position: relative; background: white">
-  <div class="Group65" style="width: 1440px; height: 231px; left: 0px; top: 87px; position: absolute">
-    <img class="Image4" style="width: 1530px; height: 258px; left: 0px; top: -90px; position: absolute" alt="gambar background" src="uploads/Group 117.png" />
-    <div class="Rectangle58" style="width: 1530px; height: 258px; left: 0px; top: -90px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
+<div class="Aktivitas" style="width: 100%; height: 1072px; position: relative; background: white">
+  <div class="Group65" style="width: 100%; height: 231px; left: 0px; top: 87px; position: absolute">
+    <img class="Image4" style="width: 100%; height: 258px; left: 0px; top: -90px; position: absolute" alt="gambar background" src="uploads/Group 117.png" />
+    <div class="Rectangle58" style="width: 100%; height: 258px; left: 0px; top: -90px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
 </div>
 </div>
 <div class="Frame306" style="width: 876px; height: 37px; left: 510px; top: 19px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
@@ -230,25 +230,33 @@
 </div>
 <!-- Footer -->
 <div class="footer">
-   <div class="copyright-text">
-       Copyright © 2024 GlowKoang, Design by GlowKoang
-   </div>
+    <div class="copyright-text">
+        Copyright © 2024 GlowKoang, Design by GlowKoang
+    </div>
 
-   <!-- Social Media Icons -->
-   <div class="social-icons">
-       <div class="link">
-           <img src="uploads/link.png" alt="Icon 1">
-       </div>
-       <div class="link">
-           <img src="uploads/twitter.png" alt="Icon 2">
-       </div>
-       <div class="link">
-           <img src="uploads/instagram.png" alt="Icon 3">
-       </div>
-       <div class="link">
-           <img src="uploads/youtube.png" alt="Icon 4">
-       </div>
-   </div>
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+        <div class="link">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="uploads/link.png" alt="Icon 1">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://twitter.com/" target="_blank">
+                <img src="uploads/twitter.png" alt="Icon 2">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="uploads/instagram.png" alt="Icon 3">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="uploads/youtube.png" alt="Icon 4">
+            </a>
+        </div>
+    </div>
 </div>
 </body>
 </html>

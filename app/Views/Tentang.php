@@ -125,7 +125,7 @@
         }
           /* Footer Styles */
 .footer {
-    width: 1530px;
+    width: 100%;
     height: 105px;
     position: absolute;
     left: 0;
@@ -258,14 +258,14 @@
         </div>
     </div>
 </div>
-  <div class="Group65" style="width: 1440px; height: 249px; left: 0px; top: 57px; position: absolute">
-    <img class="Image4" style="width: 1530px; height: 270px; left: 0px; top: -80px; position: absolute" alt="gambar background" src="uploads/y.png" />
-    <div class="Rectangle58" style="width: 1530px; height: 269px; left: 0px; top: -80px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
+  <div class="Group65" style="width: 100%; height: 249px; left: 0px; top: 57px; position: absolute">
+    <img class="Image4" style="width: 100%; height: 270px; left: 0px; top: -80px; position: absolute" alt="gambar background" src="uploads/y.png" />
+    <div class="Rectangle58" style="width: 100%; height: 269px; left: 0px; top: -80px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
   </div>
   <div class="TentangGlowkoang" style="left: 574px; top: 100px; position: absolute"><span style="color: white; font-size: 35px; font-family: Poppins; font-weight: 400; line-height: 57.60px; word-wrap: break-word">Tentang </span><span style="color: #FF7B00; font-size: 35px; font-family: Poppins; font-weight: 400; line-height: 57.60px; word-wrap: break-word">GlowKoang</span></div>
-  <div class="Group107" style="width: 1440px; height: 500px; left: -3px; top: 301px; position: absolute">
-    <div class="Vector" style="width: 1530px; height: 80px; left: 3px; top: -55px; position: absolute; background: #B6A99B"></div>
-    <div class="Group62" style="width: 406px; height: 291.77px; left: 59px; top: 267px; position: absolute">
+  <div class="Group107" style="width: 100%; height: 500px; left: -3px; top: 301px; position: absolute">
+    <div class="Vector" style="width: 100%; height: 80px; left: 3px; top: -55px; position: absolute; background: #B6A99B"></div>
+    <div class="Group62" style=" height: 291.77px; left: 59px; top: 267px; position: absolute">
       <img class="Image" style="width: 308.94px; height: 170.08px; left: 0px; top: 0px; position: absolute; border-radius: 15px" alt="desk_produk1" src="uploads/gambardes1.png" />
       <img class="ManfaatBengkoangUntukKesehatan1" style="width: 261.32px; height: 190.82px; left: 144.68px; top: 100.94px; position: absolute; border-radius: 15px" alt="desk_produk2" src="uploads/gambardes2.png" />
     </div>
@@ -285,16 +285,24 @@
     <!-- Social Media Icons -->
     <div class="social-icons">
         <div class="link">
-            <img src="uploads/link.png" alt="Icon 1">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="uploads/link.png" alt="Icon 1">
+            </a>
         </div>
         <div class="link">
-            <img src="uploads/twitter.png" alt="Icon 2">
+            <a href="https://twitter.com/" target="_blank">
+                <img src="uploads/twitter.png" alt="Icon 2">
+            </a>
         </div>
         <div class="link">
-            <img src="uploads/instagram.png" alt="Icon 3">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="uploads/instagram.png" alt="Icon 3">
+            </a>
         </div>
         <div class="link">
-            <img src="uploads/youtube.png" alt="Icon 4">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="uploads/youtube.png" alt="Icon 4">
+            </a>
         </div>
     </div>
 </div>

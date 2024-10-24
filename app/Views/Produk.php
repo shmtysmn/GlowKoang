@@ -146,7 +146,7 @@
         
            /* Footer Styles */
 .footer {
-    width: 1530px;
+    width: 100%;
     height: 105px;
     position: absolute;
     left: 0;
@@ -223,11 +223,11 @@
 </div>
 
 <body>
-    <div class="Produk" style="width: 1440px; height: 1143px; position: relative; background: white;">
-        <div class="Group61" style="width: 1440px; height: 1024px; position: absolute;">
-            <div class="Rectangle50" style="width: 1440px; height: 1024px; background: white;"></div>
-            <img class="Image4" style="width: 1530px; height: 258px; position: absolute; top: -10px;" alt="gambar background" src="uploads/Group 117.png" />
-            <div class="Rectangle51" style="width: 1530px; height: 258px; position: absolute; top: -10px; background: rgba(0, 0, 0, 0.40);"></div>
+    <div class="Produk" style="width: 100%; height: 1143px; position: relative; background: white;">
+        <div class="Group61" style="width: 100%; height: 1024px; position: absolute;">
+            <div class="Rectangle50" style="width: 100%; height: 1024px; background: white;"></div>
+            <img class="Image4" style="width: 100%; height: 258px; position: absolute; top: -10px;" alt="gambar background" src="uploads/Group 117.png" />
+            <div class="Rectangle51" style="width: 100%; height: 258px; position: absolute; top: -10px; background: rgba(0, 0, 0, 0.40);"></div>
         </div>
 
         <div class="Group75" style="width: 1239px; height: 454.37px; position: absolute; top: 485px; left: 100px;">
@@ -267,16 +267,24 @@
     <!-- Social Media Icons -->
     <div class="social-icons">
         <div class="link">
-            <img src="uploads/link.png" alt="Icon 1">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="uploads/link.png" alt="Icon 1">
+            </a>
         </div>
         <div class="link">
-            <img src="uploads/twitter.png" alt="Icon 2">
+            <a href="https://twitter.com/" target="_blank">
+                <img src="uploads/twitter.png" alt="Icon 2">
+            </a>
         </div>
         <div class="link">
-            <img src="uploads/instagram.png" alt="Icon 3">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="uploads/instagram.png" alt="Icon 3">
+            </a>
         </div>
         <div class="link">
-            <img src="uploads/youtube.png" alt="Icon 4">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="uploads/youtube.png" alt="Icon 4">
+            </a>
         </div>
     </div>
 </div>

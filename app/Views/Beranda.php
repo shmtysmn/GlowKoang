@@ -126,7 +126,7 @@
         
         /*desk tampilan awal*/
         .Image6 {
-    width: 1530px;
+    width: 100%;
     height: 826px;
     position: absolute;
     left: 0px;
@@ -134,7 +134,7 @@
 }
 
 .Rectangle47 {
-    width: 1530px;
+    width: 100%;
     height: 826px;
     position: absolute;
     left: 0px;
@@ -195,7 +195,7 @@
 
 /* bagian footer */
 .Group100 {
-    width: 1530px;
+    width: 100%;
     height: 335px;
     left: 0px;
     top: 4129px;
@@ -203,13 +203,13 @@
 }
 
 .Group99 {
-    width: 1530px;
+    width: 100%;
     height: 335px;
     position: relative;
 }
 
 .Rectangle73 {
-    width: 1530px;
+    width: 100%;
     height: 335px;
     left: 0px;
     top: 0px;
@@ -321,7 +321,7 @@
     word-wrap: break-word;
 }
 
-.Glowkoang {
+.Glowkoangfooter {
     width: 199px;
     height: 42px;
     left: 25px;
@@ -505,14 +505,13 @@
     </div>
 </div>
 
-<div class="HalamanBeranda" style="width: 1440px; height: 4464px; position: relative">
   <div class="Rectangle80" style="width: 196px; height: 64px; left: 514px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
   <div class="bgluar" style="width: 1439px; height: 912px; left: 0px; top: 3209px; position: absolute; background: white"></div>
   <div class="Rectangle46" style="width: 1440px; height: 69px; left: 0px; top: 0px; position: absolute; background: white"></div>
-  <div class="bgAktifitas" style="width: 1470px; height: 392px; left: 39px; top: 3295px; position: absolute; background: #E2CEB1; border-radius: 25px"></div>
+  <div class="bgAktifitas" style="width: 90%; height: 392px; left: 80px; top: 3295px; position: absolute; background: #E2CEB1; border-radius: 25px"></div>
   <div class="Ellipse5" style="width: 478px; height: 389px; left: -183px; top: 1581px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
   <div class="Rectangle48" style="width: 1437px; height: 1433px; left: 0px; top: 1776px; position: absolute; background: white"></div>
-  <div class="Vector produk" style="width: 1530px; height: 250px; left: 0px; top: 3000px; position: absolute; background: rgba(250, 229, 198, 0.80)"></div>
+  <div class="Vector produk" style="width: 100%; height: 250px; left: 0px; top: 3000px; position: absolute; background: rgba(250, 229, 198, 0.80)"></div>
   <div class="desk1" style="width: 693px; height: 183px; left: 500px; top: 2000px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
   <div class="desk2" style="width: 675px; height: 180px; left: 282px; top: 2420px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
   <div class="desk3" style="width: 690px; height: 157px; left: 572px; top: 2820px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
@@ -526,42 +525,63 @@
     <div class="bg3" style="width: 298px; height: 295px; left: 0px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 9999px"></div>
     <img class="pelembab" style="width: 277px; height: 300px; left: 49px; top: 29px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px" alt="gambar pelembab" src="uploads/pelembab.png" />
   </div>
-  <div class="Group80" style="width: 1443px; height: 881px; left: -3px; top: 895px; position: absolute">
-    <div class="strip" style="width: 1440px; height: 881px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.90)"></div>
+  <div class="Group80" style="width: 100%; height: 881px; left: -3px; top: 895px; position: absolute">
+    <div class="strip" style="width: 100%; height: 881px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.90)"></div>
     <div class="Group62" style="width: 406px; height: 291.77px; left: 151px; top: 324px; position: absolute">
       <img class="gdesk1" style="width: 308.94px; height: 170.08px; left: 0px; top: 0px; position: absolute; border-radius: 15px" alt="gambar desk1" src="uploads/gambardes1.png" />
       <img class="gdesk2" style="width: 261.32px; height: 190.82px; left: 144.68px; top: 100.94px; position: absolute; border-radius: 15px" alt="gambar desk2" src="uploads/gambardes2.png" />
     </div>
-    <div class="penjelasan" style="width: 728px; height: 517px; left: 617px; top: 276px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 30px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br/>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
-    <div class="Vector" style="width: 1530px; height: 150px; left: 4px; top: -150px; position: absolute; background: #B6A99B"></div>
-    <div class="TentangKami" style="width: 257px; height: 52.97px; left: 880px; top: 120px; position: absolute; color: black; font-size: 38px; font-family: Inika; font-weight: 400; line-height: 57.60px; word-wrap: break-word">Tentang Kami</div>
-  </div>
+    <div class="penjelasan" style="width: 728px; height: 517px; left: 617px; top: 276px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 30px; word-wrap: break-word">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <br/>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</div>
+
+<div class="Vector" style="width: 100%; height: 50px; left: 3px; top: -69px; position: absolute; background: #B6A99B"></div>
+
+<!-- Membuat Tombol "Tentang Kami" -->
+<a href="/tentang" style="text-decoration: none;">
+    <div class="TentangKami" style="width: 257px; height: 52.97px; left: 880px; top: 120px; position: absolute; color: black; font-size: 38px; font-family: Inika; font-weight: 400; line-height: 57.60px; word-wrap: break-word;">
+        Tentang Kami
+        <div class="Line11" style="width: 146px; height: 0px; left: 35px; top: 60px; position: absolute; border: 5px black solid"></div>
     </div>
+</a>
+
   </div>
   <div class="Rectangle76" style="width: 400px; height: 100px; left: 800px; top: 1785px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
   <div class="ProdukGlowkoang" style="width: 392px; height: 52.54px; left: 850px; top: 1803px; position: absolute"><span style="color: black; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Produk</span><span style="color: #FF7B00; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word"> GlowKoang</span></div>
-  <div class="bgtesti" style="width: 300px; height: 494px; left: 50px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+  
   <div class="bginflue" style="width: 300px; height: 494px; left: 815px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <div class="bgpromo" style="width: 300px; height: 494px; left: 1190px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <img class="influencer" style="width: 230px; height: 296px; left: 865px; top: 3485px; position: absolute" alt="gambar influe" src="uploads/influe.png" />
-  <img class="Testi" style="width: 230px; height: 296px; left: 85px; top: 3485px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
   <div class="bguji" style="width: 300px; height: 494px; left: 425px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <div class="Rectangle79" style="width: 260px; height: 55px; left: 445px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
-  <div class="UjiKelayakanProduk" style="height: 20px; left: 455px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 57.60px; white-space: nowrap;">UJI KELAYAKAN PRODUK</div>
-  <div class="Rectangle81" style="width: 205px; height: 55px; left: 880px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
-  <div class="Influencer" style="left: 910px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
-  <img class="uji" style="width: 230px; height: 296px; left: 460px; top: 3485px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
+  <a href="/aktivitas1" style="text-decoration: none;">
+      <div class="UjiKelayakanProduk" style="height: 20px; left: 455px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 57.60px; white-space: nowrap;">UJI KELAYAKAN PRODUK</div>
+    </a>
+    <div class="Rectangle81" style="width: 205px; height: 55px; left: 880px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+    <a href="/aktivitas1" style="text-decoration: none;">
+        <div class="Influencer" style="left: 910px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
+    </a>
+    <img class="uji" style="width: 230px; height: 296px; left: 460px; top: 3485px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
   <div class="Rectangle82" style="width: 130px; height: 55px; left: 1275px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
   <img class="promo" style="width: 230px; height: 296px; left: 1230px; top: 3485px; position: absolute" alt="gambar promo" src="uploads/promo.png" />
-  <div class="Promo" style="left: 1300px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>
-  <div class="Line11" style="width: 146px; height: 0px; left: 906px; top: 1145px; position: absolute; border: 5px black solid"></div>
-  <div class="Rectangle78" style="width: 165px; height: 55px; left: 100px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
-  <div class="Testimoni" style="left: 115px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">TESTIMONI</div>
+  <a href="/aktivitas1" style="text-decoration: none;">
+      <div class="Promo" style="left: 1300px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>
+    </a>
+    <div class="bgtesti" style="width: 20%; height: 494px; left: 100px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+    <img class="Testi" style="width: 230px; height: 296px; left: 135px; top: 3485px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
+  <div class="Rectangle78" style="width: 165px; height: 55px; left: 165px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+  <a href="/aktivitas1" style="text-decoration: none;">
+  <div class="Testimoni" style="left: 180px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">TESTIMONI</div>
+  </a>
   <div class="Group110" style="width: 339px; height: 73px; left: 210px; top: 2572px; position: absolute">
+  <a href="/produk1" style="text-decoration: none;">
     <div class="Rectangle83" style="width: 300px; height: 73px; left: 20px; top: 130px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
     <div class="BacaSelengkapnya2" style="left: 58px; top: 150px; position: absolute; color: black; font-size: 25px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Baca selengkapnya ....</div>
   </div>
   <div class="Group112" style="width: 339px; height: 73px; left: 891px; top: 3035px; position: absolute">
+  <a href="/produk1" style="text-decoration: none;">
     <div class="Rectangle83" style="width: 300px; height: 73px; left: 20px; top: 60px; position: absolute; background: #EDB27A; border-radius: 30px"></div>
     <div class="BacaSelengkapnya3" style="left:58px; top: 80px; position: absolute; color: black; font-size: 25px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Baca selengkapnya ....</div>
   </div>
@@ -604,7 +624,7 @@
         <img class="Instagram" alt="gambar ig" src="uploads/instagram.png" />
         <img class="Youtube" alt="gambar ytb" src="uploads/youtube.png" />
         <div class="TandaAir">Copyright © 2024 GlowKoang,  Design by GlowKoang</div>
-        <div class="Glowkoang">GlowKoang</div>
+        <div class="Glowkoangfooter">GlowKoang</div>
         <div class="SubscribeNow">Subscribe Now</div>
         <div class="Rectangle74"></div>
         <div class="Subscribe">Subscribe</div>
