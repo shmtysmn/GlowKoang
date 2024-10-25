@@ -185,7 +185,7 @@
 
     <!-- Navigation Links -->
     <div>
-        <a href="/beranda">Beranda</a>
+        <a href="/">Beranda</a>
         <a href="/tentang">Tentang</a>
         <a href="/artikel">Artikel</a>
         <a href="/produk">Produk</a>

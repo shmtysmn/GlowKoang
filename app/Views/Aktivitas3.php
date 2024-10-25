@@ -3,28 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak</title>
-    <meta name="title" content="GlowKoang - Kontak">
-<meta name="description" content="Hubungi GlowKoang untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk kecantikan kami yang terbuat dari bengkoang. Kami siap membantu Anda dengan pelayanan terbaik. Temukan informasi kontak kami dan jangan ragu untuk menghubungi kami!">
+    <title>UjiKelayakanProduk</title>
+    <meta name="title" content="GlowKoang - Aktivitas">
+<meta name="description" content="Temukan berbagai aktivitas menarik dan acara yang diselenggarakan oleh GlowKoang. Ikuti kami untuk update terbaru mengenai promosi, workshop kecantikan, dan acara komunitas yang menginspirasi. Bergabunglah dengan kami untuk merayakan kecantikan alami dan berbagi pengalaman!">
 
  <!-- Canonical Tag -->
  <link rel="canonical" href="<?= current_url() ?>">
 
     <style>
-      /* Reset CSS */
-* {
+         /* Masukkan CSS Anda di sini */
+         body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Petrona', sans-serif;
+    padding-top: 60px; /* Adjusted to avoid content hiding behind the navbar */
 }
 
-/* Global Styles */
-body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    padding: 0;
-    margin: 0;
-}
          /* Navbar styling */
          .navbar {
             width: 100%;
@@ -133,166 +126,9 @@ body {
             line-height: 1.5;
             margin: 20px 0;
         }
-        /* Kontak Section */
-.kontak {
-    width: 100%;
-    height: 1024px;
-    position: relative;
-    background: white;
-}
-
-.group-65 {
-    width: 100%;
-    height: 233px;
-    position: absolute;
-    top: 82px;
-}
-
-.image-4 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -90px;
-}
-
-.rectangle-58 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -90px;
-    background: rgba(0, 0, 0, 0.40);
-}
-
-.map-maker-standard {
-    width: 570px;
-    height: 284px;
-    position: absolute;
-    top: 337px;
-    left: 66px;
-}
-
-.contact-info {
-    width: 444px;
-    height: 168px;
-    position: absolute;
-    top: 668px;
-    left: 69px;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
-
-.kontak-glowkoang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
-
-.kontak-glowkoang span:last-child {
-    color: #FF7B00;
-}
-
-.group-113 {
-    width: 164px;
-    height: 44px;
-    position: absolute;
-    top: 853px;
-    left: 972px;
-}
-
-.rectangle-84 {
-    width: 164px;
-    height: 43px;
-    background: #EDB27A;
-    border-radius: 13px;
-}
-
-.kirim-pesan {
-    position: absolute;
-    left: 27px;
-    top: 0;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
-
-.rectangle-85, .rectangle-87, .rectangle-88, .rectangle-86 {
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.rectangle-85 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 337px;
-    left: 703px;
-}
-
-.rectangle-87 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 418px;
-    left: 703px;
-}
-
-.rectangle-88 {
-    width: 697px;
-    height: 317px;
-    position: absolute;
-    top: 499px;
-    left: 703px;
-}
-
-.rectangle-86 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 337px;
-    left: 1069px;
-}
-
-.form-label {
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
-
-#name {
-    top: 342px;
-    left: 717px;
-}
-
-#email {
-    top: 342px;
-    left: 1084px;
-}
-
-#subject {
-    top: 423px;
-    left: 720px;
-}
-
-#pesan {
-    top: 504px;
-    left: 720px;
-}
-
-        /* Footer Styles */
+          /* Footer Styles */
 .footer {
-    width: 100%;
+    width: 1530px;
     height: 105px;
     position: absolute;
     left: 0;
@@ -336,13 +172,10 @@ body {
     height: 100%;
     border-radius: 16px;
 }
-
-
-
     </style>
 </head>
 <body>
-   <!-- Navbar Section -->
+  <!-- Navbar Section -->
 <div class="navbar">
     <!-- Logo Section -->
     <div class="logo">
@@ -370,39 +203,23 @@ body {
     </div>
 </div>
 
-<!-- Kontak Section -->
-<div class="kontak">
-    <div class="group-65">
-        <img class="image-4" alt="gambar background" src="uploads/y.png" />
-        <div class="rectangle-58"></div>
-    </div>
-    <img class="map-maker-standard" alt="gambar peta" src="uploads/peta.png" />
-    <div class="contact-info">
-        Email: GlowKoang@gmail.com<br/>
-        Ig: @GlowKoang<br/>
-        Telp/WA: +62 251 882 512 933
-    </div>
-
-    <div class="kontak-glowkoang">
-        <span>Kontak &nbsp;</span><span>GlowKoang</span>
-    </div>
-    
-    <div class="group-113">
-        <div class="rectangle-84"></div>
-        <div class="kirim-pesan">Kirim Pesan</div>
-    </div>
-
-    <div class="rectangle-85"></div>
-    <div class="rectangle-87"></div>
-    <div class="rectangle-88"></div>
-    <div class="rectangle-86"></div>
-    <div class="form-label" id="name">Your name</div>
-    <div class="form-label" id="email">Your Email</div>
-    <div class="form-label" id="subject">Subject</div>
-    <div class="form-label" id="pesan">Pesan</div>
+<div class="Aktifitas" style="width: 1440px; height: 1000px; position: relative; background: white">
+    <img class="Image4" style="width: 1530px; height: 258px; left: 0px; top: -80px; position: absolute" alt="gambar background" src="uploads/Group 117.png" />
+    <div class="Rectangle58" style="width: 1530px; height: 258px; left: 0px; top: -80px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
+  </div>
+  <div class="Rectangle68" style="width: 1400px; height: 635px; left: 17px; top: 372px; position: absolute; background: white"></div>
+  <div class="deskakt" style="width: 795px; left: 57px; top: 651px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </div>
+  
 </div>
-
-<!-- Footer -->
+  <img class="fotouji" style="width: 317px; height: 408px; left: 989px; top: 536px; position: absolute" alt="gambar uji" src="uploads/testi.png" />
+  <div class="UjiKelayakanProduk" style="width: 536px; height: 58px; left: 159px; top: 536px; position: absolute; text-align: justify; color: black; font-size: 45px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Testimoni Produk</div>
+ </div>
+  </div>
+  </div>
+  <div class="AktivitasGlowkoang" style="display: flex; justify-content: center; align-items: center; position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
+    <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
+</div></div>
+      <!-- Footer -->
 <div class="footer">
     <div class="copyright-text">
         Copyright © 2024 GlowKoang, Design by GlowKoang
@@ -431,8 +248,6 @@ body {
             </a>
         </div>
     </div>
-</div>
-
 </div>
 </body>
 </html>

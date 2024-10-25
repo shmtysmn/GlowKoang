@@ -233,7 +233,7 @@
     <div>
         <a href="/">Beranda</a>
         <a href="/tentang">Tentang</a>
-        <a href="/artikel1">Artikel</a>
+        <a href="/artikel">Artikel</a>
         <a href="/produk">Produk</a>
         <a href="/aktivitas">Aktivitas</a>
         <a href="/kontak">Kontak</a>
@@ -259,7 +259,10 @@
   </div>
   <img class="RemovebgPreview" style="width: 258px; height: 369px; left: 154px; top: 391px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px" alt="gambar citra" src="uploads/citra.png" />
   <div class="CitraBodyLotion" style="left: 542px; top: 376px; position: absolute; color: black; font-size: 45px; font-family: Poppins; font-weight: 400; line-height: 57.60px; word-wrap: break-word">Citra Body Lotion</div>
-  <div class="NisiUtAliquipExEaCommodoConsequatDuisAuteIrureDolorInReprehenderitInVoluptateVelitEsseCillumDoloreEuFugiatNullaPariaturExcepteurSintOccaecatCupidatatNonProidentSuntInCulpaQuiOfficia" style="width: 806px; left: 551px; top: 480px; position: absolute; text-align: justify; color: black; font-size: 30px; font-family: Petrona; font-weight: 200; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </div>
+  <div class="deskproduk" style="width: 806px; left: 551px; top: 480px; position: absolute; text-align: justify; color: black; font-size: 30px; font-family: Petrona; font-weight: 200; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </div>
+  
+  <button onclick="history.back()" style="padding: 15px 30px; background-color: #EDB27A; border: none; border-radius: 30px; font-size: 20px; color: black; position: absolute; left: 1200px; top: 800px; cursor: pointer;">Kembali</button>
+
   <!-- Footer -->
 <div class="footer">
     <div class="copyright-text">

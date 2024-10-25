@@ -489,7 +489,7 @@
     <div>
         <a href="/">Beranda</a>
         <a href="/tentang">Tentang</a>
-        <a href="/artikel1">Artikel</a>
+        <a href="/artikel">Artikel</a>
         <a href="/produk">Produk</a>
         <a href="/aktivitas">Aktivitas</a>
         <a href="/kontak">Kontak</a>

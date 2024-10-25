@@ -173,61 +173,6 @@
  .TentangGlowkoang span, .TentangKami {
             font-size: 5vw;
         }
- /* Media Queries */
- @media (max-width: 768px) {
-            .navbar a {
-                font-size: 16px;
-            }
-
-            .logo span {
-                font-size: 16px;
-            }
-
-            .dropdown button {
-                font-size: 16px;
-            }
-
-            .TentangGlowkoang span {
-                font-size: 8vw;
-            }
-
-            .deskripsi {
-                font-size: 1rem;
-            }
-
-            .social-icons {
-                justify-content: center;
-                margin: 10px auto;
-            }
-        }
-@media (max-width: 480px) {
-            .navbar {
-                justify-content: center;
-                padding-right: 0;
-            }
-
-            .navbar a {
-                font-size: 14px;
-                margin-left: 10px;
-            }
-
-            .dropdown button {
-                font-size: 14px;
-            }
-
-            .logo {
-                left: 10px;
-            }
-
-            .TentangKami {
-                font-size: 28px;
-            }
-
-            .deskripsi {
-                font-size: 0.9rem;
-            }
-        }
-        
     </style>
 </head>
 <body>
@@ -243,7 +188,7 @@
     <div>
         <a href="/">Beranda</a>
         <a href="/tentang">Tentang</a>
-        <a href="/artikel1">Artikel</a>
+        <a href="/artikel">Artikel</a>
         <a href="/produk">Produk</a>
         <a href="/aktivitas">Aktivitas</a>
         <a href="/kontak">Kontak</a>

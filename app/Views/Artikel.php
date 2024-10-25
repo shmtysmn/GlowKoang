@@ -3,28 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak</title>
-    <meta name="title" content="GlowKoang - Kontak">
-<meta name="description" content="Hubungi GlowKoang untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk kecantikan kami yang terbuat dari bengkoang. Kami siap membantu Anda dengan pelayanan terbaik. Temukan informasi kontak kami dan jangan ragu untuk menghubungi kami!">
+    <title>Artikel</title>
+    <meta name="title" content="GlowKoang - Artikel">
+<meta name="description" content="Baca artikel menarik seputar kecantikan, perawatan kulit, dan manfaat bengkoang di GlowKoang. Temukan tips dan trik untuk merawat kulit Anda, ulasan produk, dan informasi terbaru tentang dunia kecantikan. Dapatkan wawasan yang berguna untuk meningkatkan rutin kecantikan Anda!">
 
  <!-- Canonical Tag -->
  <link rel="canonical" href="<?= current_url() ?>">
-
     <style>
-      /* Reset CSS */
-* {
+           body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Petrona', sans-serif;
+    padding-top: 60px; /* Adjusted to avoid content hiding behind the navbar */
 }
 
-/* Global Styles */
-body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    padding: 0;
-    margin: 0;
-}
          /* Navbar styling */
          .navbar {
             width: 100%;
@@ -70,7 +61,7 @@ body {
             cursor: pointer;
         }
 
-        /* Dropdown content styling */
+         /* Dropdown content styling */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -98,10 +89,8 @@ body {
         .dropdown:hover .dropdown-content {
             display: block;
         }
-
-      
-        /*halaman beranda */
-        .hero-section {
+         /*halaman beranda */
+         .hero-section {
             position: relative;
             width: 100%;
             height: 826px;
@@ -133,164 +122,7 @@ body {
             line-height: 1.5;
             margin: 20px 0;
         }
-        /* Kontak Section */
-.kontak {
-    width: 100%;
-    height: 1024px;
-    position: relative;
-    background: white;
-}
-
-.group-65 {
-    width: 100%;
-    height: 233px;
-    position: absolute;
-    top: 82px;
-}
-
-.image-4 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -90px;
-}
-
-.rectangle-58 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -90px;
-    background: rgba(0, 0, 0, 0.40);
-}
-
-.map-maker-standard {
-    width: 570px;
-    height: 284px;
-    position: absolute;
-    top: 337px;
-    left: 66px;
-}
-
-.contact-info {
-    width: 444px;
-    height: 168px;
-    position: absolute;
-    top: 668px;
-    left: 69px;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
-
-.kontak-glowkoang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
-
-.kontak-glowkoang span:last-child {
-    color: #FF7B00;
-}
-
-.group-113 {
-    width: 164px;
-    height: 44px;
-    position: absolute;
-    top: 853px;
-    left: 972px;
-}
-
-.rectangle-84 {
-    width: 164px;
-    height: 43px;
-    background: #EDB27A;
-    border-radius: 13px;
-}
-
-.kirim-pesan {
-    position: absolute;
-    left: 27px;
-    top: 0;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
-
-.rectangle-85, .rectangle-87, .rectangle-88, .rectangle-86 {
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.rectangle-85 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 337px;
-    left: 703px;
-}
-
-.rectangle-87 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 418px;
-    left: 703px;
-}
-
-.rectangle-88 {
-    width: 697px;
-    height: 317px;
-    position: absolute;
-    top: 499px;
-    left: 703px;
-}
-
-.rectangle-86 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 337px;
-    left: 1069px;
-}
-
-.form-label {
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
-
-#name {
-    top: 342px;
-    left: 717px;
-}
-
-#email {
-    top: 342px;
-    left: 1084px;
-}
-
-#subject {
-    top: 423px;
-    left: 720px;
-}
-
-#pesan {
-    top: 504px;
-    left: 720px;
-}
-
-        /* Footer Styles */
+         /* Footer Styles */
 .footer {
     width: 100%;
     height: 105px;
@@ -336,14 +168,93 @@ body {
     height: 100%;
     border-radius: 16px;
 }
+/* Artikel GlowKoang */
+.artikel-glowkoang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel-glowkoang span:first-child {
+    color: white;
+}
+
+.artikel-glowkoang span:last-child {
+    color: #FF7B00;
+}
+/* akhir */
+.Group119, .Group120, .Group121, .Group122 {
+    width: 272px;
+    height: 425px;
+    position: absolute;
+}
+
+.Group119 {
+    left: 52px;
+    top: 500px;
+}
+
+.Group120 {
+    left: 1109px;
+    top: 500px;
+}
+
+.Group121 {
+    width: 632px;
+    left: 404px;
+    top: 500px;
+}
+
+.Group122 {
+    left: 350px;
+    top: 2px;
+}
+
+.Rectangle89 {
+    width: 272px;
+    height: 425px;
+    position: absolute;
+    background: #EDB27A;
+    border-radius: 10px;
+}
+
+.Image {
+    width: 228px;
+    height: 290px;
+    position: absolute;
+    border-radius: 15px;
+    left: 22px;
+    top: 18px;
+}
+
+.desk1, .desk2, .desk3, .desk4 {
+    width: 243px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    left: 14px;
+    top: 316px;
+}
 
 
-
-    </style>
-</head>
-<body>
+    </style> </head>
+    <body>
+    <img class="Image4" style="width: 100%; height: 209.35px; left: -0px; top: 60px; position: absolute" src="uploads/y.png" />
+    <div class="Rectangle51" style="width: 100%; height: 209px; left: -0px; top: 60px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
+  </div>
    <!-- Navbar Section -->
-<div class="navbar">
+ <div class="navbar">
     <!-- Logo Section -->
     <div class="logo">
         <img src="uploads/logo.png" alt="Logo">
@@ -369,40 +280,10 @@ body {
         </div>
     </div>
 </div>
-
-<!-- Kontak Section -->
-<div class="kontak">
-    <div class="group-65">
-        <img class="image-4" alt="gambar background" src="uploads/y.png" />
-        <div class="rectangle-58"></div>
-    </div>
-    <img class="map-maker-standard" alt="gambar peta" src="uploads/peta.png" />
-    <div class="contact-info">
-        Email: GlowKoang@gmail.com<br/>
-        Ig: @GlowKoang<br/>
-        Telp/WA: +62 251 882 512 933
-    </div>
-
-    <div class="kontak-glowkoang">
-        <span>Kontak &nbsp;</span><span>GlowKoang</span>
-    </div>
-    
-    <div class="group-113">
-        <div class="rectangle-84"></div>
-        <div class="kirim-pesan">Kirim Pesan</div>
-    </div>
-
-    <div class="rectangle-85"></div>
-    <div class="rectangle-87"></div>
-    <div class="rectangle-88"></div>
-    <div class="rectangle-86"></div>
-    <div class="form-label" id="name">Your name</div>
-    <div class="form-label" id="email">Your Email</div>
-    <div class="form-label" id="subject">Subject</div>
-    <div class="form-label" id="pesan">Pesan</div>
-</div>
-
-<!-- Footer -->
+<div class="Rectangle20" style="width: 270px; height: 97px; left: 130px; top: 320px; position: absolute; background: white; border-radius: 10px; border: 8px #DDB79B solid"></div>
+  <div class="ArtikelTerbaru" style="left: 150px; top: 342px; position: absolute; color: black; font-size: 35px; font-family: Inter; font-weight: 700; line-height: 57.60px; word-wrap: break-word">Artikel Terbaru</div>
+  
+  <!-- Footer -->
 <div class="footer">
     <div class="copyright-text">
         Copyright © 2024 GlowKoang, Design by GlowKoang
@@ -432,7 +313,33 @@ body {
         </div>
     </div>
 </div>
-
+  <!-- Artikel GlowKoang -->
+<div class="artikel-glowkoang">
+    <span>Artikel &nbsp;</span><span>GlowKoang</span>
 </div>
+<div class="Group119">
+    <div class="Rectangle89"></div>
+    <img class="Image" src="uploads/citra.png" />
+    <div class="desk1">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+</div>
+
+<div class="Group120">
+    <div class="Rectangle89"></div>
+    <img class="Image" src="uploads/citra.png" />
+    <div class="desk4">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+</div>
+
+<div class="Group121">
+    <div class="Rectangle89"></div>
+    <img class="Image" src="uploads/citra.png" />
+    <div class="desk3">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+    
+    <div class="Group122">
+        <div class="Rectangle89"></div>
+        <img class="Image" src="uploads/citra.png" />
+        <div class="desk2">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+    </div>
+</div>
+
 </body>
 </html>
