@@ -196,18 +196,18 @@
 }
 
 .Group119 {
-    left: 52px;
+    left: 80px;
     top: 500px;
 }
 
 .Group120 {
-    left: 1109px;
+    left: 1150px;
     top: 500px;
 }
 
 .Group121 {
-    width: 632px;
-    left: 404px;
+    width: 800px;
+    left: 450px;
     top: 500px;
 }
 
@@ -243,8 +243,8 @@
     font-weight: 400;
     line-height: 30px;
     word-wrap: break-word;
-    left: 14px;
-    top: 316px;
+    left: 10px;
+    top: 160px;
 }
 
 
@@ -274,8 +274,8 @@
         <div class="dropdown">
             <button class="dropbtn">Bahasa ▼</button>
             <div class="dropdown-content">
-                <a href="#">Indonesia</a>
-                <a href="#">English</a>
+                <a href="in">Indonesia</a>
+                <a href="en">English</a>
             </div>
         </div>
     </div>
@@ -317,27 +317,36 @@
 <div class="artikel-glowkoang">
     <span>Artikel &nbsp;</span><span>GlowKoang</span>
 </div>
+
 <div class="Group119">
     <div class="Rectangle89"></div>
-    <img class="Image" src="uploads/citra.png" />
+    <img class="Image" src="uploads/foto1.png" />
+    <a href="/artikel1" class="desk1">
     <div class="desk1">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+    </a>
 </div>
 
 <div class="Group120">
     <div class="Rectangle89"></div>
-    <img class="Image" src="uploads/citra.png" />
-    <div class="desk4">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+    <img class="Image" src="uploads/foto kedua.png" />
+    <a href="/artikel2" class="desk2">
+    <div class="desk4">Ternyata, Ini 7 Kegunaan dan Manfaat Bengkoang untuk Kulit Cantikmu</div>
+    </a>
 </div>
 
 <div class="Group121">
     <div class="Rectangle89"></div>
-    <img class="Image" src="uploads/citra.png" />
-    <div class="desk3">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+    <img class="Image" src="uploads/foto ketiga.png" />
+    <a href="/artikel3" class="desk3">
+    <div class="desk3">Begini Urutan dan Cara Pakai body Serum dan Body Lotion yang Benar</div>
+    </a>
     
     <div class="Group122">
         <div class="Rectangle89"></div>
-        <img class="Image" src="uploads/citra.png" />
-        <div class="desk2">Begini cara mencerahkan kulit secara alami berikut ini!</div>
+        <img class="Image" src="uploads/foto4.png" />
+        <a href="/artikel4" class="desk4">
+        <div class="desk2">Raih Kecantikan Alami dengan Glowkoang: Manfaat Bengkoang untuk Kulit Sehat</div>
+        </a>
     </div>
 </div>
 

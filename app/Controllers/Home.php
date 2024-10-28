@@ -12,12 +12,12 @@ class Home extends BaseController
     {
         return view('Tentang');
     }
-    
+
     public function Artikel(): string
     {
         return view('Artikel');
     }
-    
+
     public function Artikel1(): string
     {
         return view('Artikel1');
@@ -34,7 +34,12 @@ class Home extends BaseController
     {
         return view('Artikel4');
     }
-    
+
+    public function Artikel5(): string
+    {
+        return view('Artikel5');
+    }
+
     public function Produk(): string
     {
         return view('Produk');
@@ -42,6 +47,14 @@ class Home extends BaseController
     public function Produk1(): string
     {
         return view('Produk1');
+    }
+    public function Produk2(): string
+    {
+        return view('Produk2');
+    }
+    public function Produk3(): string
+    {
+        return view('Produk3');
     }
     public function Aktivitas(): string
     {
@@ -63,7 +76,7 @@ class Home extends BaseController
     {
         return view('Aktivitas4');
     }
-   
+
     public function Kontak(): string
     {
         return view('Kontak');

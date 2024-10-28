@@ -234,9 +234,9 @@
     <div class="Group71" style="width: 269px; height: 454.37px; position: absolute; top: 0; left: 970px;">
         <div class="Rectangle16" style="width: 269px; height: 131.05px; position: absolute; top: 323.32px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;"></div>
         <img class="Image" style="width: 269px; height: 366.36px; position: absolute; top: 0;" alt="gambar pelembab" src="uploads/pelembab.png" />
-        <div class="Rectangle17" style="width: 189.22px; height: 68.87px; position: absolute; top: 331.93px; left: 39.89px; background: white; border-radius: 15px; border: 5px #F8EDE3 solid; display: flex; justify-content: center; align-items: center;">
-            <div class="CitraBodyLotion" style="color: black; font-size: 15px; font-family: Inter; font-weight: 400; text-align: center;">Citra Body Lotion</div>
-        </div>
+        <a href="/produk3" class="Rectangle17" style="width: 189.22px; height: 68.87px; position: absolute; top: 331.93px; left: 39.89px; background: white; border-radius: 15px; border: 5px #F8EDE3 solid; display: flex; justify-content: center; align-items: center;">
+        <div class="CitraBodyLotion" style="color: black; font-size: 15px; font-family: Inter; font-weight: 400; text-align: center;">Citra Body Lotion</div>
+        </a>
     </div>
 
    <div class="Group73" style="width: 345px; height: 454.37px; position: absolute; top: 0;">
@@ -253,9 +253,9 @@
     <div class="Group72" style="width: 311px; height: 454.37px; position: absolute; top: 0; left: 502px;">
         <div class="Rectangle12" style="width: 311px; height: 131.05px; position: absolute; top: 323.32px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;"></div>
         <img class="Image" style="width: 311px; height: 366.36px; position: absolute; top: 0;" alt="gambar ovale" src="uploads/ovale.png" />
-        <div class="Rectangle14" style="width: 185px; height: 68.87px; position: absolute; top: 331.93px; left: 63px; background: white; border-radius: 15px; border: 5px #F8EDE3 solid; display: flex; justify-content: center; align-items: center;">
+        <a href="/produk2" class="Rectangle14" style="width: 185px; height: 68.87px; position: absolute; top: 331.93px; left: 63px; background: white; border-radius: 15px; border: 5px #F8EDE3 solid; display: flex; justify-content: center; align-items: center;">
             <div class="OvaleFacialLotion" style="color: black; font-size: 14px; font-family: Inter; font-weight: 400; text-align: center;">Ovale Facial Lotion</div>
-        </div>
+        </a>
     </div>
 </div>
 <!-- Footer -->

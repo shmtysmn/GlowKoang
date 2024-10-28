@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artikel1</title>
     <meta name="title" content="GlowKoang - Artikel1">
-<meta name="description" content="Baca artikel menarik seputar kecantikan, perawatan kulit, dan manfaat bengkoang di GlowKoang. Temukan tips dan trik untuk merawat kulit Anda, ulasan produk, dan informasi terbaru tentang dunia kecantikan. Dapatkan wawasan yang berguna untuk meningkatkan rutin kecantikan Anda!">
+    <meta name="description"
+        content="Baca artikel menarik seputar kecantikan, perawatan kulit, dan manfaat bengkoang di GlowKoang. Temukan tips dan trik untuk merawat kulit Anda, ulasan produk, dan informasi terbaru tentang dunia kecantikan. Dapatkan wawasan yang berguna untuk meningkatkan rutin kecantikan Anda!">
 
- <!-- Canonical Tag -->
- <link rel="canonical" href="<?= current_url() ?>">
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="<?= current_url() ?>">
     <style>
-      /* Masukkan CSS Anda di sini */
-      body {
-    margin: 0;
-    font-family: 'Petrona', sans-serif;
-    padding-top: 60px; /* Adjusted to avoid content hiding behind the navbar */
-}
+        /* Masukkan CSS Anda di sini */
+        body {
+            margin: 0;
+            font-family: 'Petrona', sans-serif;
+            padding-top: 60px;
+            /* Adjusted to avoid content hiding behind the navbar */
+        }
 
-         /* Navbar styling */
-         .navbar {
+        /* Navbar styling */
+        .navbar {
             width: 100%;
             height: 60px;
-            position: fixed; /* Navbar tetap berada di atas */
+            position: fixed;
+            /* Navbar tetap berada di atas */
             top: 0;
             left: 0;
             background-color: white;
@@ -63,35 +67,38 @@
         }
 
         /* Dropdown content styling */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0; /* Geser dropdown ke kiri dari sisi kanan */
-    background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    min-width: 120px; /* Atur lebar minimum dropdown supaya tidak mepet */
-    padding: 12px 0; /* Tambahkan padding pada konten dropdown */
-}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            /* Geser dropdown ke kiri dari sisi kanan */
+            background-color: white;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            min-width: 120px;
+            /* Atur lebar minimum dropdown supaya tidak mepet */
+            padding: 12px 0;
+            /* Tambahkan padding pada konten dropdown */
+        }
 
-.dropdown-content a {
-    padding: 12px 16px;
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    text-decoration: none;
-}
+        .dropdown-content a {
+            padding: 12px 16px;
+            display: block;
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            text-decoration: none;
+        }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
 
         /* Show dropdown on button click */
         .dropdown:hover .dropdown-content {
             display: block;
         }
 
-      
+
         /*halaman beranda */
         .hero-section {
             position: relative;
@@ -101,6 +108,7 @@
             background-size: cover;
             background-position: center;
         }
+
         .logo {
             position: absolute;
             top: 5px;
@@ -108,283 +116,141 @@
             display: flex;
             align-items: center;
         }
+
         .logo img {
             width: 65px;
             height: 50px;
         }
+
         .logo span {
             font-size: 20px;
             margin-left: 10px;
             height: 25px;
         }
 
-        .text-center {
-            text-align: center;
-            color: black;
-            font-size: 1.2rem;
-            line-height: 1.5;
-            margin: 20px 0;
+        /* Banner Section */
+        .banner {
+            width: 100%;
+            height: auto;
+            position: relative;
         }
-        .artikel1 {
-    width: 100%;
-    height: 2019px;
-    position: relative;
-    background: white;
-}
 
-.group65 {
-    width: 1440px;
-    height: 272px;
-    position: absolute;
-    top: 61px;
-}
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
 
-.image4 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -70px;
-}
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(14, 26, 24, 0.50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-.rectangle58 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -70px;
-    background: rgba(0, 0, 0, 0.40);
-}
+        .banner-title {
+            color: white;
+            font-size: 48px;
+            font-family: Inter, sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
 
-.rectangle59 {
-    width: 500px;
-    height: 1354px;
-    position: absolute;
-    top: 467px;
-    left: 72px;
-    background: white;
-    border-radius: 15px;
-    border: 5px rgba(61, 37, 30, 0.80) solid;
-}
+        /* Container utama */
+        .artikel-container {
+            width: 100%;
+            height: auto;
+            padding: 40px 0;
+            background: linear-gradient(234deg, #A6D4FF 0%, white 40%, rgba(178, 218, 255, 0.09) 96%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: space-between;
+        }
 
-.title-text {
-    width: 824px;
-    height: 130px;
-    position: absolute;
-    top: 1053px;
-    left: 112px;
-    text-align: center;
-    color: black;
-    font-size: 40px;
-    font-family: Poppins, sans-serif;
-    font-weight: 600;
-    line-height: 57.6px;
-}
+        /* Heading */
+        .heading-container {
+            text-align: center;
+        }
 
-.main-image {
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 475px;
-    left: 77px;
-    border-radius: 15px;
-}
+        .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
 
-.group66 {
-    width: 158px;
-    height: 58px;
-    position: absolute;
-    top: 475px;
-    left: 991px;
-}
+        .heading-line {
+            width: 50px;
+            height: 2px;
+            background: #1BBCA3;
+        }
 
-.rectangle60 {
-    width: 158px;
-    height: 56px;
-    left: 50px;
-    background: white;
-    border: 1px solid #64514B;
-}
+        .heading-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #384F4B;
+        }
 
-.baca-juga {
-    position: absolute;
-    top: 0;
-    left: 24px;
-    color: black;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
-}
+        /* Footer Styles */
+        .footer {
+            width: 100%;
+            height: 105px;
+            position: absolute;
+            left: 0;
+            top: 1500px;
+            background: rgba(222, 202, 182, 0.90);
+            border-top: 1px solid rgba(255, 255, 255, 0.17);
+        }
 
-.rectangle61 {
-    width: 401px;
-    height: 369px;
-    position: absolute;
-    top: 587px;
-    left: 991px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 1px solid #734128;
-}
+        .copyright-text {
+            width: 443.35px;
+            height: 19.50px;
+            position: absolute;
+            left: 320px;
+            top: 39.25px;
+            color: #FDFCE8;
+            font-size: 13px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 400;
+            line-height: 19.50px;
+            word-wrap: break-word;
+        }
 
-.line8 {
-    width: 413px;
-    height: 0;
-    position: absolute;
-    top: 557px;
-    left: 993px;
-    border: 4px solid #734128;
-}
+        .social-icons {
+            position: absolute;
+            top: 33px;
+            left: 1218px;
+            display: flex;
+            gap: 10px;
+        }
 
-.image2 {
-    width: 146px;
-    height: 90px;
-    position: absolute;
-    top: 618px;
-    left: 1031px;
-    border-radius: 15px;
-}
+        .link {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-.rectangle62 {
-    width: 193px;
-    height: 77px;
-    position: absolute;
-    top: 624px;
-    left: 1174px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.date-text {
-    width: 135px;
-    height: 39px;
-    position: absolute;
-    color: black;
-    font-size: 15px;
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
-}
-
-.main-text {
-    width: 806px;
-    height: 586px;
-    position: absolute;
-    top: 1204px;
-    left: 108px;
-    text-align: justify;
-    color: black;
-    font-size: 30px;
-    font-family: Poppins, sans-serif;
-    font-weight: 300;
-    line-height: 30px;
-}
-
-.group68 {
-    width: 336px;
-    height: 105px;
-    position: absolute;
-    top: 789px;
-    left: 1031px;
-}
-
-.image3 {
-    width: 146px;
-    height: 105px;
-    border-radius: 20px;
-}
-
-.rectangle63 {
-    width: 193px;
-    height: 86px;
-    position: absolute;
-    top: 10px;
-    left: 143px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-/* Footer Styles */
-.footer {
-    width: 100%;
-    height: 105px;
-    position: absolute;
-    left: 0;
-    top: 1950px;
-    background: rgba(222, 202, 182, 0.90);
-    border-top: 1px solid rgba(255, 255, 255, 0.17);
-}
-
-.copyright-text {
-    width: 443.35px;
-    height: 19.50px;
-    position: absolute;
-    left: 320px;
-    top: 39.25px;
-    color: #FDFCE8;
-    font-size: 13px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    line-height: 19.50px;
-    word-wrap: break-word;
-}
-
-.social-icons {
-    position: absolute;
-    top: 33px;
-    left: 1218px;
-    display: flex;
-    gap: 10px;
-}
-
-.link {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.link img {
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
-}
-
-/* Additional Text and Dates */
-.additional-text {
-    position: absolute;
-    top: 660px;
-    left: 1180px;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-}
-
-.short-text {
-    width: 193px;
-    height: 26px;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 57.60px;
-    word-wrap: break-word;
-}
-
-.date-text {
-    width: 135px;
-    height: 39px;
-    position: absolute;
-    top: 789px;
-    left: 1187px;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 57.60px;
-    word-wrap: break-word;
-}
-
-/* Artikel GlowKoang */
+        .link img {
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+        }
+        /* Artikel GlowKoang */
 .artikel-glowkoang {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 25%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
@@ -398,125 +264,154 @@
 .artikel-glowkoang span:last-child {
     color: #FF7B00;
 }
-
     </style>
 </head>
+
 <body>
-   <!-- Navbar Section -->
-<div class="navbar">
-    <!-- Logo Section -->
-    <div class="logo">
-        <img src="uploads/logo.png" alt="Logo">
-        <span>GlowKoang</span>
-    </div>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="uploads/logo.png" alt="Logo">
+            <span>GlowKoang</span>
+        </div>
 
-    <!-- Navigation Links -->
-    <div>
-        <a href="/">Beranda</a>
-        <a href="/tentang">Tentang</a>
-        <a href="/artikel">Artikel</a>
-        <a href="/produk">Produk</a>
-        <a href="/aktivitas">Aktivitas</a>
-        <a href="/kontak">Kontak</a>
+        <!-- Navigation Links -->
+        <div>
+            <a href="/">Beranda</a>
+            <a href="/tentang">Tentang</a>
+            <a href="/artikel">Artikel</a>
+            <a href="/produk">Produk</a>
+            <a href="/aktivitas">Aktivitas</a>
+            <a href="/kontak">Kontak</a>
 
-        <!-- Dropdown Bahasa -->
-        <div class="dropdown">
-            <button class="dropbtn">Bahasa ▼</button>
-            <div class="dropdown-content">
-                <a href="#">Indonesia</a>
-                <a href="#">English</a>
+            <!-- Dropdown Bahasa -->
+            <div class="dropdown">
+                <button class="dropbtn">Bahasa ▼</button>
+                <div class="dropdown-content">
+                    <a href="in">Indonesia</a>
+                    <a href="en">English</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="artikel1">
-    <!-- Section Background -->
-    <div class="group65">
-        <img class="image4" alt="gambar background" src="uploads/Group 117.png" />
-        <div class="rectangle58"></div>
-    </div>
-
-    <!-- Main Content Section -->
-    <div class="rectangle59"></div>
-    <div class="title-text">Begini cara mencerahkan kulit secara alami berikut ini!</div>
-
-    <!-- Main Image -->
-    <img class="main-image" alt="gambar foto1" src="uploads/foto1.png" />
-
-    <!-- "Baca Juga" Section -->
-    <div class="group66">
-        <div class="rectangle60"></div>
-        <div class="baca-juga">Baca Juga</div>
-    </div>
-
-    <!-- Secondary Image Section -->
-    <div class="rectangle61"></div>
-    <div class="line8"></div>
-
-    <!-- Image 2 -->
-    <img class="image2" alt="gambar foto2" src="uploads/foto2.png" />
-    <div class="rectangle62"></div>
-    <div class="date-text">02 Agust 2024</div>
-
-    <!-- Main Text -->
-    <div class="main-text">
-    Untuk mencerahkan kulit secara alami, ada beberapa metode yang bisa dilakukan tanpa menggunakan bahan kimia berbahaya. Pertama, menjaga kebersihan kulit dengan rutin membersihkan wajah, agar kotoran dan minyak tidak menumpuk dan menyebabkan kulit kusam. Kedua, gunakan bahan-bahan alami seperti bengkoang, lemon, atau madu yang diketahui memiliki manfaat untuk mencerahkan kulit. Selain itu, menjaga pola makan yang sehat dengan banyak mengonsumsi buah dan sayuran, serta cukup minum air putih, juga berperan penting dalam menjaga kulit tetap cerah dan sehat. Jangan lupa untuk selalu menggunakan tabir surya saat beraktivitas di luar ruangan untuk melindungi kulit dari paparan sinar UV yang dapat menyebabkan kulit gelap. </div>
-
-    <!-- Date Text -->
-    <div class="date-text">10 Agust 2024</div>
-
-    <!-- Group 68 (Image 3 Section) -->
-    <div class="group68">
-        <img class="image3" alt="gambar foto3" src="uploads/foto3.png" />
-        <div class="rectangle63"></div>
-    </div>
-</div>
-
-  <!-- Footer -->
-<div class="footer">
-    <div class="copyright-text">
-        Copyright © 2024 GlowKoang, Design by GlowKoang
-    </div>
-
-    <!-- Social Media Icons -->
-    <div class="social-icons">
-        <div class="link">
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="uploads/link.png" alt="Icon 1">
-            </a>
-        </div>
-        <div class="link">
-            <a href="https://twitter.com/" target="_blank">
-                <img src="uploads/twitter.png" alt="Icon 2">
-            </a>
-        </div>
-        <div class="link">
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="uploads/instagram.png" alt="Icon 3">
-            </a>
-        </div>
-        <div class="link">
-            <a href="https://www.youtube.com/" target="_blank">
-                <img src="uploads/youtube.png" alt="Icon 4">
-            </a>
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src="uploads/Group 117.png" alt="banner glowkoang" />
+        <div class="artikel-glowkoang">
+            <span>Artikel &nbsp;</span><span>GlowKoang</span>
         </div>
     </div>
-</div>
 
-<!-- Additional Text and Dates -->
-<div class="additional-text">
-    <div class="short-text">Begini Urutan dan....</div>
-    <div class="date-text">24 Agust 2024</div>
-    <div class="short-text">Ternyata, Ini 7 Keg....</div>
-</div>
 
-<!-- Artikel GlowKoang -->
-<div class="artikel-glowkoang">
-    <span>Artikel &nbsp;</span><span>GlowKoang</span>
-</div>
+    <!-- Content Section -->
+    <div style="display: flex; justify-content: space-between; width: 90%; padding: 20px; background: white;">
+        <!-- Artikel Utama -->
+        <div style="flex: 2; padding-right: 20px;">
+            <img style="width: 80%; height: auto; border: 5px #3D251E solid;" alt="gambar artikel 3"
+                src="uploads/foto ketiga.png" />
+            <div
+                style="padding: 50px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 5px #3D251E solid; margin-top: 20px;">
+                <div style="color: black; font-size: 14px; font-family: Inika; font-weight: 400;">
+                    25 Agust 2024
+                </div>
+                <div style="color: black; font-size: 32px; font-family: Roboto; font-weight: 700; margin-top: 10px;">
+                Begini Urutan dan Cara Pakai body Serum dan Body Lotion yang Benar
+                </div>
+                <div
+                    style="color: black; font-size: 16px; font-family: Times New Roman; font-weight: 400; margin-top: 20px; line-height: 1.6;">
+                    <br> Apakah Anda ingin mendapatkan manfaat maksimal dari body serum dan body lotion? Artikel ini akan membahas urutan dan cara pemakaian yang benar untuk kedua produk perawatan kulit ini. Body serum, yang kaya akan nutrisi, berfungsi untuk meresap ke dalam lapisan kulit lebih dalam, sedangkan body lotion memberikan kelembapan dan perlindungan di permukaan kulit. Dengan mengikuti langkah-langkah yang tepat, Anda dapat memaksimalkan efek kedua produk ini, menjadikan kulit Anda lebih halus, lembap, dan bercahaya. Temukan tips dan trik untuk mendapatkan hasil terbaik dari rutinitas perawatan tubuh Anda!</br>
 
-  </div>
-</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar "Baca Juga" -->
+        <div style="flex: 1;">
+            <div
+                style="background: white; padding: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px #3D251E solid;">
+                <div
+                    style="text-align: center; font-size: 24px; font-family: Inika; font-weight: 400; margin-bottom: 10px;">
+                    Baca Juga
+                </div>
+
+                <!-- Artikel 1 -->
+                <a href="<?= base_url('artikel1') ?>"
+                    style="text-decoration: none; color: inherit;">
+                    <div style="display: flex; gap: 15px; margin-top: 20px;">
+                        <img style="width: 147px; height: auto;" alt="susu banyak manfaat"
+                            src="<?= base_url('uploads/foto1.png') ?>" />
+                        <div>
+                            <div style="font-size: 14px; color: black; margin-bottom: 8px;">02 Agust 2024</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;"> Begini cara mencerahkan kulit secara alami....</div>
+                        </div>
+                    </div>
+                </a>
+
+                <hr style="border: 1px solid #3D251E;">
+
+                <!-- Artikel 2 -->
+                <a href="<?= base_url('artikel2') ?>"
+                    style="text-decoration: none; color: inherit;">
+                    <div style="display: flex; gap: 15px; margin-top: 20px;">
+                        <img style="width: 147px; height: auto;" alt="susu murni dari sapi"
+                            src="<?= base_url('uploads/foto kedua.png') ?>" />
+                        <div>
+                            <div style="font-size: 14px; color: black; margin-bottom: 8px;">12 Agustus 2024</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">  Ternyata, Ini 7 Kegunaan dan Manfaat Bengkoang...</div>
+                        </div>
+                    </div>
+                </a>
+
+                <hr style="border: 1px solid #3D251E;">
+
+                <!-- Artikel 3 -->
+                <a href="<?= base_url('artikel4') ?>"
+                    style="text-decoration: none; color: inherit;">
+                    <div style="display: flex; gap: 15px; margin-top: 20px;">
+                        <img style="width: 147px; height: auto;" alt="susu untuk bahan pangan"
+                            src="<?= base_url('uploads/foto4.png') ?>" />
+                        <div>
+                            <div style="font-size: 14px; color: black; margin-bottom: 8px;">30 Agustus 2024</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">Raih Kecantikan Alami dengan Glowkoang: Manfaat....</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyright-text">
+            Copyright © 2024 GlowKoang, Design by GlowKoang
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <div class="link">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="uploads/link.png" alt="Icon 1">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="uploads/twitter.png" alt="Icon 2">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="uploads/instagram.png" alt="Icon 3">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="uploads/youtube.png" alt="Icon 4">
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
