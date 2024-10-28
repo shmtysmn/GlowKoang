@@ -498,8 +498,8 @@
         <div class="dropdown">
             <button class="dropbtn">Bahasa ▼</button>
             <div class="dropdown-content">
-                <a href="#">Indonesia</a>
-                <a href="#">English</a>
+                <a href="in">Indonesia</a>
+                <a href="en">English</a>
             </div>
         </div>
     </div>
@@ -552,7 +552,6 @@
   <div class="ProdukGlowkoang" style="width: 392px; height: 52.54px; left: 850px; top: 1803px; position: absolute"><span style="color: black; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Produk</span><span style="color: #FF7B00; font-size: 40px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word"> GlowKoang</span></div>
   
   <div class="bginflue" style="width: 300px; height: 494px; left: 815px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-  <div class="bgpromo" style="width: 300px; height: 494px; left: 1190px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <img class="influencer" style="width: 230px; height: 296px; left: 865px; top: 3485px; position: absolute" alt="gambar influe" src="uploads/influe.png" />
   <div class="bguji" style="width: 300px; height: 494px; left: 425px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <div class="Rectangle79" style="width: 260px; height: 55px; left: 445px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
@@ -564,7 +563,8 @@
         <div class="Influencer" style="left: 910px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
     </a>
     <img class="uji" style="width: 230px; height: 296px; left: 460px; top: 3485px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
-  <div class="Rectangle82" style="width: 130px; height: 55px; left: 1275px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+    <div class="Rectangle82" style="width: 130px; height: 55px; left: 1275px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+    <div class="bgpromo" style="width: 300px; height: 494px; left: 1190px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
   <img class="promo" style="width: 230px; height: 296px; left: 1230px; top: 3485px; position: absolute" alt="gambar promo" src="uploads/promo.png" />
   <a href="/aktivitas1" style="text-decoration: none;">
       <div class="Promo" style="left: 1300px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>

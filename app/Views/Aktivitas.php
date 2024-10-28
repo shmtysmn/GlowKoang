@@ -195,8 +195,8 @@
         <div class="dropdown">
             <button class="dropbtn">Bahasa ▼</button>
             <div class="dropdown-content">
-                <a href="#">Indonesia</a>
-                <a href="#">English</a>
+                <a href="in">Indonesia</a>
+                <a href="en">English</a>
             </div>
         </div>
     </div>
@@ -214,18 +214,26 @@
 <div class="AktivitasGlowkoang" style="display: flex; justify-content: center; align-items: center; position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
     <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
 </div><div class="Group103" style="width: 1361px; height: 494px; left: 40px; top: 423px; position: absolute">
-    <div class="Rectangle72" style="width: 314px; height: 494px; left: 0px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-    <div class="Rectangle70" style="width: 306px; height: 494px; left: 721px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-    <div class="Rectangle73" style="width: 306px; height: 494px; left: 1055px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-    <img class="Aab93f910e6f016124db5586bf2" style="width: 200px; height: 285px; left: 767px; top: 27px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
-    <img class="Fa4842d167b8bee223fba7a7b97c25d81" style="width: 236px; height: 300px; left: 49px; top: 28px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
-    <div class="Testimoni" style="left: 74px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">TESTIMONI</div>
-    <div class="Rectangle71" style="width: 335px; height: 494px; left: 344px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
-    <div class="UjiKelayakanProduk" style="width: 311px; height: 49px; left: 357px; top: 345px; position: absolute; text-align: justify; color: black; font-size: 27px; font-family: Petrona; font-weight: 400; line-height: 30px; word-wrap: break-word">UJI KELAYAKAN PRODUK</div>
-    <div class="Influencer" style="left: 788px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
-    <img class="F2456811df1ae74ff667976a1825eb591" style="width: 230px; height: 277px; left: 398px; top: 39px; position: absolute" alt="gambar influe" src="uploads/influe.png" />
-    <img class="Cdcd0e8947fa3e57ce6d68a617dd5071" style="width: 231px; height: 265px; left: 1092px; top: 27px; position: absolute" alt="gambar promo" src="uploads/promo.png" />
-    <div class="Promo" style="left: 1148px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>
+    <div class="Rectangle72" style="width: 300px; height: 494px; left: 0px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+    <div class="Rectangle70" style="width: 300px; height: 494px; left: 721px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+    <div class="Rectangle73" style="width: 300px; height: 494px; left: 1055px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+   
+    <img class="fototesti" style="width: 230px; height: 296px; left: 767px; top: 27px; position: absolute" alt="gambar testi" src="uploads/testi.png" />
+    <div class="lapisan" style="width: 160px; height: 55px; left: 65px; top: 341px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+    <div class="Testimoni" style="left: 74px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">TESTIMONI</div>
+    <div class="Rectangle71" style="width: 300px; height: 494px; left: 344px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px"></div>
+    
+    <img class="fotouji" style="width: 230px; height: 296px; left: 49px; top: 28px; position: absolute" alt="gambar uji" src="uploads/uji.png" />
+    <div class="lapisan" style="width: 270px; height: 55px; left: 378px; top: 341px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+    <div class="UjiKelayakanProduk" style="width: 311px; height: 49px; left: 395px; top: 353px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Petrona; font-weight: 400; line-height: 30px; word-wrap: break-word">UJI KELAYAKAN PRODUK</div>
+   
+    <img class="fotoinflue" style="width: 230px; height: 296px; left: 398px; top: 39px; position: absolute" alt="gambar influe" src="uploads/influe.png" />
+    <div class="lapisan" style="width: 175px; height: 55px; left: 778px; top: 341px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+    
+    <div class="Influencer" style="left: 788px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">INFLUENCER</div>
+    <img class="fotopromo" style="width: 230px; height: 296px; left: 1092px; top: 27px; position: absolute" alt="gambar promo" src="uploads/promo.png" />
+    <div class="lapisan" style="width: 115px; height: 55px; left: 1135px; top: 341px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px"></div>
+    <div class="Promo" style="left: 1148px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">PROMO</div>
 </div>
 </div>
 <!-- Footer -->

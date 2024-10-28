@@ -197,8 +197,8 @@
         <div class="dropdown">
             <button class="dropbtn">Bahasa ▼</button>
             <div class="dropdown-content">
-                <a href="#">Indonesia</a>
-                <a href="#">English</a>
+                <a href="in">Indonesia</a>
+                <a href="en">English</a>
             </div>
         </div>
     </div>
