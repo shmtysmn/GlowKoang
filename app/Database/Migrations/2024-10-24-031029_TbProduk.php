@@ -37,14 +37,6 @@ class TbProduk extends Migration
                 'type'       => 'TEXT',
                 'null'       => true, // Dapat diisi null jika tidak ada deskripsi
             ],
-            'created_at' => [
-                'type'       => 'DATETIME',
-                'null'       => true,
-            ],
-            'updated_at' => [
-                'type'       => 'DATETIME',
-                'null'       => true,
-            ]
         ]);
 
         // Tambahkan primary key pada id_produk

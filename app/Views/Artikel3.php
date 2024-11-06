@@ -309,7 +309,7 @@
     <div style="display: flex; justify-content: space-between; width: 90%; padding: 20px; background: white;">
         <!-- Artikel Utama -->
         <div style="flex: 2; padding-right: 20px;">
-            <img style="width: 80%; height: auto; border: 5px #3D251E solid;" alt="gambar artikel 3"
+            <img style="width: 100%; height: auto; border: 5px #3D251E solid;" alt="gambar artikel 3"
                 src="uploads/foto ketiga.png" />
             <div
                 style="padding: 50px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 5px #3D251E solid; margin-top: 20px;">

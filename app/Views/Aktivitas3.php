@@ -128,7 +128,7 @@
         }
           /* Footer Styles */
 .footer {
-    width: 1530px;
+    width: 100%;
     height: 105px;
     position: absolute;
     left: 0;
@@ -186,7 +186,7 @@
     <!-- Navigation Links -->
     <div>
         <a href="/">Beranda</a>
-        <a href="/tentang">Tentang</a>
+        <a href="/tentang">Tentang</a>100%
         <a href="/artikel">Artikel</a>
         <a href="/produk">Produk</a>
         <a href="/aktivitas">Aktivitas</a>
@@ -203,15 +203,15 @@
     </div>
 </div>
 
-<div class="Aktifitas" style="width: 1440px; height: 1000px; position: relative; background: white">
-    <img class="Image4" style="width: 1530px; height: 258px; left: 0px; top: -80px; position: absolute" alt="gambar background" src="uploads/Group 117.png" />
-    <div class="Rectangle58" style="width: 1530px; height: 258px; left: 0px; top: -80px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
+<div class="Aktifitas" style="width: 100%; height: 1000px; position: relative; background: white">
+    <img class="Image4" style="width: 100%; height: 258px; left: 0px; top: -80px; position: absolute" alt="gambar background" src="uploads/Group 117.png" />
+    <div class="Rectangle58" style="width: 100%; height: 258px; left: 0px; top: -80px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
   </div>
   <div class="Rectangle68" style="width: 1400px; height: 635px; left: 17px; top: 372px; position: absolute; background: white"></div>
   <div class="deskakt" style="width: 795px; left: 57px; top: 651px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </div>
   
 </div>
-  <img class="fotouji" style="width: 317px; height: 408px; left: 989px; top: 536px; position: absolute" alt="gambar uji" src="uploads/testi.png" />
+  <img class="fotouji" style="width: 317px; height: 408px; left: 989px; top: 536px; position: absolute" alt="gambar uji" src="uploads/influe.png" />
   <div class="UjiKelayakanProduk" style="width: 536px; height: 58px; left: 159px; top: 536px; position: absolute; text-align: justify; color: black; font-size: 45px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">Testimoni Produk</div>
 </div>
 </div>
