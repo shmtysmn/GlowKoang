@@ -645,6 +645,16 @@
             .BacaSelengkapnya1 {
                 top: 120px;
             }
+            .Group103 {
+            height: 494px;
+            left: 84px;
+            top: 3403px;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
         </style>
     </head>
 
@@ -774,62 +784,55 @@
             <span class="glowkoang">GlowKoang</span>
         </div>
 
-
         <div class="bgAktifitas"
             style="width: 90%; height: 392px; left: 80px; top: 3295px; position: absolute; background: #E2CEB1; border-radius: 25px">
         </div>
-        <div class="bguji"
-            style="width: 300px; height: 494px; left: 425px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px">
-        </div>
-        <div class="Rectangle79"
-            style="width: 260px; height: 55px; left: 445px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px">
-        </div>
-        <a href="/aktivitas2" style="text-decoration: none;">
+        <div class="Group103">
+            <div class="Rectangle72"
+                style="width: 314px; height: 494px; left: 0px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px">
+            </div>
+            <div class="Rectangle70"
+                style="width: 306px; height: 494px; left: 721px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px">
+            </div>
+            <div class="Rectangle73"
+                style="width: 306px; height: 494px; left: 1055px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px">
+            </div>
+            <div class="Rectangle71"
+                style="width: 335px; height: 494px; left: 344px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 30px">
+            </div>
+            <img class="FtInflue" style="width: 200px; height: 285px; left: 767px; top: 27px; position: absolute"
+                src="uploads/influe.png" />
+            <img class="FtTesti" style="width: 236px; height: 300px; left: 49px; top: 28px; position: absolute"
+                src="uploads/testi.png" />
+            <img class="FtPromo" style="width: 231px; height: 265px; left: 1092px; top: 27px; position: absolute"
+                src="uploads/promo.png" />
+            <img class="FtUji" style="width: 230px; height: 277px; left: 398px; top: 39px; position: absolute"
+                src="uploads/uji.png" />
+            <div class="btn4"
+                style="width: 311px; height: 53px; left: 357px; top: 341px; position: absolute; background: #D8CBC4; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+            </div>
             <div class="UjiKelayakanProduk"
-                style="height: 20px; left: 455px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Petrona; font-weight: 300; line-height: 57.60px; white-space: nowrap;">
-                UJI KELAYAKAN PRODUK</div>
-        </a>
-        <div class="bginflue"
-            style="width: 300px; height: 494px; left: 815px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px">
-        </div>
-        <img class="influencer" style="width: 230px; height: 296px; left: 865px; top: 3485px; position: absolute"
-            alt="gambar influe" src="uploads/influe.png" />
-        <div class="Rectangle81"
-            style="width: 205px; height: 55px; left: 880px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px">
-        </div>
-        <a href="/aktivitas3" style="text-decoration: none;">
+                style="width: 355px; height: 49px; left: 374px; top: 345px; position: absolute; text-align: justify; color: black; font-size: 23px; font-family: Petrona; font-weight: 400; line-height: 30px; word-wrap: break-word">
+                <a href="/aktivitas2" style="color: black; text-decoration: none;">UJI KELAYAKAN PRODUK</div>
+            <div class="btn3"
+                style="width: 203px; height: 49px; left: 771px; top: 345px; position: absolute; background: #D8CBC4; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+            </div>
             <div class="Influencer"
-                style="left: 910px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-                INFLUENCER</div>
-        </a>
-        <img class="uji" style="width: 230px; height: 296px; left: 460px; top: 3485px; position: absolute"
-            alt="gambar uji" src="uploads/uji.png" />
-        <div class="bgpromo"
-            style="width: 300px; height: 494px; left: 1190px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px">
-        </div>
-        <img class="promo" style="width: 230px; height: 296px; left: 1230px; top: 3485px; position: absolute"
-            alt="gambar promo" src="uploads/promo.png" />
-        <div class="Rectangle82"
-            style="width: 130px; height: 55px; left: 1275px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px">
-        </div>
-        <a href="/aktivitas4" style="text-decoration: none;">
+                style="left: 788px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
+                <a href="/aktivitas3" style="color: black; text-decoration: none;">INFLUENCER</div>
+            <div class="btn2"
+                style="width: 195px; height: 49px; left: 1102px; top: 345px; position: absolute; background: #D8CBC4; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+            </div>
             <div class="Promo"
-                style="left: 1300px; top: 3812px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-                PROMO</div>
-        </a>
-        <div class="bgtesti"
-            style="width: 20%; height: 494px; left: 100px; top: 3465px; position: absolute; background: #D8CBC4; border-radius: 30px">
-        </div>
-        <img class="Testi" style="width: 230px; height: 296px; left: 135px; top: 3485px; position: absolute"
-            alt="gambar testi" src="uploads/testi.png" />
-        <div class="Rectangle78"
-            style="width: 165px; height: 55px; left: 165px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px">
-        </div>
-        <a href="/aktivitas1" style="text-decoration: none;">
+                style="left: 1148px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
+                <a href="/aktivitas4" style="color: black; text-decoration: none;">PROMO</div>
+            <div class="btn1"
+                style="width: 160px; height: 49px; left: 68px; top: 345px; position: absolute; background: #D8CBC4; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+            </div>
             <div class="Testimoni"
-                style="left: 180px; top: 3813px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-                TESTIMONI</div>
-        </a>
+                style="left: 80px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
+                <a href="/aktivitas1" style="color: black; text-decoration: none;">TESTIMONI</div>
+        </div> 
         <div class="Group110">
             <a href="/produk1">
                 <div class="Rectangle83"></div>
@@ -854,7 +857,7 @@
 
 
         <div class="AktivitasGlowkoang"
-            style="display: flex; justify-content: center; align-items: center; position: absolute; top: 3400px; left: 800px; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
+            style="display: flex; justify-content: center; align-items: center; position: absolute; top: 3381px; left: 800px; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
             <span style="color: black;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
         </div>
 
@@ -904,10 +907,10 @@
             </div>
         </div>
         <script>
-        function toggleMenu() {
-            var navLinks = document.getElementById("nav-links");
-            navLinks.classList.toggle("active");
-        }
-    </script>
+            function toggleMenu() {
+                var navLinks = document.getElementById("nav-links");
+                navLinks.classList.toggle("active");
+            }
+        </script>
     </body>
 </lang>

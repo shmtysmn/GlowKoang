@@ -220,13 +220,68 @@
             background: rgba(0, 0, 0, 0);
         }
 
+        /* box */
+        .group75 {
+            width: 100%;
+            max-width: 1239px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            position: relative;
+            margin: 30px auto;
+        }
+
+        .group71 {
+            width: 269px;
+            height: auto;
+            position: relative;
+            margin: 10px;
+        }
+
+        .image {
+            width: 269px;
+            height: 366.36px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .rectangle16 {
+            width: 269px;
+            height: 131.05px;
+            background: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+        }
+
+        .rectangle17 {
+            width: 189.22px;
+            height: 68.87px;
+            margin: 10px auto;
+            background: white;
+            border-radius: 15px;
+            border: 5px #F8EDE3 solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .citraBodyLotion {
+            color: black;
+            font-size: 15px;
+            font-family: Inter;
+            font-weight: 400;
+            text-align: center;
+        }
+
+
         /* Footer Styles */
         .footer {
             width: 100%;
             height: 105px;
             position: absolute;
             left: 0;
-            top: 1020px;
+            top: 970px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -275,6 +330,7 @@
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
+                top: 1950px;
             }
 
             .social-icons {
@@ -347,18 +403,14 @@
             <span style="color: white;">Produk &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
         </div>
 
-        <div class="Group75"
-            style="width: 100%; max-width: 1239px; display: flex; flex-wrap: wrap; justify-content: space-around; position: relative; margin: 30px auto;">
+        <div class="group75">
             <?php foreach ($produks as $produk): ?>
-                <div class="Group71" style="width: 269px; height: auto; position: relative; margin: 10px;">
-                    <img class="Image" style="width: 269px; height: 366.36px; display: block; margin: 0 auto;"
-                        alt="<?= $produk['nama_produk'] ?>" src="<?= base_url('uploads/' . $produk['foto_produk']) ?>" />
-                    <div class="Rectangle16"
-                        style="width: 269px; height: 131.05px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;">
-                        <a href="/produk1" class="Rectangle17"
-                            style="width: 189.22px; height: 68.87px; margin: 10px auto; background: white; border-radius: 15px; border: 5px #F8EDE3 solid; display: flex; justify-content: center; align-items: center; text-decoration: none;">
-                            <div class="CitraBodyLotion"
-                                style="color: black; font-size: 15px; font-family: Inter; font-weight: 400; text-align: center;">
+                <div class="group71">
+                    <img class="image" alt="<?= $produk['nama_produk'] ?>"
+                        src="<?= base_url('uploads/' . $produk['foto_produk']) ?>" />
+                    <div class="rectangle16">
+                    <a href="<?= base_url('/produk' . esc($produk['id_produk'])) ?>" class="rectangle17">
+                            <div class="citraBodyLotion">
                                 <?= $produk['nama_produk'] ?>
                             </div>
                         </a>
@@ -366,7 +418,6 @@
                 </div>
             <?php endforeach; ?>
         </div>
-
 
         <!-- Footer -->
         <div class="footer">

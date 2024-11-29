@@ -196,141 +196,40 @@
 
         /* box */
         .Group103 {
-            width: 1361px;
             height: 494px;
-            left: 40px;
-            top: 423px;
-            position: absolute;
+            left: 4px;
+            top: 295px;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
         }
 
-        .bgaktivitas {
+        .activity-item {
             width: 314px;
             height: 494px;
             background: #D8CBC4;
             border-radius: 30px;
-            position: absolute;
-        }
-
-        .gambar_aktivitas {
-            width: 236px;
-            height: 300px;
-            position: absolute;
-            top: 30px;
-            transform: translateX(15%);
-        }
-
-        .btnaktivitas {
-            width: 150px;
-            height: 50px;
-            background: #E4D6CF;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 15px;
-            position: absolute;
-            top: 350px;
-            transform: translateX(40%);
-        }
-
-        .Testimoni {
-            left: 170px;
-            top: 770px;
-            position: absolute;
-            text-align: justify;
-            color: black;
-            font-size: 25px;
-            font-family: Petrona;
-            font-weight: 300;
-            line-height: 57.60px;
-            word-wrap: break-word;
-        }
-
-        .Influencer {
-            left: 850px;
-            top: 770px;
-            position: absolute;
-            text-align: justify;
-            color: black;
-            font-size: 25px;
-            font-family: Petrona;
-            font-weight: 300;
-            line-height: 57.60px;
-            word-wrap: break-word;
-        }
-
-        .UjiKelayakanProduk {
-            width: 311px;
-            height: 49px;
-            left: 460px;
-            top: 785px;
-            position: absolute;
-            text-align: justify;
-            color: black;
-            font-size: 20px;
-            font-family: Petrona;
-            font-weight: 300;
-            line-height: 30px;
-            word-wrap: break-word;
-        }
-
-        .Promo {
-            left: 1195px;
-            top: 770px;
-            position: absolute;
-            text-align: justify;
-            color: black;
-            font-size: 25px;
-            font-family: Petrona;
-            font-weight: 300;
-            line-height: 57.60px;
-            word-wrap: break-word;
-        }
-
-        .btnaktivitas,
-        .btntesti,
-        .btninflue,
-        .btnuji,
-        .btnpromo {
-            display: block;
-            /* Mengubah link menjadi block agar dapat diklik */
-            width: 150px;
-            /* Sesuaikan jika diperlukan untuk btnuji */
-            height: 50px;
-            background: #E4D6CF;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 15px;
-            position: absolute;
-            top: 775px;
-            /* Posisi sama untuk semua tombol */
+            margin: 10px;
             text-align: center;
-            /* Agar teks di dalam tombol berada di tengah */
-            line-height: 50px;
-            /* Agar teks berada di tengah vertikal */
+            position: relative;
         }
 
-        .btntesti {
-            left: 163px;
-            /* Posisi spesifik untuk btntesti */
+        .activity-item img {
+            width: 200px;
+            height: 285px;
+            margin-top: 20px;
         }
 
-        .btninflue {
-            width: 170px;
-            /* Sesuaikan lebar untuk btninflue */
-            left: 843px;
-            /* Posisi spesifik untuk btninflue */
+        .activity-title {
+            font-size: 27px;
+            font-family: Petrona;
+            color: black;
+            margin-top: 20px;
         }
 
-        .btnuji {
-            width: 262px;
-            /* Sesuaikan lebar untuk btnuji */
-            left: 450px;
-            /* Posisi spesifik untuk btnuji */
-        }
 
-        .btnpromo {
-            width: 115px;
-            /* Sesuaikan lebar untuk btnpromo */
-            left: 1185px;
-            /* Posisi spesifik untuk btnpromo */
-        }
 
         /* Footer Styles */
         .footer {
@@ -445,51 +344,33 @@
         </div>
     </div>
 
-    <div class="Aktivitas" style="width: 100%; height: 1072px; position: relative; background: white">
-        <div class="Group65" style="width: 100%; height: 231px; left: 0px; top: 87px; position: absolute">
-            <img class="Image4" style="width: 100%; height: 258px; left: 0px; top: -90px; position: absolute"
-                alt="gambar background" src="uploads/Group 117.png" />
-            <div class="Rectangle58"
-                style="width: 100%; height: 258px; left: 0px; top: -90px; position: absolute; background: rgba(0, 0, 0, 0.40)">
-            </div>
-        </div>
+    <img class="Image4" style="width: 100%; height: 360px; left: 0px; top: -90px; position: absolute"
+        alt="gambar background" src="uploads/Group 117.png" />
+    <div class="Rectangle58"
+        style="width: 100%; height: 360px; left: 0px; top: -90px; position: absolute; background: rgba(0, 0, 0, 0.40)">
     </div>
     <div class="AktivitasGlowkoang"
         style="display: flex; justify-content: center; align-items: center; position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
         <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
     </div>
 
-
-
     <div class="Group103">
-        <?php foreach ($aktivitas as $key => $akt): ?>
-            <div class="bgaktivitas" style="left: <?= 40 + ($key * 340) ?>px;"></div>
-            <img class="gambar_aktivitas" alt="gambar aktivitas" src="uploads/<?= $akt['foto_aktivitas'] ?>"
-                style="left: <?= 49 + ($key * 340) ?>px;">
-            <div class="nama_aktivitas" style="left: <?= 74 + ($key * 340) ?>px;">
+    <?php foreach ($aktivitas as $item): ?>
+        <div class="activity-item">
+            <img src="<?= base_url('uploads/' . $item['foto_aktivitas']) ?>" alt="<?= $item['nama_aktivitas_in'] ?>" />
+            <div class="activity-title">
+                <a href="<?= base_url('/aktivitas' . $item['id_aktivitas']) ?>" class="btn btn-link" style="text-decoration: none; color: inherit;">
+                    <?= strtoupper($item['nama_aktivitas_in']) ?>
+                </a>
             </div>
-        <?php endforeach; ?>
-    </div>
-    <a href="aktivitas1" class="btntesti" style="text-decoration: none;"></a>
-    <a href="aktivitas1" class="Testimoni" style="text-decoration: none;">TESTIMONI</a>
-
-    <a href="aktivitas2" class="btnuji" style="text-decoration: none;"></a>
-    <a href="aktivitas2" class="UjiKelayakanProduk" style="text-decoration: none;">UJI KELAYAKAN PRODUK</a>
-
-    <a href="aktivitas3" class="btninflue" style="text-decoration: none;"></a>
-    <a href="aktivitas3" class="Influencer" style="text-decoration: none;">INFLUENCER</a>
-
-
-    <a href="aktivitas4" class="btnpromo" style="text-decoration: none;"></a>
-    <a href="aktivitas4" class="Promo" style="text-decoration: none;">PROMO</a>
-
-
-
+        </div>
+    <?php endforeach; ?>
+</div>
 
 
 
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer">z
         <div class="copyright-text">
             Copyright © 2024 GlowKoang, Design by GlowKoang
         </div>

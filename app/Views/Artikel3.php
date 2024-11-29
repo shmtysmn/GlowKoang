@@ -12,6 +12,11 @@
     <!-- Canonical Tag -->
     <link rel="canonical" href="<?= current_url() ?>">
     <style>
+         /* Resetting some default styles */
+         * {
+            box-sizing: border-box;
+        }
+
         /* Masukkan CSS Anda di sini */
         body {
             margin: 0;
@@ -24,7 +29,7 @@
         .navbar {
             width: 100%;
             height: 60px;
-            position: fixed;
+            position: absolute;
             /* Navbar tetap berada di atas */
             top: 0;
             left: 0;
@@ -98,6 +103,63 @@
             display: block;
         }
 
+        .hamburger {
+            display: none;
+            /* Sembunyikan hamburger di desktop */
+            cursor: pointer;
+            font-size: 24px;
+            margin-left: auto;
+            /* Pindahkan hamburger ke kanan */
+        }
+
+        .nav-links {
+            display: flex;
+            /* Menampilkan menu dalam baris */
+        }
+
+        .nav-links a {
+            margin-left: 20px;
+            /* Jarak antar link */
+        }
+
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                /* Tampilkan hamburger di mobile */
+            }
+
+            .nav-links {
+                display: none;
+                /* Sembunyikan menu di mobile secara default */
+                flex-direction: column;
+                /* Tampilkan menu dalam kolom */
+                position: absolute;
+                /* Posisi menu relatif terhadap navbar */
+                top: 60px;
+                /* Sesuaikan dengan tinggi navbar */
+                left: 0;
+                background-color: white;
+                /* Warna latar belakang menu */
+                width: 100%;
+                /* Lebar menu */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                /* Bayangan untuk menu */
+            }
+
+            .nav-links.active {
+                display: flex;
+                /* Tampilkan menu saat aktif */
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                /* Jarak antar link di menu mobile */
+                padding: 10px;
+                /* Padding untuk link */
+            }
+        }
+
 
         /*halaman beranda */
         .hero-section {
@@ -109,23 +171,28 @@
             background-position: center;
         }
 
+        /* Logo styles */
         .logo {
             position: absolute;
-            top: 5px;
-            left: 152px;
+            top: 15px;
+            left: 5%;
             display: flex;
             align-items: center;
         }
 
+        /* Responsive logo size */
         .logo img {
-            width: 65px;
-            height: 50px;
+            width: 40px;
+            height: 30px;
         }
 
-        .logo span {
-            font-size: 20px;
-            margin-left: 10px;
-            height: 25px;
+        /* Text center styles */
+        .text-center {
+            text-align: center;
+            color: black;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin: 20px 0;
         }
 
         /* Banner Section */
@@ -204,17 +271,18 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 1500px;
+            top: 1388px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
 
         .copyright-text {
-            width: 443.35px;
-            height: 19.50px;
+            width: auto;
+            height: auto;
             position: absolute;
-            left: 320px;
+            left: 50%;
             top: 39.25px;
+            transform: translateX(-50%);
             color: #FDFCE8;
             font-size: 13px;
             font-family: 'DM Sans', sans-serif;
@@ -223,10 +291,11 @@
             word-wrap: break-word;
         }
 
+        /* Responsive social icons */
         .social-icons {
             position: absolute;
             top: 33px;
-            left: 1218px;
+            left: 85%;
             display: flex;
             gap: 10px;
         }
@@ -243,6 +312,35 @@
             width: 100%;
             height: 100%;
             border-radius: 16px;
+        }
+
+        /* Mobile Styling */
+        @media (max-width: 768px) {
+            .footer {
+                padding: 20px;
+                text-align: center;
+                flex-direction: column;
+                top: 1900px;
+            }
+
+            .social-icons {
+                order: 1;
+                margin-bottom: 10px;
+                margin-left: -55%;
+                margin-top: -5%;
+            }
+
+            .link {
+                width: 32px;
+                height: 32px;
+            }
+
+            .copyright-text {
+                font-size: 10px;
+                color: #FDFCE8;
+                order: 2;
+                margin-top: 10px;
+            }
         }
         /* Artikel GlowKoang */
 .artikel-glowkoang {
@@ -275,9 +373,15 @@
             <img src="uploads/logo.png" alt="Logo">
             <span>GlowKoang</span>
         </div>
+        
+        <!-- Hamburger Menu -->
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- Simbol hamburger -->
+        </div>
+
 
         <!-- Navigation Links -->
-        <div>
+        <div id="nav-links" class="nav-links">
             <a href="/">Beranda</a>
             <a href="/tentang">Tentang</a>
             <a href="/artikel">Artikel</a>
@@ -412,6 +516,12 @@
             </div>
         </div>
     </div>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("active");
+        }
+    </script>
 </body>
 
 </html>

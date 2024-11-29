@@ -17,6 +17,7 @@
             box-sizing: border-box;
         }
 
+        /* Masukkan CSS Anda di sini */
         body {
             margin: 0;
             font-family: 'Petrona', sans-serif;
@@ -206,11 +207,12 @@
         }
 
         .copyright-text {
-            width: 443.35px;
-            height: 19.50px;
+            width: auto;
+            height: auto;
             position: absolute;
-            left: 320px;
+            left: 50%;
             top: 39.25px;
+            transform: translateX(-50%);
             color: #FDFCE8;
             font-size: 13px;
             font-family: 'DM Sans', sans-serif;
@@ -219,10 +221,11 @@
             word-wrap: break-word;
         }
 
+        /* Responsive social icons */
         .social-icons {
             position: absolute;
             top: 33px;
-            left: 1218px;
+            left: 85%;
             display: flex;
             gap: 10px;
         }
@@ -239,6 +242,35 @@
             width: 100%;
             height: 100%;
             border-radius: 16px;
+        }
+
+        /* Mobile Styling */
+        @media (max-width: 768px) {
+            .footer {
+                padding: 20px;
+                text-align: center;
+                flex-direction: column;
+                top: 1700px;
+            }
+
+            .social-icons {
+                order: 1;
+                margin-bottom: 10px;
+                margin-left: -55%;
+                margin-top: -5%;
+            }
+
+            .link {
+                width: 32px;
+                height: 32px;
+            }
+
+            .copyright-text {
+                font-size: 10px;
+                color: #FDFCE8;
+                order: 2;
+                margin-top: 10px;
+            }
         }
 
         /* Artikel GlowKoang */
@@ -262,67 +294,146 @@
             color: #FF7B00;
         }
 
-        /* akhir */
+        /* Responsive Mobile */
+        @media (max-width: 768px) {
+            .artikel-glowkoang {
+                font-size: 18px;
+                /* Sesuaikan ukuran font untuk layar lebih kecil */
+                top: 20%;
+                /* Penyesuaian posisi untuk layar kecil */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .artikel-glowkoang {
+                font-size: 23px;
+                /* Ukuran font lebih kecil untuk layar sangat kecil */
+                top: 22%;
+                /* Sesuaikan posisi agar lebih proporsional */
+            }
+        }
+
+        .rectangle20 {
+            width: 215px;
+            height: 75px;
+            position: absolute;
+            left: 130px;
+            top: 320px;
+            background: white;
+            border-radius: 10px;
+            border: 5px solid #DDB79B;
+        }
+
+        .artikel-terbaru {
+            position: absolute;
+            left: 150px;
+            top: 330px;
+            color: black;
+            font-size: 25px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+        /* Responsive Mobile */
+        @media (max-width: 768px) {
+            .rectangle20 {
+                width: 150px;
+                height: 60px;
+                left: 20%;
+                top: 280px;
+                transform: translateX(-50%);
+            }
+
+            .artikel-terbaru {
+                left: 20%;
+                top: 290px;
+                font-size: 17px;
+                line-height: 45px;
+                transform: translateX(-50%);
+            }
+        }
+
+        /* bagian artikel */
         .articles {
+            display: flex;
+            gap: 50px;
+            /* Jarak antar kartu */
+            justify-content: center;
+            flex-wrap: wrap;
             position: relative;
+            margin-top: 25%;
         }
 
         .article {
             width: 272px;
             height: 425px;
-            position: absolute;
-        }
-
-        .article:nth-child(1) {
-            left: 80px;
-            top: 500px;
-        }
-
-        .article:nth-child(2) {
-            left: 1150px;
-            top: 500px;
-        }
-
-        .article:nth-child(3) {
-            width: 800px;
-            left: 450px;
-            top: 500px;
-        }
-
-        .article:nth-child(4) {
-            left: 800px;
-            top: 500px;
-        }
-
-        .image-frame {
-            width: 272px;
-            height: 425px;
-            position: absolute;
             background: #EDB27A;
             border-radius: 10px;
+            padding: 15px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
         }
 
         .image {
-            width: 228px;
+            width: 100%;
             height: 290px;
-            position: absolute;
             border-radius: 15px;
-            left: 22px;
-            top: 18px;
+            object-fit: cover;
         }
 
-        .text-link .text {
-            width: 243px;
-            position: absolute;
-            text-align: center;
+        .text-link a {
+            text-decoration: none;
+            /* Pastikan ini menghapus garis bawah pada elemen link */
+        }
+
+        .text-link {
             color: black;
             font-size: 20px;
-            font-family: Poppins;
+            font-family: Poppins, sans-serif;
             font-weight: 400;
             line-height: 30px;
+            margin-top: 15px;
             word-wrap: break-word;
-            left: 10px;
-            top: 320px;
+            text-decoration: none !important;
+        }
+
+        /* Media query untuk mode mobile */
+        @media (max-width: 600px) {
+            .articles {
+                gap: 20px;
+                /* Kurangi jarak antar kartu */
+                margin-top: 75%;
+                /* Kurangi margin atas */
+                padding: 0 10px;
+                /* Tambahkan padding samping */
+            }
+
+            .article {
+                width: 100%;
+                /* Sesuaikan lebar kartu agar pas di layar kecil */
+                height: auto;
+                /* Sesuaikan tinggi agar fleksibel */
+                padding: 10px;
+                /* Kurangi padding */
+            }
+
+            .image {
+                height: 200px;
+                /* Sesuaikan tinggi gambar agar proporsional */
+            }
+
+            .text-link .text {
+                font-size: 16px;
+                /* Sesuaikan ukuran font agar lebih kecil */
+                line-height: 24px;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
@@ -332,7 +443,6 @@
         src="uploads/y.png" />
     <div class="Rectangle51"
         style="width: 100%; height: 209px; left: -0px; top: 60px; position: absolute; background: rgba(0, 0, 0, 0.40)">
-    </div>
     </div>
 
     <!-- Navbar Section -->
@@ -347,34 +457,30 @@
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Simbol hamburger -->
         </div>
-    </div>
 
-    <!-- Navigation Links -->
-    <div id="nav-links" class="nav-links">
-        <a href="/" id="home">Beranda</a>
-        <a href="/tentang" id="about">Tentang</a>
-        <a href="/artikel" id="artikel">Artikel</a>
-        <a href="/produk" id="produks">Produk</a>
-        <a href="/aktivitas" id="aktivitas">Aktivitas</a>
-        <a href="/kontak" id="contact">Kontak</a>
 
-        <!-- Dropdown Bahasa -->
-        <div class="dropdown">
-            <button class="dropbtn">Bahasa ▼</button>
-            <div class="dropdown-content">
-                <a href="id">Indonesia</a>
-                <a href="en">English</a>
+        <!-- Navigation Links -->
+        <div id="nav-links" class="nav-links">
+            <a href="/" id="home">Beranda</a>
+            <a href="/tentang" id="about">Tentang</a>
+            <a href="/artikel" id="artikel">Artikel</a>
+            <a href="/produk" id="produks">Produk</a>
+            <a href="/aktivitas" id="aktivitas">Aktivitas</a>
+            <a href="/kontak" id="contact">Kontak</a>
+
+            <!-- Dropdown Bahasa -->
+            <div class="dropdown">
+                <button class="dropbtn">Bahasa ▼</button>
+                <div class="dropdown-content">
+                    <a href="id">Indonesia</a>
+                    <a href="en">English</a>
+                </div>
             </div>
         </div>
     </div>
-    </div>
 
-    <div class="Rectangle20"
-        style="width: 270px; height: 97px; left: 130px; top: 320px; position: absolute; background: white; border-radius: 10px; border: 8px #DDB79B solid">
-    </div>
-    <div class="ArtikelTerbaru"
-        style="left: 150px; top: 342px; position: absolute; color: black; font-size: 35px; font-family: Inter; font-weight: 700; line-height: 57.60px; word-wrap: break-word">
-        Artikel Terbaru</div>
+    <div class="rectangle20"></div>
+    <div class="artikel-terbaru">Artikel Terbaru</div>
 
     <!-- Artikel GlowKoang -->
     <div class="artikel-glowkoang">
@@ -387,7 +493,7 @@
                 <div class="image-frame"></div>
                 <img class="image" src="uploads/<?= esc($artikel['foto_artikel']) ?>" />
                 <a href="<?= base_url('/artikel' . esc($artikel['id_artikel'])) ?>" class="text-link">
-                    <div class="text"><?= esc($artikel['judul_artikel']) ?></div>
+                    <div class="text-link a"><?= esc($artikel['judul_artikel']) ?></div>
                 </a>
             </div>
         <?php endforeach; ?>

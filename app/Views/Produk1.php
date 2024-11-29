@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produk1</title>
     <meta name="title" content="GlowKoang - Produk">
-<meta name="description" content="Jelajahi rangkaian produk kecantikan GlowKoang yang terbuat dari bengkoang berkualitas tinggi. Temukan krim wajah, serum, dan produk perawatan kulit lainnya yang membantu menjaga kesehatan dan kecantikan kulit Anda secara alami. Dapatkan produk yang sesuai dengan kebutuhan kulit Anda dan rasakan manfaatnya!">
+    <meta name="description"
+        content="Jelajahi rangkaian produk kecantikan GlowKoang yang terbuat dari bengkoang berkualitas tinggi. Temukan krim wajah, serum, dan produk perawatan kulit lainnya yang membantu menjaga kesehatan dan kecantikan kulit Anda secara alami. Dapatkan produk yang sesuai dengan kebutuhan kulit Anda dan rasakan manfaatnya!">
 
- <!-- Canonical Tag -->
- <link rel="canonical" href="<?= current_url() ?>">
-    <style>body {
-    margin: 0;
-    font-family: 'Petrona', sans-serif;
-    padding-top: 60px; /* Adjusted to avoid content hiding behind the navbar */
-}
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="<?= current_url() ?>">
+    <style>
+        /* Resetting some default styles */
+        * {
+            box-sizing: border-box;
+        }
 
-         /* Navbar styling */
-         .navbar {
+        body {
+            margin: 0;
+            font-family: 'Petrona', sans-serif;
+            padding-top: 60px;
+            /* Adjusted to avoid content hiding behind the navbar */
+        }
+
+        /* Navbar styling */
+        .navbar {
             width: 100%;
             height: 60px;
-            position: fixed; /* Navbar tetap berada di atas */
+            position: absolute;
+            /* Navbar tetap berada di atas */
             top: 0;
             left: 0;
             background-color: white;
@@ -61,35 +71,96 @@
         }
 
         /* Dropdown content styling */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0; /* Geser dropdown ke kiri dari sisi kanan */
-    background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    min-width: 120px; /* Atur lebar minimum dropdown supaya tidak mepet */
-    padding: 12px 0; /* Tambahkan padding pada konten dropdown */
-}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            /* Geser dropdown ke kiri dari sisi kanan */
+            background-color: white;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            min-width: 120px;
+            /* Atur lebar minimum dropdown supaya tidak mepet */
+            padding: 12px 0;
+            /* Tambahkan padding pada konten dropdown */
+        }
 
-.dropdown-content a {
-    padding: 12px 16px;
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    text-decoration: none;
-}
+        .dropdown-content a {
+            padding: 12px 16px;
+            display: block;
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            text-decoration: none;
+        }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
 
         /* Show dropdown on button click */
         .dropdown:hover .dropdown-content {
             display: block;
         }
-         /*halaman beranda */
-         .hero-section {
+
+        .hamburger {
+            display: none;
+            /* Sembunyikan hamburger di desktop */
+            cursor: pointer;
+            font-size: 24px;
+            margin-left: auto;
+            /* Pindahkan hamburger ke kanan */
+        }
+
+        .nav-links {
+            display: flex;
+            /* Menampilkan menu dalam baris */
+        }
+
+        .nav-links a {
+            margin-left: 20px;
+            /* Jarak antar link */
+        }
+
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                /* Tampilkan hamburger di mobile */
+            }
+
+            .nav-links {
+                display: none;
+                /* Sembunyikan menu di mobile secara default */
+                flex-direction: column;
+                /* Tampilkan menu dalam kolom */
+                position: absolute;
+                /* Posisi menu relatif terhadap navbar */
+                top: 60px;
+                /* Sesuaikan dengan tinggi navbar */
+                left: 0;
+                background-color: white;
+                /* Warna latar belakang menu */
+                width: 100%;
+                /* Lebar menu */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                /* Bayangan untuk menu */
+            }
+
+            .nav-links.active {
+                display: flex;
+                /* Tampilkan menu saat aktif */
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                /* Jarak antar link di menu mobile */
+                padding: 10px;
+                /* Padding untuk link */
+            }
+        }
+
+        /*halaman beranda */
+        .hero-section {
             position: relative;
             width: 100%;
             height: 826px;
@@ -97,23 +168,23 @@
             background-size: cover;
             background-position: center;
         }
+
+        /* Logo styles */
         .logo {
             position: absolute;
-            top: 5px;
-            left: 152px;
+            top: 15px;
+            left: 5%;
             display: flex;
             align-items: center;
         }
+
+        /* Responsive logo size */
         .logo img {
-            width: 65px;
-            height: 50px;
-        }
-        .logo span {
-            font-size: 20px;
-            margin-left: 10px;
-            height: 25px;
+            width: 40px;
+            height: 30px;
         }
 
+        /* Text center styles */
         .text-center {
             text-align: center;
             color: black;
@@ -121,186 +192,383 @@
             line-height: 1.5;
             margin: 20px 0;
         }
-        .header {
-            width: 1512px;
-            height: 83px;
-            background: white;
-            display: flex;
-            align-items: center;
-            padding: 0 15px;
-            box-sizing: border-box;
-            justify-content: space-between; /* Space between logo and nav elements */
+
+        .Produk {
+            width: 1442px;
+            height: 1006px;
+            position: relative;
         }
-        .header img {
-            width: 100%;
-            height: auto;
-        }
-        .header-overlay {
+
+        .Rectangle79 {
+            width: 1442px;
+            height: 1006px;
             position: absolute;
-            top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0);
+            top: 0;
+            background: white;
         }
-        .footer {
+
+        .Ellipse2 {
+            width: 367px;
+            height: 452px;
             position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 90px;
-            background-color: #E1CFBD;
-            border-top: 1px solid rgba(255, 255, 255, 0.17);
+            left: 80px;
+            top: 349px;
+            background: #D8CBC4;
+            border-radius: 9999px;
+        }
+
+        .Group65 {
+            width: 1440px;
+            height: 245px;
+            position: absolute;
+            left: 2px;
+            top: 50px;
+        }
+
+        .Image4 {
+            width: 1530px;
+            height: 258px;
+            position: absolute;
+            left: 0;
+            top: -50px;
+        }
+
+        .Rectangle58 {
+            width: 1530px;
+            height: 258px;
+            position: absolute;
+            left: 0;
+            top: -50px;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .RemovebgPreview {
+            width: 258px;
+            height: 369px;
+            position: absolute;
+            left: 154px;
+            top: 391px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+        }
+
+        .CitraBodyLotion {
+            position: absolute;
+            left: 542px;
+            top: 376px;
+            color: black;
+            font-size: 45px;
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+        .deskproduk {
+            width: 806px;
+            position: absolute;
+            left: 551px;
+            top: 480px;
+            text-align: justify;
+            color: black;
+            font-size: 30px;
+            font-family: Petrona, serif;
+            font-weight: 200;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+        /* produk glowkoang */
+        .ProdukGlowkoang {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            padding: 0 20px;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: Poppins, sans-serif;
         }
 
-        .copyright {
-            font-size: 13px;
+        .white-text {
+            color: white;
+        }
+
+        .orange-text {
+            color: #FF7B00;
+        }
+
+        /* Style untuk tombol kembali */
+        .back-button {
+            padding: 15px 30px;
+            background-color: #EDB27A;
+            border: none;
+            border-radius: 30px;
+            font-size: 20px;
+            color: black;
+            position: absolute;
+            left: 1200px;
+            top: 800px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .Produk {
+                width: 100%;
+                height: 10%;
+                position: relative;
+            }
+
+            .Ellipse2 {
+                width: 180px;
+                height: 220px;
+                left: 85px;
+                top: 240px;
+            }
+
+            .Group65 {
+                width: 100%;
+                height: auto;
+                left: 0;
+                top: 20px;
+            }
+
+            .Image4 {
+                width: 100%;
+                height: 165px;
+                top: -30px;
+            }
+
+            .Rectangle58 {
+                width: 100%;
+                height: 165px;
+                top: -30px;
+            }
+
+            .RemovebgPreview {
+                width: 150px;
+                height: 200px;
+                left: 90px;
+                top: 280px;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+            }
+
+            .CitraBodyLotion {
+                left: 22%;
+                top: 180px;
+                font-size: 25px;
+                line-height: 35px;
+            }
+
+            .deskproduk {
+                width: 78%;
+                left: 5%;
+                top: 508px;
+                font-size: 20px;
+                line-height: 35px;
+            }
+
+            .ProdukGlowkoang {
+                top: 20%;
+                left: 50%;
+                font-size: 22px;
+            }
+
+            .back-button {
+                left: 83%;
+                top: 109%;
+                transform: translate(-50%, -50%);
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+
+
+
+        /* Footer Styles */
+        .footer {
+            width: 100%;
+            height: 105px;
+            position: absolute;
+            left: 0;
+            top: 1020px;
+            background: rgba(222, 202, 182, 0.90);
+            border-top: 1px solid rgba(255, 255, 255, 0.17);
+        }
+
+        .copyright-text {
+            width: auto;
+            height: auto;
+            position: absolute;
+            left: 50%;
+            top: 39.25px;
+            transform: translateX(-50%);
             color: #FDFCE8;
+            font-size: 13px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 400;
+            line-height: 19.50px;
+            word-wrap: break-word;
         }
 
-        .social-links {
+        /* Responsive social icons */
+        .social-icons {
+            position: absolute;
+            top: 33px;
+            left: 85%;
             display: flex;
-            margin-left: auto;
+            gap: 10px;
         }
 
-        .social-links img {
+        .link {
             width: 32px;
             height: 32px;
-            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link img {
+            width: 100%;
+            height: 100%;
             border-radius: 16px;
         }
-          /* Footer Styles */
-.footer {
-    width: 1530px;
-    height: 105px;
-    position: absolute;
-    left: 0;
-    top: 1020px;
-    background: rgba(222, 202, 182, 0.90);
-    border-top: 1px solid rgba(255, 255, 255, 0.17);
-}
 
-.copyright-text {
-    width: 443.35px;
-    height: 19.50px;
-    position: absolute;
-    left: 320px;
-    top: 39.25px;
-    color: #FDFCE8;
-    font-size: 13px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    line-height: 19.50px;
-    word-wrap: break-word;
-}
+        /* Mobile Styling */
+        @media (max-width: 768px) {
+            .footer {
+                padding: 20px;
+                text-align: center;
+                flex-direction: column;
+                top: 900px;
+            }
 
-.social-icons {
-    position: absolute;
-    top: 33px;
-    left: 1218px;
-    display: flex;
-    gap: 10px;
-}
+            .social-icons {
+                order: 1;
+                margin-bottom: 10px;
+                margin-left: -55%;
+                margin-top: -5%;
+            }
 
-.link {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+            .link {
+                width: 32px;
+                height: 32px;
+            }
 
-.link img {
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
-}
+            .copyright-text {
+                font-size: 10px;
+                color: #FDFCE8;
+                order: 2;
+                margin-top: 10px;
+            }
+        }
     </style>
 </head>
+
 <body>
- <!-- Navbar Section -->
- <div class="navbar">
-    <!-- Logo Section -->
-    <div class="logo">
-        <img src="uploads/logo.png" alt="Logo">
-        <span>GlowKoang</span>
-    </div>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="uploads/logo.png" alt="Logo">
+            <span>GlowKoang</span>
+        </div>
+        <!-- Hamburger Menu -->
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- Simbol hamburger -->
+        </div>
 
-    <!-- Navigation Links -->
-    <div>
-        <a href="/">Beranda</a>
-        <a href="/tentang">Tentang</a>
-        <a href="/artikel">Artikel</a>
-        <a href="/produk">Produk</a>
-        <a href="/aktivitas">Aktivitas</a>
-        <a href="/kontak">Kontak</a>
+        <!-- Navigation Links -->
+        <div id="nav-links" class="nav-links">
+            <a href="/">Beranda</a>
+            <a href="/tentang">Tentang</a>
+            <a href="/artikel">Artikel</a>
+            <a href="/produk">Produk</a>
+            <a href="/aktivitas">Aktivitas</a>
+            <a href="/kontak">Kontak</a>
 
-        <!-- Dropdown Bahasa -->
-        <div class="dropdown">
-            <button class="dropbtn">Bahasa ▼</button>
-            <div class="dropdown-content">
-                <a href="in">Indonesia</a>
-                <a href="en">English</a>
+            <!-- Dropdown Bahasa -->
+            <div class="dropdown">
+                <button class="dropbtn">Bahasa ▼</button>
+                <div class="dropdown-content">
+                    <a href="in">Indonesia</a>
+                    <a href="en">English</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<body>
-    <div class="Produk" style="width: 1442px; height: 1006px; position: relative">
-  <div class="Rectangle79" style="width: 1442px; height: 1006px; left: 0px; top: 0px; position: absolute; background: white"></div>
-  <div class="Ellipse2" style="width: 367px; height: 452px; left: 80px; top: 349px; position: absolute; background: #D8CBC4; border-radius: 9999px"></div>
-  <div class="Group65" style="width: 1440px; height: 245px; left: 2px; top: 50px; position: absolute">
-    <img class="Image4" style="width: 1530px; height: 258px; left: 0px; top: -50px; position: absolute" alt="gambar background" src="uploads/y.png" />
-    <div class="Rectangle58" style="width: 1530px; height: 258px; left: 0px; top: -50px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
-  </div>
-  <img class="RemovebgPreview" style="width: 258px; height: 369px; left: 154px; top: 391px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px" alt="gambar citra" src="uploads/citra.png" />
-  <div class="CitraBodyLotion" style="left: 542px; top: 376px; position: absolute; color: black; font-size: 45px; font-family: Poppins; font-weight: 400; line-height: 57.60px; word-wrap: break-word">Citra Body Lotion</div>
-  <div class="deskproduk" style="width: 806px; left: 551px; top: 480px; position: absolute; text-align: justify; color: black; font-size: 30px; font-family: Petrona; font-weight: 200; line-height: 57.60px; word-wrap: break-word">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </div>
-  
-  <button onclick="history.back()" style="padding: 15px 30px; background-color: #EDB27A; border: none; border-radius: 30px; font-size: 20px; color: black; position: absolute; left: 1200px; top: 800px; cursor: pointer;">Kembali</button>
+    <body>
+        <div class="Produk" style="position: relative;">
+            <div class="Rectangle79" style="/* add styles here */"></div>
+            <div class="Group65" style="position: relative;">
+                <img class="Image4" alt="gambar background" src="uploads/y.png" style="/* add styles here */" />
+                <div class="Rectangle58" style="/* add styles here */"></div>
+            </div>
 
-  <!-- Footer -->
-<div class="footer">
-    <div class="copyright-text">
-        Copyright © 2024 GlowKoang, Design by GlowKoang
-    </div>
+            <div class="Ellipse2" style="/* add styles here */"> </div>
 
-    <!-- Social Media Icons -->
-    <div class="social-icons">
-        <div class="link">
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="uploads/link.png" alt="Icon 1">
-            </a>
+            <img class="RemovebgPreview" alt="gambar citra" src="uploads/citra.png" style="/* add styles here */" />
+
+            <div class="CitraBodyLotion" style="font-size: 24px; font-weight: bold; /* adjust styles as needed */">
+                Citra Body Lotion
+            </div>
+
+            <div class="deskproduk" style="text-align: justify; color: black; font-size: 16px; line-height: 1.5;">
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse
+                cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia.
+            </div>
         </div>
-        <div class="link">
-            <a href="https://twitter.com/" target="_blank">
-                <img src="uploads/twitter.png" alt="Icon 2">
-            </a>
-        </div>
-        <div class="link">
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="uploads/instagram.png" alt="Icon 3">
-            </a>
-        </div>
-        <div class="link">
-            <a href="https://www.youtube.com/" target="_blank">
-                <img src="uploads/youtube.png" alt="Icon 4">
-            </a>
-        </div>
-    </div>
-</div>
 
-<div class="ProdukGlowkoang" style="display: flex; justify-content: center; align-items: center; position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
-    <span style="color: white;">Produk &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
-</div>
+        <button onclick="history.back()" class="back-button" style="margin-top: 20px;">Kembali</button>
 
-  </div>
-    </div>
-  </div>
-</div>
-</body>
+        <div class="ProdukGlowkoang" style="display: flex; align-items: center; font-size: 35px; font-family: Poppins;">
+            <span class="white-text" style="color: white;">Produk &nbsp;</span>
+            <span class="orange-text" style="color: #FF7B00;">GlowKoang</span>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="copyright-text">
+                Copyright © 2024 GlowKoang, Design by GlowKoang
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <div class="link">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="uploads/link.png" alt="Icon 1">
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="uploads/twitter.png" alt="Icon 2">
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="uploads/instagram.png" alt="Icon 3">
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="uploads/youtube.png" alt="Icon 4">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                var navLinks = document.getElementById("nav-links");
+                navLinks.classList.toggle("active");
+            }
+        </script>
+    </body>
+
 </html>
