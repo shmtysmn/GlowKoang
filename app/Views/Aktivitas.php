@@ -370,7 +370,7 @@
 
 
     <!-- Footer -->
-    <div class="footer">z
+    <div class="footer">
         <div class="copyright-text">
             Copyright © 2024 GlowKoang, Design by GlowKoang
         </div>
