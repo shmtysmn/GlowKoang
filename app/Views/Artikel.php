@@ -244,35 +244,6 @@
             border-radius: 16px;
         }
 
-        /* Mobile Styling */
-        @media (max-width: 768px) {
-            .footer {
-                padding: 20px;
-                text-align: center;
-                flex-direction: column;
-                top: 1700px;
-            }
-
-            .social-icons {
-                order: 1;
-                margin-bottom: 10px;
-                margin-left: -55%;
-                margin-top: -5%;
-            }
-
-            .link {
-                width: 32px;
-                height: 32px;
-            }
-
-            .copyright-text {
-                font-size: 10px;
-                color: #FDFCE8;
-                order: 2;
-                margin-top: 10px;
-            }
-        }
-
         /* Artikel GlowKoang */
         .artikel-glowkoang {
             display: flex;
@@ -292,25 +263,6 @@
 
         .artikel-glowkoang span:last-child {
             color: #FF7B00;
-        }
-
-        /* Responsive Mobile */
-        @media (max-width: 768px) {
-            .artikel-glowkoang {
-                font-size: 18px;
-                /* Sesuaikan ukuran font untuk layar lebih kecil */
-                top: 20%;
-                /* Penyesuaian posisi untuk layar kecil */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .artikel-glowkoang {
-                font-size: 23px;
-                /* Ukuran font lebih kecil untuk layar sangat kecil */
-                top: 22%;
-                /* Sesuaikan posisi agar lebih proporsional */
-            }
         }
 
         .rectangle20 {
@@ -334,25 +286,6 @@
             font-weight: 700;
             line-height: 57.6px;
             word-wrap: break-word;
-        }
-
-        /* Responsive Mobile */
-        @media (max-width: 768px) {
-            .rectangle20 {
-                width: 150px;
-                height: 60px;
-                left: 20%;
-                top: 280px;
-                transform: translateX(-50%);
-            }
-
-            .artikel-terbaru {
-                left: 20%;
-                top: 290px;
-                font-size: 17px;
-                line-height: 45px;
-                transform: translateX(-50%);
-            }
         }
 
         /* bagian artikel */
@@ -403,35 +336,92 @@
             text-decoration: none !important;
         }
 
-        /* Media query untuk mode mobile */
-        @media (max-width: 600px) {
+
+
+        /* Responsive Mobile */
+        @media (max-width: 768px) {
+
+            /* Artikel Glowkoang */
+            .artikel-glowkoang {
+                font-size: 18px;
+                top: 20%;
+            }
+
+            @media (max-width: 480px) {
+                .artikel-glowkoang {
+                    font-size: 23px;
+                    top: 22%;
+                }
+            }
+
+            /* Rectangle20 */
+            .rectangle20 {
+                width: 150px;
+                height: 60px;
+                left: 20%;
+                top: 280px;
+                transform: translateX(-50%);
+            }
+
+            /* Artikel Terbaru */
+            .artikel-terbaru {
+                left: 20%;
+                top: 290px;
+                font-size: 17px;
+                line-height: 45px;
+                transform: translateX(-50%);
+            }
+
+            /* Articles */
             .articles {
                 gap: 20px;
-                /* Kurangi jarak antar kartu */
                 margin-top: 75%;
-                /* Kurangi margin atas */
                 padding: 0 10px;
-                /* Tambahkan padding samping */
             }
 
+            /* Article */
             .article {
                 width: 100%;
-                /* Sesuaikan lebar kartu agar pas di layar kecil */
                 height: auto;
-                /* Sesuaikan tinggi agar fleksibel */
                 padding: 10px;
-                /* Kurangi padding */
             }
 
+            /* Image */
             .image {
                 height: 200px;
-                /* Sesuaikan tinggi gambar agar proporsional */
             }
 
+            /* Text Link */
             .text-link .text {
                 font-size: 16px;
-                /* Sesuaikan ukuran font agar lebih kecil */
                 line-height: 24px;
+                margin-top: 10px;
+            }
+
+            /* Footer */
+            .footer {
+                padding: 20px;
+                text-align: center;
+                flex-direction: column;
+                top: 1700px;
+            }
+
+            .social-icons {
+                order: 1;
+                margin-bottom: 10px;
+                margin-left: -55%;
+                margin-top: -5%;
+            }
+
+            .link {
+                width: 32px;
+                height: 32px;
+            }
+
+            .copyright-text {
+                font-size: 10px;
+                color: #FDFCE8;
+                order: 2;
                 margin-top: 10px;
             }
         }

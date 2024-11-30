@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak</title>
     <meta name="title" content="GlowKoang - Kontak">
-<meta name="description" content="Hubungi GlowKoang untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk kecantikan kami yang terbuat dari bengkoang. Kami siap membantu Anda dengan pelayanan terbaik. Temukan informasi kontak kami dan jangan ragu untuk menghubungi kami!">
+    <meta name="description"
+        content="Hubungi GlowKoang untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk kecantikan kami yang terbuat dari bengkoang. Kami siap membantu Anda dengan pelayanan terbaik. Temukan informasi kontak kami dan jangan ragu untuk menghubungi kami!">
 
- <!-- Canonical Tag -->
- <link rel="canonical" href="<?= current_url() ?>">
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="<?= current_url() ?>">
 
     <style>
-      /* Resetting some default styles */
-      * {
+        /* Resetting some default styles */
+        * {
             box-sizing: border-box;
         }
 
@@ -192,165 +194,169 @@
             line-height: 1.5;
             margin: 20px 0;
         }
+
         /* Kontak Section */
-.kontak {
-    width: 100%;
-    height: 1024px;
-    position: relative;
-    background: white;
-}
+        .kontak {
+            width: 100%;
+            height: 1024px;
+            position: relative;
+            background: white;
+        }
 
-.group-65 {
-    width: 100%;
-    height: 233px;
-    position: absolute;
-    top: 82px;
-}
+        .group-65 {
+            width: 100%;
+            height: 233px;
+            position: absolute;
+            top: 82px;
+        }
 
-.image-4 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -90px;
-}
+        .image-4 {
+            width: 100%;
+            height: 258px;
+            position: absolute;
+            top: -90px;
+        }
 
-.rectangle-58 {
-    width: 100%;
-    height: 258px;
-    position: absolute;
-    top: -90px;
-    background: rgba(0, 0, 0, 0.40);
-}
+        .rectangle-58 {
+            width: 100%;
+            height: 258px;
+            position: absolute;
+            top: -90px;
+            background: rgba(0, 0, 0, 0.40);
+        }
 
-.map-maker-standard {
-    width: 570px;
-    height: 284px;
-    position: absolute;
-    top: 337px;
-    left: 66px;
-}
+        .map-maker-standard {
+            width: 570px;
+            height: 284px;
+            position: absolute;
+            top: 337px;
+            left: 66px;
+        }
 
-.contact-info {
-    width: 444px;
-    height: 168px;
-    position: absolute;
-    top: 668px;
-    left: 69px;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
+        .contact-info {
+            width: 444px;
+            height: 168px;
+            position: absolute;
+            top: 668px;
+            left: 69px;
+            color: black;
+            font-size: 20px;
+            font-family: 'Inika', serif;
+            line-height: 44px;
+        }
 
-.kontak-glowkoang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
+        .kontak-glowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
 
-.kontak-glowkoang span:last-child {
-    color: #FF7B00;
-}
+        .kontak-glowkoang span:last-child {
+            color: #FF7B00;
+        }
 
-.group-113 {
-    width: 164px;
-    height: 44px;
-    position: absolute;
-    top: 853px;
-    left: 972px;
-}
+        .group-113 {
+            width: 164px;
+            height: 44px;
+            position: absolute;
+            top: 853px;
+            left: 972px;
+        }
 
-.rectangle-84 {
-    width: 164px;
-    height: 43px;
-    background: #EDB27A;
-    border-radius: 13px;
-}
+        .rectangle-84 {
+            width: 164px;
+            height: 43px;
+            background: #EDB27A;
+            border-radius: 13px;
+        }
 
-.kirim-pesan {
-    position: absolute;
-    left: 27px;
-    top: 0;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
+        .kirim-pesan {
+            position: absolute;
+            left: 27px;
+            top: 0;
+            color: black;
+            font-size: 20px;
+            font-family: 'Inika', serif;
+            line-height: 44px;
+        }
 
-.rectangle-85, .rectangle-87, .rectangle-88, .rectangle-86 {
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+        .rectangle-85,
+        .rectangle-87,
+        .rectangle-88,
+        .rectangle-86 {
+            background: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
 
-.rectangle-85 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 337px;
-    left: 703px;
-}
+        .rectangle-85 {
+            width: 335px;
+            height: 54px;
+            position: absolute;
+            top: 337px;
+            left: 703px;
+        }
 
-.rectangle-87 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 418px;
-    left: 703px;
-}
+        .rectangle-87 {
+            width: 335px;
+            height: 54px;
+            position: absolute;
+            top: 418px;
+            left: 703px;
+        }
 
-.rectangle-88 {
-    width: 697px;
-    height: 317px;
-    position: absolute;
-    top: 499px;
-    left: 703px;
-}
+        .rectangle-88 {
+            width: 697px;
+            height: 317px;
+            position: absolute;
+            top: 499px;
+            left: 703px;
+        }
 
-.rectangle-86 {
-    width: 335px;
-    height: 54px;
-    position: absolute;
-    top: 337px;
-    left: 1069px;
-}
+        .rectangle-86 {
+            width: 335px;
+            height: 54px;
+            position: absolute;
+            top: 337px;
+            left: 1069px;
+        }
 
-.form-label {
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: 'Inika', serif;
-    line-height: 44px;
-}
+        .form-label {
+            position: absolute;
+            color: black;
+            font-size: 20px;
+            font-family: 'Inika', serif;
+            line-height: 44px;
+        }
 
-#name {
-    top: 342px;
-    left: 717px;
-}
+        #name {
+            top: 342px;
+            left: 717px;
+        }
 
-#email {
-    top: 342px;
-    left: 1084px;
-}
+        #email {
+            top: 342px;
+            left: 1084px;
+        }
 
-#subject {
-    top: 423px;
-    left: 720px;
-}
+        #subject {
+            top: 423px;
+            left: 720px;
+        }
 
-#pesan {
-    top: 504px;
-    left: 720px;
-}
+        #pesan {
+            top: 504px;
+            left: 720px;
+        }
 
-       /* Footer Styles */
-       .footer {
+        /* Footer Styles */
+        .footer {
             width: 100%;
             height: 105px;
             position: absolute;
@@ -425,114 +431,113 @@
                 margin-top: 10px;
             }
         }
-
-
-
     </style>
 </head>
-<body>
-   <!-- Navbar Section -->
-<div class="navbar">
-    <!-- Logo Section -->
-    <div class="logo">
-        <img src="uploads/logo.png" alt="Logo">
-        <span>GlowKoang</span>
-    </div>
 
-    <!-- Hamburger Menu -->
-    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+<body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="uploads/logo.png" alt="Logo">
+            <span>GlowKoang</span>
+        </div>
+
+        <!-- Hamburger Menu -->
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Simbol hamburger -->
         </div>
 
-    <!-- Navigation Links -->
-    <div id="nav-links" class="nav-links">
-        <a href="/">Beranda</a>
-        <a href="/tentang">Tentang</a>
-        <a href="/artikel">Artikel</a>
-        <a href="/produk">Produk</a>
-        <a href="/aktivitas">Aktivitas</a>
-        <a href="/kontak">Kontak</a>
+        <!-- Navigation Links -->
+        <div id="nav-links" class="nav-links">
+            <a href="/">Beranda</a>
+            <a href="/tentang">Tentang</a>
+            <a href="/artikel">Artikel</a>
+            <a href="/produk">Produk</a>
+            <a href="/aktivitas">Aktivitas</a>
+            <a href="/kontak">Kontak</a>
 
-        <!-- Dropdown Bahasa -->
-        <div class="dropdown">
-            <button class="dropbtn">Bahasa ▼</button>
-            <div class="dropdown-content">
-                <a href="in">Indonesia</a>
-                <a href="en">English</a>
+            <!-- Dropdown Bahasa -->
+            <div class="dropdown">
+                <button class="dropbtn">Bahasa ▼</button>
+                <div class="dropdown-content">
+                    <a href="in">Indonesia</a>
+                    <a href="en">English</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Kontak Section -->
-<div class="kontak">
-    <div class="group-65">
-        <img class="image-4" alt="gambar background" src="uploads/y.png" />
-        <div class="rectangle-58"></div>
-    </div>
-    <img class="map-maker-standard" alt="gambar peta" src="uploads/peta.png" />
-    <div class="contact-info">
-        Email: GlowKoang@gmail.com<br/>
-        Ig: @GlowKoang<br/>
-        Telp/WA: +62 251 882 512 933
-    </div>
-
-    <div class="kontak-glowkoang">
-        <span>Kontak &nbsp;</span><span>GlowKoang</span>
-    </div>
-    
-    <div class="group-113">
-        <div class="rectangle-84"></div>
-        <div class="kirim-pesan">Kirim Pesan</div>
-    </div>
-
-    <div class="rectangle-85"></div>
-    <div class="rectangle-87"></div>
-    <div class="rectangle-88"></div>
-    <div class="rectangle-86"></div>
-    <div class="form-label" id="name">Your name</div>
-    <div class="form-label" id="email">Your Email</div>
-    <div class="form-label" id="subject">Subject</div>
-    <div class="form-label" id="pesan">Pesan</div>
-</div>
-
-<!-- Footer -->
-<div class="footer">
-    <div class="copyright-text">
-        Copyright © 2024 GlowKoang, Design by GlowKoang
-    </div>
-
-    <!-- Social Media Icons -->
-    <div class="social-icons">
-        <div class="link">
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="uploads/link.png" alt="Icon 1">
-            </a>
+    <!-- Kontak Section -->
+    <div class="kontak">
+        <div class="group-65">
+            <img class="image-4" alt="gambar background" src="uploads/y.png" />
+            <div class="rectangle-58"></div>
         </div>
-        <div class="link">
-            <a href="https://twitter.com/" target="_blank">
-                <img src="uploads/twitter.png" alt="Icon 2">
-            </a>
+        <img class="map-maker-standard" alt="gambar peta" src="uploads/peta.png" />
+        <div class="contact-info">
+            Email: GlowKoang@gmail.com<br />
+            Ig: @GlowKoang<br />
+            Telp/WA: +62 251 882 512 933
         </div>
-        <div class="link">
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="uploads/instagram.png" alt="Icon 3">
-            </a>
+
+        <div class="kontak-glowkoang">
+            <span>Kontak &nbsp;</span><span>GlowKoang</span>
         </div>
-        <div class="link">
-            <a href="https://www.youtube.com/" target="_blank">
-                <img src="uploads/youtube.png" alt="Icon 4">
-            </a>
+
+        <div class="group-113">
+            <div class="rectangle-84"></div>
+            <div class="kirim-pesan">Kirim Pesan</div>
+        </div>
+
+        <div class="rectangle-85"></div>
+        <div class="rectangle-87"></div>
+        <div class="rectangle-88"></div>
+        <div class="rectangle-86"></div>
+        <div class="form-label" id="name">Your name</div>
+        <div class="form-label" id="email">Your Email</div>
+        <div class="form-label" id="subject">Subject</div>
+        <div class="form-label" id="pesan">Pesan</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyright-text">
+            Copyright © 2024 GlowKoang, Design by GlowKoang
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <div class="link">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="uploads/link.png" alt="Icon 1">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="uploads/twitter.png" alt="Icon 2">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="uploads/instagram.png" alt="Icon 3">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="uploads/youtube.png" alt="Icon 4">
+                </a>
+            </div>
         </div>
     </div>
-</div>
 
-</div>
-<script>
+    </div>
+    <script>
         function toggleMenu() {
             var navLinks = document.getElementById("nav-links");
             navLinks.classList.toggle("active");
         }
     </script>
 </body>
+
 </html>

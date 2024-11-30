@@ -122,43 +122,6 @@
             /* Jarak antar link */
         }
 
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                /* Tampilkan hamburger di mobile */
-            }
-
-            .nav-links {
-                display: none;
-                /* Sembunyikan menu di mobile secara default */
-                flex-direction: column;
-                /* Tampilkan menu dalam kolom */
-                position: absolute;
-                /* Posisi menu relatif terhadap navbar */
-                top: 60px;
-                /* Sesuaikan dengan tinggi navbar */
-                left: 0;
-                background-color: white;
-                /* Warna latar belakang menu */
-                width: 100%;
-                /* Lebar menu */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                /* Bayangan untuk menu */
-            }
-
-            .nav-links.active {
-                display: flex;
-                /* Tampilkan menu saat aktif */
-            }
-
-            .nav-links a {
-                margin: 10px 0;
-                /* Jarak antar link di menu mobile */
-                padding: 10px;
-                /* Padding untuk link */
-            }
-        }
 
 
         /*halaman beranda */
@@ -314,6 +277,65 @@
             border-radius: 16px;
         }
 
+        /* Artikel GlowKoang */
+        .artikel-glowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .artikel-glowkoang span:first-child {
+            color: white;
+        }
+
+        .artikel-glowkoang span:last-child {
+            color: #FF7B00;
+        }
+
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                /* Tampilkan hamburger di mobile */
+            }
+
+            .nav-links {
+                display: none;
+                /* Sembunyikan menu di mobile secara default */
+                flex-direction: column;
+                /* Tampilkan menu dalam kolom */
+                position: absolute;
+                /* Posisi menu relatif terhadap navbar */
+                top: 60px;
+                /* Sesuaikan dengan tinggi navbar */
+                left: 0;
+                background-color: white;
+                /* Warna latar belakang menu */
+                width: 100%;
+                /* Lebar menu */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                /* Bayangan untuk menu */
+            }
+
+            .nav-links.active {
+                display: flex;
+                /* Tampilkan menu saat aktif */
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                /* Jarak antar link di menu mobile */
+                padding: 10px;
+                /* Padding untuk link */
+            }
+        }
+
         /* Mobile Styling */
         @media (max-width: 768px) {
             .footer {
@@ -342,26 +364,6 @@
                 margin-top: 10px;
             }
         }
-        /* Artikel GlowKoang */
-.artikel-glowkoang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.artikel-glowkoang span:first-child {
-    color: white;
-}
-
-.artikel-glowkoang span:last-child {
-    color: #FF7B00;
-}
     </style>
 </head>
 
@@ -373,7 +375,7 @@
             <img src="uploads/logo.png" alt="Logo">
             <span>GlowKoang</span>
         </div>
-        
+
         <!-- Hamburger Menu -->
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Simbol hamburger -->
@@ -421,11 +423,17 @@
                     12 Agust 2024
                 </div>
                 <div style="color: black; font-size: 32px; font-family: Roboto; font-weight: 700; margin-top: 10px;">
-                Ternyata, Ini 7 Kegunaan dan Manfaat Bengkoang untuk Kulit Cantikmu
+                    Ternyata, Ini 7 Kegunaan dan Manfaat Bengkoang untuk Kulit Cantikmu
                 </div>
                 <div
                     style="color: black; font-size: 16px; font-family: Times New Roman; font-weight: 400; margin-top: 20px; line-height: 1.6;">
-                    <br> Siapa yang tidak ingin memiliki kulit cantik dan bercahaya? Bengkoang, umbi yang terkenal di Indonesia, bukan hanya lezat dijadikan camilan, tetapi juga menyimpan berbagai manfaat luar biasa untuk kecantikan kulit. Dalam artikel ini, kami akan mengungkap tujuh kegunaan dan manfaat bengkoang yang wajib Anda ketahui. Dari kemampuannya untuk mencerahkan kulit hingga menghidrasi dengan sempurna, bengkoang menawarkan solusi alami yang efektif dan aman bagi Anda yang ingin merawat kecantikan kulit. Temukan rahasia di balik khasiat bengkoang dan bagaimana Anda bisa mengintegrasikannya ke dalam rutinitas perawatan kulit Anda untuk hasil yang menakjubkan!</br>
+                    <br> Siapa yang tidak ingin memiliki kulit cantik dan bercahaya? Bengkoang, umbi yang terkenal di
+                    Indonesia, bukan hanya lezat dijadikan camilan, tetapi juga menyimpan berbagai manfaat luar biasa
+                    untuk kecantikan kulit. Dalam artikel ini, kami akan mengungkap tujuh kegunaan dan manfaat bengkoang
+                    yang wajib Anda ketahui. Dari kemampuannya untuk mencerahkan kulit hingga menghidrasi dengan
+                    sempurna, bengkoang menawarkan solusi alami yang efektif dan aman bagi Anda yang ingin merawat
+                    kecantikan kulit. Temukan rahasia di balik khasiat bengkoang dan bagaimana Anda bisa
+                    mengintegrasikannya ke dalam rutinitas perawatan kulit Anda untuk hasil yang menakjubkan!</br>
 
                 </div>
             </div>
@@ -441,14 +449,14 @@
                 </div>
 
                 <!-- Artikel 1 -->
-                <a href="<?= base_url('artikel1') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel1') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu banyak manfaat"
                             src="<?= base_url('uploads/foto1.png') ?>" />
                         <div>
                             <div style="font-size: 14px; color: black; margin-bottom: 8px;"> 02 Agust 2024</div>
-                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;"> Begini cara mencerahkan kulit secara alami....</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;"> Begini
+                                cara mencerahkan kulit secara alami....</div>
                         </div>
                     </div>
                 </a>
@@ -456,14 +464,14 @@
                 <hr style="border: 1px solid #3D251E;">
 
                 <!-- Artikel 2 -->
-                <a href="<?= base_url('artikel3') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel3') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu murni dari sapi"
                             src="<?= base_url('uploads/foto ketiga.png') ?>" />
                         <div>
                             <div style="font-size: 14px; color: black; margin-bottom: 8px;">25 Agustus 2024</div>
-                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">Begini Urutan dan Cara Pakai body Serum...</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">Begini
+                                Urutan dan Cara Pakai body Serum...</div>
                         </div>
                     </div>
                 </a>
@@ -471,14 +479,14 @@
                 <hr style="border: 1px solid #3D251E;">
 
                 <!-- Artikel 3 -->
-                <a href="<?= base_url('artikel4') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel4') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu untuk bahan pangan"
                             src="<?= base_url('uploads/foto4.png') ?>" />
                         <div>
                             <div style="font-size: 14px; color: black; margin-bottom: 8px;">30 Agustus 2024</div>
-                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">Raih Kecantikan Alami dengan Glowkoang: Manfaat....</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">Raih
+                                Kecantikan Alami dengan Glowkoang: Manfaat....</div>
                         </div>
                     </div>
                 </a>

@@ -122,43 +122,7 @@
             /* Jarak antar link */
         }
 
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                /* Tampilkan hamburger di mobile */
-            }
 
-            .nav-links {
-                display: none;
-                /* Sembunyikan menu di mobile secara default */
-                flex-direction: column;
-                /* Tampilkan menu dalam kolom */
-                position: absolute;
-                /* Posisi menu relatif terhadap navbar */
-                top: 60px;
-                /* Sesuaikan dengan tinggi navbar */
-                left: 0;
-                background-color: white;
-                /* Warna latar belakang menu */
-                width: 100%;
-                /* Lebar menu */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                /* Bayangan untuk menu */
-            }
-
-            .nav-links.active {
-                display: flex;
-                /* Tampilkan menu saat aktif */
-            }
-
-            .nav-links a {
-                margin: 10px 0;
-                /* Jarak antar link di menu mobile */
-                padding: 10px;
-                /* Padding untuk link */
-            }
-        }
 
 
         /*halaman beranda */
@@ -244,47 +208,7 @@
             line-height: 40px;
         }
 
-        @media (max-width: 768px) {
-            .Group65 {
-                height: 200px;
-                /* Mengurangi tinggi untuk tampilan mobile */
-                top: 40px;
-                /* Menyesuaikan posisi vertikal */
-            }
 
-            .Image4 {
-                height: 250px;
-                /* Mengurangi tinggi untuk tampilan mobile */
-                top: -40px;
-                /* Menyesuaikan posisi vertikal */
-            }
-
-            .Rectangle58 {
-                height: 250px;
-                /* Mengurangi tinggi untuk tampilan mobile */
-                top: -40px;
-                /* Menyesuaikan posisi vertikal */
-            }
-
-            .TentangGlowkoang {
-                top: 70px;
-                /* Menyesuaikan posisi vertikal untuk tampilan mobile */
-                left: 20%;
-                /* Mengatur posisi horizontal agar lebih responsif */
-                font-size: 100px;
-                /* Mengurangi ukuran font untuk tampilan mobile */
-                text-align: center;
-                /* Menyesuaikan teks agar lebih rapi di tengah */
-            }
-
-            .TentangGlowkoang .text-white,
-            .TentangGlowkoang .highlighted {
-                font-size: 25px;
-                /* Mengurangi ukuran font untuk teks di tampilan mobile */
-                line-height: 30px;
-                /* Mengurangi line-height untuk teks di tampilan mobile */
-            }
-        }
 
 
 
@@ -306,25 +230,7 @@
             background: #B6A99B;
         }
 
-        @media (max-width: 768px) {
-            .Group107 {
-                height: 300px;
-                /* Mengurangi tinggi untuk tampilan mobile */
-                top: 300px;
-                /* Menyesuaikan posisi vertikal */
-                left: 0;
-                /* Mengatur ulang posisi horizontal */
-            }
 
-            .Vector {
-                height: 60px;
-                /* Mengurangi tinggi untuk tampilan mobile */
-                top: -55px;
-                /* Menyesuaikan posisi vertikal */
-                left: 0;
-                /* Mengatur ulang posisi horizontal */
-            }
-        }
 
 
         .Group62 {
@@ -352,37 +258,7 @@
             border-radius: 15px;
         }
 
-        /* Mobile Styling */
-        @media (max-width: 768px) {
-            .Group62 {
-                height: auto;
-                /* Sesuaikan tinggi */
-                width: 100%;
-                /* Sesuaikan lebar agar mengikuti lebar layar */
-            }
 
-            .gambar1 {
-                width: 50%;
-                /* Sesuaikan lebar gambar pada mobile */
-                height: auto;
-                /* Tinggi otomatis mengikuti rasio */
-                margin-top: -40%;
-                margin-left: -10%;
-                border-radius: 10px;
-                /* Sesuaikan radius border */
-            }
-
-            .gambar2 {
-                width: 45%;
-                /* Sesuaikan lebar gambar pada mobile */
-                height: auto;
-                /* Tinggi otomatis mengikuti rasio */
-                margin-top: -50%;
-                margin-left: -5%;
-                border-radius: 10px;
-                /* Sesuaikan radius border */
-            }
-        }
 
 
 
@@ -402,20 +278,7 @@
             word-wrap: break-word;
         }
 
-        @media (max-width: 768px) {
-            .deskripsi {
-                width: 90%;
-                /* Full width on mobile */
-                font-size: 16px;
-                /* Smaller font size for mobile */
-                line-height: 30px;
-                /* Adjust line height */
-                top: 630px;
-                /* Adjust position */
-                left: 5%;
-                /* Center align */
-            }
-        }
+
 
         .Line11 {
             width: 146px;
@@ -426,14 +289,7 @@
             border: 3px solid black;
         }
 
-        @media (max-width: 768px) {
-            .Line11 {
-                top: 398px;
-                /* Adjust position */
-                left: 28%;
-                /* Center align */
-            }
-        }
+
 
         /* Tentang Kami styles */
         .TentangKami {
@@ -450,18 +306,11 @@
             word-wrap: break-word;
         }
 
-        @media (max-width: 768px) {
-            .TentangKami {
-                font-size: 20px;
-                /* Smaller font size for mobile */
-                top: 350px;
-                /* Adjust position */
-                left: 25%;
-                /* Center align */
-            }
+        /* Responsive Typography */
+        .TentangGlowkoang span,
+        .TentangKami {
+            font-size: 5vw;
         }
-
-
 
         /* Footer Styles */
         .footer {
@@ -512,8 +361,114 @@
             border-radius: 16px;
         }
 
-        /* Mobile Styling */
+        /* Media query untuk tampilan mobile (max-width: 768px) */
         @media (max-width: 768px) {
+
+            /* Navbar */
+            .hamburger {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                background-color: white;
+                width: 100%;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                padding: 10px;
+            }
+
+            /* Group and Elements */
+            .Group65 {
+                height: 200px;
+                top: 40px;
+            }
+
+            .Image4,
+            .Rectangle58 {
+                height: 250px;
+                top: -40px;
+            }
+
+            .TentangGlowkoang {
+                top: 70px;
+                left: 20%;
+                font-size: 100px;
+                text-align: center;
+            }
+
+            .TentangGlowkoang .text-white,
+            .TentangGlowkoang .highlighted {
+                font-size: 25px;
+                line-height: 30px;
+            }
+
+            .Group107 {
+                height: 300px;
+                top: 300px;
+                left: 0;
+            }
+
+            .Vector {
+                height: 60px;
+                top: -55px;
+                left: 0;
+            }
+
+            .Group62 {
+                height: auto;
+                width: 100%;
+            }
+
+            .gambar1,
+            .gambar2 {
+                height: auto;
+                border-radius: 10px;
+            }
+
+            .gambar1 {
+                width: 50%;
+                margin-top: -40%;
+                margin-left: -10%;
+            }
+
+            .gambar2 {
+                width: 45%;
+                margin-top: -50%;
+                margin-left: -5%;
+            }
+
+            .deskripsi {
+                width: 90%;
+                font-size: 16px;
+                line-height: 30px;
+                top: 630px;
+                left: 5%;
+            }
+
+            .Line11 {
+                top: 398px;
+                left: 28%;
+            }
+
+            .TentangKami {
+                font-size: 20px;
+                top: 350px;
+                left: 25%;
+            }
+
+            /* Footer */
             .footer {
                 padding: 20px;
                 text-align: center;
@@ -538,13 +493,6 @@
                 order: 2;
                 margin-top: 10px;
             }
-        }
-
-
-        /* Responsive Typography */
-        .TentangGlowkoang span,
-        .TentangKami {
-            font-size: 5vw;
         }
     </style>
 </head>

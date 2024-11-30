@@ -12,8 +12,8 @@
     <!-- Canonical Tag -->
     <link rel="canonical" href="<?= current_url() ?>">
     <style>
-         /* Resetting some default styles */
-         * {
+        /* Resetting some default styles */
+        * {
             box-sizing: border-box;
         }
 
@@ -122,43 +122,6 @@
             /* Jarak antar link */
         }
 
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                /* Tampilkan hamburger di mobile */
-            }
-
-            .nav-links {
-                display: none;
-                /* Sembunyikan menu di mobile secara default */
-                flex-direction: column;
-                /* Tampilkan menu dalam kolom */
-                position: absolute;
-                /* Posisi menu relatif terhadap navbar */
-                top: 60px;
-                /* Sesuaikan dengan tinggi navbar */
-                left: 0;
-                background-color: white;
-                /* Warna latar belakang menu */
-                width: 100%;
-                /* Lebar menu */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                /* Bayangan untuk menu */
-            }
-
-            .nav-links.active {
-                display: flex;
-                /* Tampilkan menu saat aktif */
-            }
-
-            .nav-links a {
-                margin: 10px 0;
-                /* Jarak antar link di menu mobile */
-                padding: 10px;
-                /* Padding untuk link */
-            }
-        }
 
 
         /*halaman beranda */
@@ -314,6 +277,64 @@
             border-radius: 16px;
         }
 
+        /* Artikel GlowKoang */
+        .artikel-glowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .artikel-glowkoang span:first-child {
+            color: white;
+        }
+
+        .artikel-glowkoang span:last-child {
+            color: #FF7B00;
+        }
+         /* Media query untuk tampilan mobile */
+         @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                /* Tampilkan hamburger di mobile */
+            }
+
+            .nav-links {
+                display: none;
+                /* Sembunyikan menu di mobile secara default */
+                flex-direction: column;
+                /* Tampilkan menu dalam kolom */
+                position: absolute;
+                /* Posisi menu relatif terhadap navbar */
+                top: 60px;
+                /* Sesuaikan dengan tinggi navbar */
+                left: 0;
+                background-color: white;
+                /* Warna latar belakang menu */
+                width: 100%;
+                /* Lebar menu */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                /* Bayangan untuk menu */
+            }
+
+            .nav-links.active {
+                display: flex;
+                /* Tampilkan menu saat aktif */
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                /* Jarak antar link di menu mobile */
+                padding: 10px;
+                /* Padding untuk link */
+            }
+        }
+
         /* Mobile Styling */
         @media (max-width: 768px) {
             .footer {
@@ -342,26 +363,6 @@
                 margin-top: 10px;
             }
         }
-        /* Artikel GlowKoang */
-.artikel-glowkoang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.artikel-glowkoang span:first-child {
-    color: white;
-}
-
-.artikel-glowkoang span:last-child {
-    color: #FF7B00;
-}
     </style>
 </head>
 
@@ -373,7 +374,7 @@
             <img src="uploads/logo.png" alt="Logo">
             <span>GlowKoang</span>
         </div>
-        
+
         <!-- Hamburger Menu -->
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Simbol hamburger -->
@@ -421,11 +422,17 @@
                     25 Agust 2024
                 </div>
                 <div style="color: black; font-size: 32px; font-family: Roboto; font-weight: 700; margin-top: 10px;">
-                Begini Urutan dan Cara Pakai body Serum dan Body Lotion yang Benar
+                    Begini Urutan dan Cara Pakai body Serum dan Body Lotion yang Benar
                 </div>
                 <div
                     style="color: black; font-size: 16px; font-family: Times New Roman; font-weight: 400; margin-top: 20px; line-height: 1.6;">
-                    <br> Apakah Anda ingin mendapatkan manfaat maksimal dari body serum dan body lotion? Artikel ini akan membahas urutan dan cara pemakaian yang benar untuk kedua produk perawatan kulit ini. Body serum, yang kaya akan nutrisi, berfungsi untuk meresap ke dalam lapisan kulit lebih dalam, sedangkan body lotion memberikan kelembapan dan perlindungan di permukaan kulit. Dengan mengikuti langkah-langkah yang tepat, Anda dapat memaksimalkan efek kedua produk ini, menjadikan kulit Anda lebih halus, lembap, dan bercahaya. Temukan tips dan trik untuk mendapatkan hasil terbaik dari rutinitas perawatan tubuh Anda!</br>
+                    <br> Apakah Anda ingin mendapatkan manfaat maksimal dari body serum dan body lotion? Artikel ini
+                    akan membahas urutan dan cara pemakaian yang benar untuk kedua produk perawatan kulit ini. Body
+                    serum, yang kaya akan nutrisi, berfungsi untuk meresap ke dalam lapisan kulit lebih dalam, sedangkan
+                    body lotion memberikan kelembapan dan perlindungan di permukaan kulit. Dengan mengikuti
+                    langkah-langkah yang tepat, Anda dapat memaksimalkan efek kedua produk ini, menjadikan kulit Anda
+                    lebih halus, lembap, dan bercahaya. Temukan tips dan trik untuk mendapatkan hasil terbaik dari
+                    rutinitas perawatan tubuh Anda!</br>
 
                 </div>
             </div>
@@ -441,14 +448,14 @@
                 </div>
 
                 <!-- Artikel 1 -->
-                <a href="<?= base_url('artikel1') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel1') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu banyak manfaat"
                             src="<?= base_url('uploads/foto1.png') ?>" />
                         <div>
                             <div style="font-size: 14px; color: black; margin-bottom: 8px;">02 Agust 2024</div>
-                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;"> Begini cara mencerahkan kulit secara alami....</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;"> Begini
+                                cara mencerahkan kulit secara alami....</div>
                         </div>
                     </div>
                 </a>
@@ -456,14 +463,14 @@
                 <hr style="border: 1px solid #3D251E;">
 
                 <!-- Artikel 2 -->
-                <a href="<?= base_url('artikel2') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel2') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu murni dari sapi"
                             src="<?= base_url('uploads/foto kedua.png') ?>" />
                         <div>
                             <div style="font-size: 14px; color: black; margin-bottom: 8px;">12 Agustus 2024</div>
-                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">  Ternyata, Ini 7 Kegunaan dan Manfaat Bengkoang...</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;"> Ternyata,
+                                Ini 7 Kegunaan dan Manfaat Bengkoang...</div>
                         </div>
                     </div>
                 </a>
@@ -471,14 +478,14 @@
                 <hr style="border: 1px solid #3D251E;">
 
                 <!-- Artikel 3 -->
-                <a href="<?= base_url('artikel4') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel4') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu untuk bahan pangan"
                             src="<?= base_url('uploads/foto4.png') ?>" />
                         <div>
                             <div style="font-size: 14px; color: black; margin-bottom: 8px;">30 Agustus 2024</div>
-                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">Raih Kecantikan Alami dengan Glowkoang: Manfaat....</div>
+                            <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">Raih
+                                Kecantikan Alami dengan Glowkoang: Manfaat....</div>
                         </div>
                     </div>
                 </a>

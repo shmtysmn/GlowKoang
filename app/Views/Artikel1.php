@@ -12,8 +12,8 @@
     <!-- Canonical Tag -->
     <link rel="canonical" href="<?= current_url() ?>">
     <style>
-       /* Resetting some default styles */
-       * {
+        /* Resetting some default styles */
+        * {
             box-sizing: border-box;
         }
 
@@ -122,43 +122,7 @@
             /* Jarak antar link */
         }
 
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                /* Tampilkan hamburger di mobile */
-            }
 
-            .nav-links {
-                display: none;
-                /* Sembunyikan menu di mobile secara default */
-                flex-direction: column;
-                /* Tampilkan menu dalam kolom */
-                position: absolute;
-                /* Posisi menu relatif terhadap navbar */
-                top: 60px;
-                /* Sesuaikan dengan tinggi navbar */
-                left: 0;
-                background-color: white;
-                /* Warna latar belakang menu */
-                width: 100%;
-                /* Lebar menu */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                /* Bayangan untuk menu */
-            }
-
-            .nav-links.active {
-                display: flex;
-                /* Tampilkan menu saat aktif */
-            }
-
-            .nav-links a {
-                margin: 10px 0;
-                /* Jarak antar link di menu mobile */
-                padding: 10px;
-                /* Padding untuk link */
-            }
-        }
 
 
         /*halaman beranda */
@@ -265,8 +229,8 @@
             color: #384F4B;
         }
 
-       /* Footer Styles */
-       .footer {
+        /* Footer Styles */
+        .footer {
             width: 100%;
             height: 105px;
             position: absolute;
@@ -314,6 +278,65 @@
             border-radius: 16px;
         }
 
+        /* Artikel GlowKoang */
+        .artikel-glowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .artikel-glowkoang span:first-child {
+            color: white;
+        }
+
+        .artikel-glowkoang span:last-child {
+            color: #FF7B00;
+        }
+
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                /* Tampilkan hamburger di mobile */
+            }
+
+            .nav-links {
+                display: none;
+                /* Sembunyikan menu di mobile secara default */
+                flex-direction: column;
+                /* Tampilkan menu dalam kolom */
+                position: absolute;
+                /* Posisi menu relatif terhadap navbar */
+                top: 60px;
+                /* Sesuaikan dengan tinggi navbar */
+                left: 0;
+                background-color: white;
+                /* Warna latar belakang menu */
+                width: 100%;
+                /* Lebar menu */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                /* Bayangan untuk menu */
+            }
+
+            .nav-links.active {
+                display: flex;
+                /* Tampilkan menu saat aktif */
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                /* Jarak antar link di menu mobile */
+                padding: 10px;
+                /* Padding untuk link */
+            }
+        }
+
         /* Mobile Styling */
         @media (max-width: 768px) {
             .footer {
@@ -342,27 +365,6 @@
                 margin-top: 10px;
             }
         }
-
-        /* Artikel GlowKoang */
-        .artikel-glowkoang {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 45%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 35px;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .artikel-glowkoang span:first-child {
-            color: white;
-        }
-
-        .artikel-glowkoang span:last-child {
-            color: #FF7B00;
-        }
     </style>
 </head>
 
@@ -374,7 +376,7 @@
             <img src="uploads/logo.png" alt="Logo">
             <span>GlowKoang</span>
         </div>
-        
+
         <!-- Hamburger Menu -->
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Simbol hamburger -->
@@ -467,8 +469,7 @@
                 <hr style="border: 1px solid #3D251E;">
 
                 <!-- Artikel 2 -->
-                <a href="<?= base_url('artikel3') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel3') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu murni dari sapi"
                             src="<?= base_url('uploads/foto ketiga.png') ?>" />
@@ -483,8 +484,7 @@
                 <hr style="border: 1px solid #3D251E;">
 
                 <!-- Artikel 3 -->
-                <a href="<?= base_url('artikel4') ?>"
-                    style="text-decoration: none; color: inherit;">
+                <a href="<?= base_url('artikel4') ?>" style="text-decoration: none; color: inherit;">
                     <div style="display: flex; gap: 15px; margin-top: 20px;">
                         <img style="width: 147px; height: auto;" alt="susu untuk bahan pangan"
                             src="<?= base_url('uploads/foto4.png') ?>" />

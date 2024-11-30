@@ -120,43 +120,6 @@
                 /* Jarak antar link */
             }
 
-            /* Media query untuk tampilan mobile */
-            @media (max-width: 768px) {
-                .hamburger {
-                    display: block;
-                    /* Tampilkan hamburger di mobile */
-                }
-
-                .nav-links {
-                    display: none;
-                    /* Sembunyikan menu di mobile secara default */
-                    flex-direction: column;
-                    /* Tampilkan menu dalam kolom */
-                    position: absolute;
-                    /* Posisi menu relatif terhadap navbar */
-                    top: 60px;
-                    /* Sesuaikan dengan tinggi navbar */
-                    left: 0;
-                    background-color: white;
-                    /* Warna latar belakang menu */
-                    width: 100%;
-                    /* Lebar menu */
-                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                    /* Bayangan untuk menu */
-                }
-
-                .nav-links.active {
-                    display: flex;
-                    /* Tampilkan menu saat aktif */
-                }
-
-                .nav-links a {
-                    margin: 10px 0;
-                    /* Jarak antar link di menu mobile */
-                    padding: 10px;
-                    /* Padding untuk link */
-                }
-            }
 
 
             /*halaman beranda */
@@ -655,6 +618,43 @@
             justify-content: space-around;
             flex-wrap: wrap;
         }
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
+                .hamburger {
+                    display: block;
+                    /* Tampilkan hamburger di mobile */
+                }
+
+                .nav-links {
+                    display: none;
+                    /* Sembunyikan menu di mobile secara default */
+                    flex-direction: column;
+                    /* Tampilkan menu dalam kolom */
+                    position: absolute;
+                    /* Posisi menu relatif terhadap navbar */
+                    top: 60px;
+                    /* Sesuaikan dengan tinggi navbar */
+                    left: 0;
+                    background-color: white;
+                    /* Warna latar belakang menu */
+                    width: 100%;
+                    /* Lebar menu */
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                    /* Bayangan untuk menu */
+                }
+
+                .nav-links.active {
+                    display: flex;
+                    /* Tampilkan menu saat aktif */
+                }
+
+                .nav-links a {
+                    margin: 10px 0;
+                    /* Jarak antar link di menu mobile */
+                    padding: 10px;
+                    /* Padding untuk link */
+                }
+            }
         </style>
     </head>
 

@@ -122,43 +122,7 @@
             /* Jarak antar link */
         }
 
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                /* Tampilkan hamburger di mobile */
-            }
-
-            .nav-links {
-                display: none;
-                /* Sembunyikan menu di mobile secara default */
-                flex-direction: column;
-                /* Tampilkan menu dalam kolom */
-                position: absolute;
-                /* Posisi menu relatif terhadap navbar */
-                top: 60px;
-                /* Sesuaikan dengan tinggi navbar */
-                left: 0;
-                background-color: white;
-                /* Warna latar belakang menu */
-                width: 100%;
-                /* Lebar menu */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                /* Bayangan untuk menu */
-            }
-
-            .nav-links.active {
-                display: flex;
-                /* Tampilkan menu saat aktif */
-            }
-
-            .nav-links a {
-                margin: 10px 0;
-                /* Jarak antar link di menu mobile */
-                padding: 10px;
-                /* Padding untuk link */
-            }
-        }
+       
 
 
         /*halaman beranda */
@@ -313,6 +277,64 @@
             height: 100%;
             border-radius: 16px;
         }
+        
+        /* Artikel GlowKoang */
+        .artikel-glowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .artikel-glowkoang span:first-child {
+            color: white;
+        }
+
+        .artikel-glowkoang span:last-child {
+            color: #FF7B00;
+        }
+         /* Media query untuk tampilan mobile */
+         @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                /* Tampilkan hamburger di mobile */
+            }
+
+            .nav-links {
+                display: none;
+                /* Sembunyikan menu di mobile secara default */
+                flex-direction: column;
+                /* Tampilkan menu dalam kolom */
+                position: absolute;
+                /* Posisi menu relatif terhadap navbar */
+                top: 60px;
+                /* Sesuaikan dengan tinggi navbar */
+                left: 0;
+                background-color: white;
+                /* Warna latar belakang menu */
+                width: 100%;
+                /* Lebar menu */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                /* Bayangan untuk menu */
+            }
+
+            .nav-links.active {
+                display: flex;
+                /* Tampilkan menu saat aktif */
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                /* Jarak antar link di menu mobile */
+                padding: 10px;
+                /* Padding untuk link */
+            }
+        }
 
         /* Mobile Styling */
         @media (max-width: 768px) {
@@ -343,26 +365,6 @@
             }
         }
 
-        /* Artikel GlowKoang */
-        .artikel-glowkoang {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 45%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 35px;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .artikel-glowkoang span:first-child {
-            color: white;
-        }
-
-        .artikel-glowkoang span:last-child {
-            color: #FF7B00;
-        }
     </style>
 </head>
 

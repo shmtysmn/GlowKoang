@@ -121,43 +121,7 @@
             /* Jarak antar link */
         }
 
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                /* Tampilkan hamburger di mobile */
-            }
 
-            .nav-links {
-                display: none;
-                /* Sembunyikan menu di mobile secara default */
-                flex-direction: column;
-                /* Tampilkan menu dalam kolom */
-                position: absolute;
-                /* Posisi menu relatif terhadap navbar */
-                top: 60px;
-                /* Sesuaikan dengan tinggi navbar */
-                left: 0;
-                background-color: white;
-                /* Warna latar belakang menu */
-                width: 100%;
-                /* Lebar menu */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                /* Bayangan untuk menu */
-            }
-
-            .nav-links.active {
-                display: flex;
-                /* Tampilkan menu saat aktif */
-            }
-
-            .nav-links a {
-                margin: 10px 0;
-                /* Jarak antar link di menu mobile */
-                padding: 10px;
-                /* Padding untuk link */
-            }
-        }
 
 
         /*halaman beranda */
@@ -229,8 +193,6 @@
             margin-top: 20px;
         }
 
-
-
         /* Footer Styles */
         .footer {
             width: 100%;
@@ -279,13 +241,51 @@
             height: 100%;
             border-radius: 16px;
         }
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                /* Tampilkan hamburger di mobile */
+            }
+
+            .nav-links {
+                display: none;
+                /* Sembunyikan menu di mobile secara default */
+                flex-direction: column;
+                /* Tampilkan menu dalam kolom */
+                position: absolute;
+                /* Posisi menu relatif terhadap navbar */
+                top: 60px;
+                /* Sesuaikan dengan tinggi navbar */
+                left: 0;
+                background-color: white;
+                /* Warna latar belakang menu */
+                width: 100%;
+                /* Lebar menu */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                /* Bayangan untuk menu */
+            }
+
+            .nav-links.active {
+                display: flex;
+                /* Tampilkan menu saat aktif */
+            }
+
+            .nav-links a {
+                margin: 10px 0;
+                /* Jarak antar link di menu mobile */
+                padding: 10px;
+                /* Padding untuk link */
+            }
+        }
 
         /* Mobile Styling */
         @media (max-width: 768px) {
+
             .footer {
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
+                top: 2430px;
             }
 
             .social-icons {
@@ -355,17 +355,18 @@
     </div>
 
     <div class="Group103">
-    <?php foreach ($aktivitas as $item): ?>
-        <div class="activity-item">
-            <img src="<?= base_url('uploads/' . $item['foto_aktivitas']) ?>" alt="<?= $item['nama_aktivitas_in'] ?>" />
-            <div class="activity-title">
-                <a href="<?= base_url('/aktivitas' . $item['id_aktivitas']) ?>" class="btn btn-link" style="text-decoration: none; color: inherit;">
-                    <?= strtoupper($item['nama_aktivitas_in']) ?>
-                </a>
+        <?php foreach ($aktivitas as $item): ?>
+            <div class="activity-item">
+                <img src="<?= base_url('uploads/' . $item['foto_aktivitas']) ?>" alt="<?= $item['nama_aktivitas_in'] ?>" />
+                <div class="activity-title">
+                    <a href="<?= base_url('/aktivitas' . $item['id_aktivitas']) ?>" class="btn btn-link"
+                        style="text-decoration: none; color: inherit;">
+                        <?= strtoupper($item['nama_aktivitas_in']) ?>
+                    </a>
+                </div>
             </div>
-        </div>
-    <?php endforeach; ?>
-</div>
+        <?php endforeach; ?>
+    </div>
 
 
 

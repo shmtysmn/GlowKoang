@@ -121,43 +121,7 @@
             /* Jarak antar link */
         }
 
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                /* Tampilkan hamburger di mobile */
-            }
-
-            .nav-links {
-                display: none;
-                /* Sembunyikan menu di mobile secara default */
-                flex-direction: column;
-                /* Tampilkan menu dalam kolom */
-                position: absolute;
-                /* Posisi menu relatif terhadap navbar */
-                top: 60px;
-                /* Sesuaikan dengan tinggi navbar */
-                left: 0;
-                background-color: white;
-                /* Warna latar belakang menu */
-                width: 100%;
-                /* Lebar menu */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                /* Bayangan untuk menu */
-            }
-
-            .nav-links.active {
-                display: flex;
-                /* Tampilkan menu saat aktif */
-            }
-
-            .nav-links a {
-                margin: 10px 0;
-                /* Jarak antar link di menu mobile */
-                padding: 10px;
-                /* Padding untuk link */
-            }
-        }
+        
 
         /*halaman beranda */
         .hero-section {
@@ -313,76 +277,7 @@
             cursor: pointer;
         }
 
-        @media (max-width: 768px) {
-            .Produk {
-                width: 100%;
-                height: 10%;
-                position: relative;
-            }
-
-            .Ellipse2 {
-                width: 180px;
-                height: 220px;
-                left: 85px;
-                top: 240px;
-            }
-
-            .Group65 {
-                width: 100%;
-                height: auto;
-                left: 0;
-                top: 20px;
-            }
-
-            .Image4 {
-                width: 100%;
-                height: 165px;
-                top: -30px;
-            }
-
-            .Rectangle58 {
-                width: 100%;
-                height: 165px;
-                top: -30px;
-            }
-
-            .RemovebgPreview {
-                width: 150px;
-                height: 200px;
-                left: 90px;
-                top: 280px;
-                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-                border-radius: 15px;
-            }
-
-            .pelembab {
-                left: 22%;
-                top: 180px;
-                font-size: 25px;
-                line-height: 35px;
-            }
-
-            .deskproduk {
-                width: 78%;
-                left: 5%;
-                top: 508px;
-                font-size: 20px;
-                line-height: 35px;
-            }
-
-            .ProdukGlowkoang {
-                top: 20%;
-                left: 50%;
-                font-size: 22px;
-            }
-            .back-button {
-                left: 83%;
-                top: 109%;
-                transform: translate(-50%, -50%);
-                font-size: 16px;
-                padding: 10px 20px;
-            }
-        }
+       
 
 
         /* Footer Styles */
@@ -434,34 +329,127 @@
             border-radius: 16px;
         }
 
-        /* Mobile Styling */
-        @media (max-width: 768px) {
-            .footer {
-                padding: 20px;
-                text-align: center;
-                flex-direction: column;
-                top: 1950px;
-            }
+      /* Media query untuk tampilan mobile */
+@media (max-width: 768px) {
+    /* Navbar */
+    .hamburger {
+        display: block;
+    }
 
-            .social-icons {
-                order: 1;
-                margin-bottom: 10px;
-                margin-left: -55%;
-                margin-top: -5%;
-            }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-            .link {
-                width: 32px;
-                height: 32px;
-            }
+    .nav-links.active {
+        display: flex;
+    }
 
-            .copyright-text {
-                font-size: 10px;
-                color: #FDFCE8;
-                order: 2;
-                margin-top: 10px;
-            }
-        }
+    .nav-links a {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    /* Produk */
+    .Produk {
+        width: 100%;
+        height: 10%;
+        position: relative;
+    }
+
+    .Ellipse2 {
+        width: 180px;
+        height: 220px;
+        left: 85px;
+        top: 240px;
+    }
+
+    .Group65 {
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 20px;
+    }
+
+    .Image4,
+    .Rectangle58 {
+        width: 100%;
+        height: 165px;
+        top: -30px;
+    }
+
+    .RemovebgPreview {
+        width: 150px;
+        height: 200px;
+        left: 90px;
+        top: 280px;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+
+    .CitraBodyLotion {
+        left: 22%;
+        top: 180px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .deskproduk {
+        width: 78%;
+        left: 5%;
+        top: 508px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .ProdukGlowkoang {
+        top: 20%;
+        left: 50%;
+        font-size: 22px;
+    }
+
+    .back-button {
+        left: 83%;
+        top: 109%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px;
+        text-align: center;
+        flex-direction: column;
+        top: 900px;
+    }
+
+    .social-icons {
+        order: 1;
+        margin-bottom: 10px;
+        margin-left: -55%;
+        margin-top: -5%;
+    }
+
+    .link {
+        width: 32px;
+        height: 32px;
+    }
+
+    .copyright-text {
+        font-size: 10px;
+        color: #FDFCE8;
+        order: 2;
+        margin-top: 10px;
+    }
+}
+
     </style>
 </head>
 
