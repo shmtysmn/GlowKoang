@@ -122,7 +122,7 @@
             /* Jarak antar link */
         }
 
-        
+
 
 
         /*halaman beranda */
@@ -158,6 +158,45 @@
             line-height: 1.5;
             margin: 20px 0;
         }
+
+        /* bagian desk */
+        .deskakt {
+            width: 795px;
+            position: absolute;
+            left: 57px;
+            top: 651px;
+            text-align: justify;
+            color: black;
+            font-size: 33px;
+            font-family: Petrona;
+            font-weight: 300;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+        .fotouji {
+            width: 317px;
+            height: 408px;
+            position: absolute;
+            left: 989px;
+            top: 536px;
+        }
+
+        .UjiKelayakanProduk {
+            width: 536px;
+            height: 58px;
+            position: absolute;
+            left: 159px;
+            top: 536px;
+            text-align: justify;
+            color: black;
+            font-size: 45px;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
 
         /* Footer Styles */
         .footer {
@@ -207,8 +246,9 @@
             height: 100%;
             border-radius: 16px;
         }
-         /* Media query untuk tampilan mobile */
-         @media (max-width: 768px) {
+
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
             .hamburger {
                 display: block;
                 /* Tampilkan hamburger di mobile */
@@ -242,6 +282,45 @@
                 /* Jarak antar link di menu mobile */
                 padding: 10px;
                 /* Padding untuk link */
+            }
+        }
+
+        
+
+        @media (max-width: 480px) {
+            .deskakt {
+                font-size: 23px;
+                /* Ukuran font lebih kecil */
+                width: 90%;
+                /* Memaksimalkan lebar layar */
+                left: 5%;
+                /* Mengatur ulang posisi horizontal */
+                top: 537px;
+                /* Menyesuaikan posisi vertikal */
+            }
+
+            .fotouji {
+                width: 226px;
+                /* Lebar gambar lebih kecil */
+                height: 233px;
+                /* Sesuaikan tinggi */
+                left: 50%;
+                /* Menyelaraskan gambar ke tengah */
+                top: 267px;
+                /* Menyesuaikan posisi vertikal */
+                transform: translateX(-50%);
+                /* Menyelaraskan gambar di tengah */
+            }
+
+            .UjiKelayakanProduk {
+                font-size: 24px;
+                /* Ukuran font lebih kecil */
+                width: 90%;
+                /* Memaksimalkan lebar layar */
+                left: 38%;
+                /* Menyesuaikan posisi horizontal */
+                top: 197px;
+                /* Menyesuaikan posisi vertikal */
             }
         }
 
@@ -308,35 +387,36 @@
         </div>
     </div>
 
-    <div class="Aktifitas" style="width: 100%; height: 1000px; position: relative; background: white">
-        <img class="Image4" style="width: 100%; height: 258px; left: 0px; top: -80px; position: absolute"
+    <div class="Aktifitas" style="width: 100%; height: 1000px; position: relative; background: white;">
+        <img class="Image4" style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px;"
             alt="gambar background" src="uploads/Group 117.png" />
         <div class="Rectangle58"
-            style="width: 100%; height: 258px; left: 0px; top: -80px; position: absolute; background: rgba(0, 0, 0, 0.40)">
+            style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px; background: rgba(0, 0, 0, 0.40);">
+        </div>
+
+        <div class="Rectangle68"
+            style="width: 100%; height: 635px; position: absolute; left: 17px; top: 372px; background: white;">
+        </div>
+
+        <div class="deskakt">
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+        </div>
+
+        <img class="fotouji" alt="gambar uji" src="uploads/promo.png" />
+
+        <div class="UjiKelayakanProduk">
+            Promo
+        </div>
+
+
+        <div class="AktivitasGlowkoang"
+            style="display: flex; justify-content: center; align-items: center; position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
+            <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
         </div>
     </div>
-    <div class="Rectangle68"
-        style="width: 1400px; height: 635px; left: 17px; top: 372px; position: absolute; background: white"></div>
-    <div class="deskakt"
-        style="width: 795px; left: 57px; top: 651px; position: absolute; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-    </div>
 
-    </div>
-    <img class="fotouji" style="width: 317px; height: 408px; left: 989px; top: 536px; position: absolute"
-        alt="gambar uji" src="uploads/promo.png" />
-    <div class="UjiKelayakanProduk"
-        style="width: 536px; height: 58px; left: 159px; top: 536px; position: absolute; text-align: justify; color: black; font-size: 45px; font-family: Poppins; font-weight: 500; line-height: 57.60px; word-wrap: break-word">
-        Promo Produk</div>
-    </div>
-    </div>
-    </div>
-    <div class="AktivitasGlowkoang"
-        style="display: flex; justify-content: center; align-items: center; position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
-        <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
-    </div>
-    </div>
     <!-- Footer -->
     <div class="footer">
         <div class="copyright-text">

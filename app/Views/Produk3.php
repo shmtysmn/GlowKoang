@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produk3</title>
+    <title>Produk1</title>
     <meta name="title" content="GlowKoang - Produk">
     <meta name="description"
         content="Jelajahi rangkaian produk kecantikan GlowKoang yang terbuat dari bengkoang berkualitas tinggi. Temukan krim wajah, serum, dan produk perawatan kulit lainnya yang membantu menjaga kesehatan dan kecantikan kulit Anda secara alami. Dapatkan produk yang sesuai dengan kebutuhan kulit Anda dan rasakan manfaatnya!">
@@ -121,7 +121,7 @@
             /* Jarak antar link */
         }
 
-        
+
 
         /*halaman beranda */
         .hero-section {
@@ -157,6 +157,92 @@
             margin: 20px 0;
         }
 
+        .Produk {
+            width: 1442px;
+            height: 1006px;
+            position: relative;
+        }
+
+        .Rectangle79 {
+            width: 1442px;
+            /* height: 100px; */
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: white;
+        }
+
+        .Ellipse2 {
+            width: 367px;
+            height: 452px;
+            position: absolute;
+            left: 80px;
+            top: 349px;
+            background: #D8CBC4;
+            border-radius: 9999px;
+        }
+
+        .Group65 {
+            width: 1440px;
+            height: 245px;
+            position: absolute;
+            left: 2px;
+            top: 50px;
+        }
+
+        .Image4 {
+            width: 1530px;
+            height: 258px;
+            position: absolute;
+            left: 0;
+            top: -50px;
+        }
+
+        .Rectangle58 {
+            width: 1530px;
+            height: 258px;
+            position: absolute;
+            left: 0;
+            top: -50px;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .RemovebgPreview {
+            width: 258px;
+            height: 369px;
+            position: absolute;
+            left: 154px;
+            top: 391px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+        }
+
+        .CitraBodyLotion {
+            position: absolute;
+            left: 542px;
+            top: 376px;
+            color: black;
+            font-size: 45px;
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+        .deskproduk {
+            position: absolute;
+            left: 551px;
+            top: 480px;
+            text-align: justify;
+            color: black;
+            font-size: 30px;
+            font-family: Petrona, serif;
+            font-weight: 200;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+        /* produk glowkoang */
         .ProdukGlowkoang {
             display: flex;
             justify-content: center;
@@ -166,105 +252,19 @@
             left: 50%;
             transform: translate(-50%, -50%);
             font-size: 35px;
-            font-family: 'Poppins', sans-serif;
+            font-family: Poppins, sans-serif;
         }
 
-        .text-white {
+        .white-text {
             color: white;
         }
 
-        .text-orange {
+        .orange-text {
             color: #FF7B00;
         }
 
-
-        .Group65 {
-            width: 1440px;
-            height: 245px;
-            left: 2px;
-            top: 50px;
-            position: absolute;
-        }
-
-        .Image4 {
-            width: 1530px;
-            height: 258px;
-            left: 0px;
-            top: -50px;
-            position: absolute;
-        }
-
-        .Rectangle58 {
-            width: 1530px;
-            height: 258px;
-            left: 0px;
-            top: -50px;
-            position: absolute;
-            background: rgba(0, 0, 0, 0.40);
-        }
-
-        .Produk {
-            width: 1442px;
-            height: 1006px;
-            position: relative;
-        }
-
-        .Rectangle79 {
-            width: 1442px;
-            height: 1006px;
-            left: 0px;
-            top: 0px;
-            position: absolute;
-            background: white;
-        }
-
-        .Ellipse2 {
-            width: 367px;
-            height: 452px;
-            left: 80px;
-            top: 349px;
-            position: absolute;
-            background: #D8CBC4;
-            border-radius: 9999px;
-        }
-
-        .RemovebgPreview {
-            width: 258px;
-            height: 369px;
-            left: 154px;
-            top: 391px;
-            position: absolute;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 25px;
-        }
-
-        .pelembab {
-            left: 542px;
-            top: 376px;
-            position: absolute;
-            color: black;
-            font-size: 45px;
-            font-family: Poppins;
-            font-weight: 400;
-            line-height: 57.60px;
-            word-wrap: break-word;
-        }
-
-        .deskproduk {
-            width: 806px;
-            left: 551px;
-            top: 480px;
-            position: absolute;
-            text-align: justify;
-            color: black;
-            font-size: 30px;
-            font-family: Petrona;
-            font-weight: 200;
-            line-height: 57.60px;
-            word-wrap: break-word;
-        }
-
-        .backButton {
+        /* Style untuk tombol kembali */
+        .back-button {
             padding: 15px 30px;
             background-color: #EDB27A;
             border: none;
@@ -277,7 +277,7 @@
             cursor: pointer;
         }
 
-       
+
 
 
         /* Footer Styles */
@@ -286,7 +286,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 970px;
+            top: 1020px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -329,127 +329,126 @@
             border-radius: 16px;
         }
 
-      /* Media query untuk tampilan mobile */
-@media (max-width: 768px) {
-    /* Navbar */
-    .hamburger {
-        display: block;
-    }
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: white;
-        width: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
+            /* Navbar */
+            .hamburger {
+                display: block;
+            }
 
-    .nav-links.active {
-        display: flex;
-    }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                background-color: white;
+                width: 100%;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
 
-    .nav-links a {
-        margin: 10px 0;
-        padding: 10px;
-    }
+            .nav-links.active {
+                display: flex;
+            }
 
-    /* Produk */
-    .Produk {
-        width: 100%;
-        height: 10%;
-        position: relative;
-    }
+            .nav-links a {
+                margin: 10px 0;
+                padding: 10px;
+            }
 
-    .Ellipse2 {
-        width: 180px;
-        height: 220px;
-        left: 85px;
-        top: 240px;
-    }
+            /* Produk */
+            .Produk {
+                width: 100%;
+                height: 10%;
+                position: relative;
+            }
 
-    .Group65 {
-        width: 100%;
-        height: auto;
-        left: 0;
-        top: 20px;
-    }
+            .Ellipse2 {
+                width: 180px;
+                height: 220px;
+                left: 85px;
+                top: 240px;
+            }
 
-    .Image4,
-    .Rectangle58 {
-        width: 100%;
-        height: 165px;
-        top: -30px;
-    }
+            .Group65 {
+                width: 100%;
+                height: auto;
+                left: 0;
+                top: 20px;
+            }
 
-    .RemovebgPreview {
-        width: 150px;
-        height: 200px;
-        left: 90px;
-        top: 280px;
-        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-        border-radius: 15px;
-    }
+            .Image4,
+            .Rectangle58 {
+                width: 100%;
+                height: 165px;
+                top: -30px;
+            }
 
-    .CitraBodyLotion {
-        left: 22%;
-        top: 180px;
-        font-size: 25px;
-        line-height: 35px;
-    }
+            .RemovebgPreview {
+                width: 150px;
+                height: 200px;
+                left: 90px;
+                top: 280px;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+            }
 
-    .deskproduk {
-        width: 78%;
-        left: 5%;
-        top: 508px;
-        font-size: 20px;
-        line-height: 35px;
-    }
+            .CitraBodyLotion {
+                left: 22%;
+                top: 180px;
+                font-size: 25px;
+                line-height: 35px;
+            }
 
-    .ProdukGlowkoang {
-        top: 20%;
-        left: 50%;
-        font-size: 22px;
-    }
+            .deskproduk {
+                left: 0%;
+                top: 508px;
+                font-size: 20px;
+                line-height: 35px;
+                padding: 5% 5%;
+            }
 
-    .back-button {
-        left: 83%;
-        top: 109%;
-        transform: translate(-50%, -50%);
-        font-size: 16px;
-        padding: 10px 20px;
-    }
+            .ProdukGlowkoang {
+                top: 20%;
+                left: 50%;
+                font-size: 22px;
+            }
 
-    /* Footer */
-    .footer {
-        padding: 20px;
-        text-align: center;
-        flex-direction: column;
-        top: 900px;
-    }
+            .back-button {
+                left: 83%;
+                transform: translate(-50%, -50%);
+                font-size: 16px;
+                padding: 10px 20px;
+            }
 
-    .social-icons {
-        order: 1;
-        margin-bottom: 10px;
-        margin-left: -55%;
-        margin-top: -5%;
-    }
+            /* Footer */
+            .footer {
+                padding: 20px;
+                text-align: center;
+                flex-direction: column;
+                top: 900px;
+            }
 
-    .link {
-        width: 32px;
-        height: 32px;
-    }
+            .social-icons {
+                order: 1;
+                margin-bottom: 10px;
+                margin-left: -55%;
+                margin-top: -5%;
+            }
 
-    .copyright-text {
-        font-size: 10px;
-        color: #FDFCE8;
-        order: 2;
-        margin-top: 10px;
-    }
-}
+            .link {
+                width: 32px;
+                height: 32px;
+            }
 
+            .copyright-text {
+                font-size: 10px;
+                color: #FDFCE8;
+                order: 2;
+                margin-top: 10px;
+            }
+        }
     </style>
 </head>
 
@@ -487,25 +486,35 @@
     </div>
 
     <body>
-        <div class="Produk">
-            <div class="Rectangle79"></div>
+        <div class="Produk" >
+            <div class="Rectangle79" ></div>
             <div class="Ellipse2"></div>
             <div class="Group65">
                 <img class="Image4" alt="gambar background" src="uploads/y.png" />
-                <div class="Rectangle58"></div>
+                <div class="Rectangle58" ></div>
             </div>
-            <img class="RemovebgPreview" alt="gambar citra" src="uploads/pelembab.png" />
-            <div class="pelembab">Pelembab</div>
-            <div class="deskproduk">
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia
+
+
+            <img class="RemovebgPreview" alt="gambar citra" src="uploads/pelembab.png"/>
+
+            <div class="CitraBodyLotion">
+                Viva Pelembab
             </div>
-            <button onclick="history.back()" class="backButton">Kembali</button>
+
+            <div class="deskproduk" >
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse
+                cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia.
+            </div>
         </div>
 
-        <div class="ProdukGlowkoang">
-            <span class="text-white">Produk &nbsp;</span><span class="text-orange">GlowKoang</span>
+        <button onclick="history.back()" class="back-button" style="margin-top: 20px;">Kembali</button>
+
+        <div class="ProdukGlowkoang" style="display: flex; align-items: center; font-size: 35px; font-family: Poppins;">
+            <span class="white-text" style="color: white;">Produk &nbsp;</span>
+            <span class="orange-text" style="color: #FF7B00;">GlowKoang</span>
         </div>
 
         <!-- Footer -->

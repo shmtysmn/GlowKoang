@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produk2</title>
+    <title>Produk1</title>
     <meta name="title" content="GlowKoang - Produk">
     <meta name="description"
         content="Jelajahi rangkaian produk kecantikan GlowKoang yang terbuat dari bengkoang berkualitas tinggi. Temukan krim wajah, serum, dan produk perawatan kulit lainnya yang membantu menjaga kesehatan dan kecantikan kulit Anda secara alami. Dapatkan produk yang sesuai dengan kebutuhan kulit Anda dan rasakan manfaatnya!">
@@ -157,27 +157,6 @@
             margin: 20px 0;
         }
 
-        .ProdukGlowkoang {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 35px;
-            font-family: Poppins, sans-serif;
-        }
-
-        .text-white {
-            color: white;
-        }
-
-        .text-orange {
-            color: #FF7B00;
-        }
-
-
         .Produk {
             width: 1442px;
             height: 1006px;
@@ -186,7 +165,7 @@
 
         .Rectangle79 {
             width: 1442px;
-            height: 1006px;
+            /* height: 100px; */
             position: absolute;
             left: 0;
             top: 0;
@@ -228,22 +207,20 @@
             background: rgba(0, 0, 0, 0.4);
         }
 
-        /* Style untuk RemovebgPreview */
         .RemovebgPreview {
             width: 258px;
             height: 369px;
+            position: absolute;
             left: 154px;
             top: 391px;
-            position: absolute;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 25px;
         }
 
-        /* Style untuk teks produk */
-        .ovale {
+        .CitraBodyLotion {
+            position: absolute;
             left: 542px;
             top: 376px;
-            position: absolute;
             color: black;
             font-size: 45px;
             font-family: Poppins, sans-serif;
@@ -252,19 +229,38 @@
             word-wrap: break-word;
         }
 
-        /* Style untuk deskripsi produk */
         .deskproduk {
-            width: 806px;
+            position: absolute;
             left: 551px;
             top: 480px;
-            position: absolute;
             text-align: justify;
             color: black;
             font-size: 30px;
-            font-family: Petrona, sans-serif;
+            font-family: Petrona, serif;
             font-weight: 200;
             line-height: 57.6px;
             word-wrap: break-word;
+        }
+
+        /* produk glowkoang */
+        .ProdukGlowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: Poppins, sans-serif;
+        }
+
+        .white-text {
+            color: white;
+        }
+
+        .orange-text {
+            color: #FF7B00;
         }
 
         /* Style untuk tombol kembali */
@@ -284,14 +280,13 @@
 
 
 
-
         /* Footer Styles */
         .footer {
             width: 100%;
             height: 105px;
             position: absolute;
             left: 0;
-            top: 970px;
+            top: 1020px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -407,11 +402,11 @@
             }
 
             .deskproduk {
-                width: 78%;
-                left: 5%;
+                left: 0%;
                 top: 508px;
                 font-size: 20px;
                 line-height: 35px;
+                padding: 5% 5%;
             }
 
             .ProdukGlowkoang {
@@ -422,7 +417,6 @@
 
             .back-button {
                 left: 83%;
-                top: 109%;
                 transform: translate(-50%, -50%);
                 font-size: 16px;
                 padding: 10px 20px;
@@ -492,31 +486,37 @@
     </div>
 
     <body>
-        <div class="Produk">
-            <div class="Rectangle79"></div>
+        <div class="Produk" >
+            <div class="Rectangle79" ></div>
             <div class="Ellipse2"></div>
             <div class="Group65">
                 <img class="Image4" alt="gambar background" src="uploads/y.png" />
-                <div class="Rectangle58"></div>
-            </div>
-            <img class="RemovebgPreview" alt="gambar citra" src="uploads/ovale.png" />
-            <div class="ovale">Ovale Bengkoang</div>
-            <div class="deskproduk">
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia
-            </div>
-            <button onclick="history.back()" class="back-button">Kembali</button>
-
-            <div class="ProdukGlowkoang">
-                <span class="text-white">Produk &nbsp;</span><span class="text-orange">GlowKoang</span>
+                <div class="Rectangle58" ></div>
             </div>
 
 
+            <img class="RemovebgPreview" alt="gambar citra" src="uploads/ovale.png"/>
+
+            <div class="CitraBodyLotion">
+                Ovale Bengkoang
+            </div>
+
+            <div class="deskproduk" >
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse
+                cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia.
+            </div>
         </div>
+
+        <button onclick="history.back()" class="back-button" style="margin-top: 20px;">Kembali</button>
+
+        <div class="ProdukGlowkoang" style="display: flex; align-items: center; font-size: 35px; font-family: Poppins;">
+            <span class="white-text" style="color: white;">Produk &nbsp;</span>
+            <span class="orange-text" style="color: #FF7B00;">GlowKoang</span>
         </div>
-        </div>
-        </div>
+
         <!-- Footer -->
         <div class="footer">
             <div class="copyright-text">

@@ -122,7 +122,7 @@
             /* Jarak antar link */
         }
 
-       
+
 
 
         /*halaman beranda */
@@ -159,8 +159,47 @@
             margin: 20px 0;
         }
 
-       /* Footer Styles */
-       .footer {
+        /* bagian desk */
+        .deskakt {
+            width: 795px;
+            position: absolute;
+            left: 57px;
+            top: 651px;
+            text-align: justify;
+            color: black;
+            font-size: 33px;
+            font-family: Petrona;
+            font-weight: 300;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+        .fotouji {
+            width: 317px;
+            height: 408px;
+            position: absolute;
+            left: 989px;
+            top: 536px;
+        }
+
+        .UjiKelayakanProduk {
+            width: 536px;
+            height: 58px;
+            position: absolute;
+            left: 159px;
+            top: 536px;
+            text-align: justify;
+            color: black;
+            font-size: 45px;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 57.6px;
+            word-wrap: break-word;
+        }
+
+
+        /* Footer Styles */
+        .footer {
             width: 100%;
             height: 105px;
             position: absolute;
@@ -207,8 +246,9 @@
             height: 100%;
             border-radius: 16px;
         }
-         /* Media query untuk tampilan mobile */
-         @media (max-width: 768px) {
+
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
             .hamburger {
                 display: block;
                 /* Tampilkan hamburger di mobile */
@@ -242,6 +282,45 @@
                 /* Jarak antar link di menu mobile */
                 padding: 10px;
                 /* Padding untuk link */
+            }
+        }
+
+        
+
+        @media (max-width: 480px) {
+            .deskakt {
+                font-size: 23px;
+                /* Ukuran font lebih kecil */
+                width: 90%;
+                /* Memaksimalkan lebar layar */
+                left: 5%;
+                /* Mengatur ulang posisi horizontal */
+                top: 537px;
+                /* Menyesuaikan posisi vertikal */
+            }
+
+            .fotouji {
+                width: 226px;
+                /* Lebar gambar lebih kecil */
+                height: 233px;
+                /* Sesuaikan tinggi */
+                left: 50%;
+                /* Menyelaraskan gambar ke tengah */
+                top: 267px;
+                /* Menyesuaikan posisi vertikal */
+                transform: translateX(-50%);
+                /* Menyelaraskan gambar di tengah */
+            }
+
+            .UjiKelayakanProduk {
+                font-size: 24px;
+                /* Ukuran font lebih kecil */
+                width: 90%;
+                /* Memaksimalkan lebar layar */
+                left: 38%;
+                /* Menyesuaikan posisi horizontal */
+                top: 197px;
+                /* Menyesuaikan posisi vertikal */
             }
         }
 
@@ -319,25 +398,23 @@
             style="width: 100%; height: 635px; position: absolute; left: 17px; top: 372px; background: white;">
         </div>
 
-        <div class="deskakt"
-            style="width: 795px; position: absolute; left: 57px; top: 651px; text-align: justify; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.6px; word-wrap: break-word;">
+        <div class="deskakt">
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
         </div>
 
-        <img class="fotouji" style="width: 317px; height: 408px; position: absolute; left: 989px; top: 536px;"
-            alt="gambar uji" src="uploads/testi.png" />
+        <img class="fotouji" alt="gambar uji" src="uploads/testi.png" />
 
-        <div class="UjiKelayakanProduk"
-            style="width: 536px; height: 58px; position: absolute; left: 159px; top: 536px; text-align: justify; color: black; font-size: 45px; font-family: Poppins; font-weight: 500; line-height: 57.6px; word-wrap: break-word;">
+        <div class="UjiKelayakanProduk">
             Testimoni
         </div>
 
+
         <div class="AktivitasGlowkoang"
-        style="display: flex; justify-content: center; align-items: center; position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
-        <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
-    </div>
+            style="display: flex; justify-content: center; align-items: center; position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
+            <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
+        </div>
     </div>
 
     <!-- Footer -->

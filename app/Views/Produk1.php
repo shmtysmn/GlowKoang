@@ -165,7 +165,7 @@
 
         .Rectangle79 {
             width: 1442px;
-            height: 1006px;
+            /* height: 100px; */
             position: absolute;
             left: 0;
             top: 0;
@@ -230,7 +230,6 @@
         }
 
         .deskproduk {
-            width: 806px;
             position: absolute;
             left: 551px;
             top: 480px;
@@ -403,11 +402,11 @@
             }
 
             .deskproduk {
-                width: 78%;
-                left: 5%;
+                left: 0%;
                 top: 508px;
                 font-size: 20px;
                 line-height: 35px;
+                padding: 5% 5%;
             }
 
             .ProdukGlowkoang {
@@ -418,7 +417,6 @@
 
             .back-button {
                 left: 83%;
-                top: 109%;
                 transform: translate(-50%, -50%);
                 font-size: 16px;
                 padding: 10px 20px;

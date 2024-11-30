@@ -195,54 +195,6 @@
             margin: 20px 0;
         }
 
-        /* Footer Styles */
-        .footer {
-            width: 100%;
-            height: 105px;
-            position: absolute;
-            left: 0;
-            top: 1020px;
-            background: rgba(222, 202, 182, 0.90);
-            border-top: 1px solid rgba(255, 255, 255, 0.17);
-        }
-
-        .copyright-text {
-            width: auto;
-            height: auto;
-            position: absolute;
-            left: 50%;
-            top: 39.25px;
-            transform: translateX(-50%);
-            color: #FDFCE8;
-            font-size: 13px;
-            font-family: 'DM Sans', sans-serif;
-            font-weight: 400;
-            line-height: 19.50px;
-            word-wrap: break-word;
-        }
-
-        /* Responsive social icons */
-        .social-icons {
-            position: absolute;
-            top: 33px;
-            left: 85%;
-            display: flex;
-            gap: 10px;
-        }
-
-        .link {
-            width: 32px;
-            height: 32px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .link img {
-            width: 100%;
-            height: 100%;
-            border-radius: 16px;
-        }
 
         /* Artikel GlowKoang */
         .artikel-glowkoang {
@@ -265,28 +217,35 @@
             color: #FF7B00;
         }
 
-        .rectangle20 {
-            width: 215px;
-            height: 75px;
+        .rectangle-artikel {
+            width: 15vw;
+            /* Lebar 15% dari viewport */
+            height: 10vh;
+            /* Tinggi 10% dari viewport */
             position: absolute;
-            left: 130px;
-            top: 320px;
+            left: 10vw;
+            /* Posisi horizontal dari viewport */
+            top: 38vh;
+            /* Posisi vertikal dari viewport */
             background: white;
-            border-radius: 10px;
-            border: 5px solid #DDB79B;
-        }
-
-        .artikel-terbaru {
-            position: absolute;
-            left: 150px;
-            top: 330px;
+            border-radius: 1vw;
+            /* Border-radius fleksibel */
+            border: 0.5vw solid #DDB79B;
+            /* Ketebalan border fleksibel */
             color: black;
-            font-size: 25px;
+            font-size: 1.5vw;
+            /* Ukuran font fleksibel */
             font-family: 'Inter', sans-serif;
             font-weight: 700;
-            line-height: 57.6px;
-            word-wrap: break-word;
+            line-height: 1.5;
+            /* Line-height tetap proporsional */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
+
+
 
         /* bagian artikel */
         .articles {
@@ -296,7 +255,7 @@
             justify-content: center;
             flex-wrap: wrap;
             position: relative;
-            margin-top: 25%;
+            margin-top: 313px;
         }
 
         .article {
@@ -336,7 +295,63 @@
             text-decoration: none !important;
         }
 
+        /* Footer Styles */
+        .footer {
+            width: 100%;
+            height: auto;
+            /* Sesuaikan dengan konten */
+            position: relative;
+            background: rgba(222, 202, 182, 0.90);
+            border-top: 1px solid rgba(255, 255, 255, 0.17);
+            padding: 20px 15px;
+            top: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            /* Agar fleksibel */
+            justify-content: space-between;
+            /* Menyebar isi */
+            align-items: center;
+            /* Rata tengah vertikal */
+        }
 
+        /* Copyright Text */
+        .copyright-text {
+            color: #FDFCE8;
+            font-size: 13px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 400;
+            line-height: 19.50px;
+            text-align: center;
+            /* Untuk teks responsif */
+            flex: 1 1 100%;
+            /* Default memenuhi seluruh baris */
+            margin-bottom: 10px;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex: 1 1 auto;
+            /* Fleksibel sesuai konten */
+        }
+
+        /* Link Styles */
+        .link {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link img {
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+        }
 
         /* Responsive Mobile */
         @media (max-width: 768px) {
@@ -354,23 +369,14 @@
                 }
             }
 
-            /* Rectangle20 */
-            .rectangle20 {
-                width: 150px;
-                height: 60px;
-                left: 20%;
-                top: 280px;
-                transform: translateX(-50%);
+            .rectangle-artikel {
+                width: 120px;
+                height: 50px;
+                top: 285px;
+                font-size: 15px;
+                line-height: 40px;
             }
 
-            /* Artikel Terbaru */
-            .artikel-terbaru {
-                left: 20%;
-                top: 290px;
-                font-size: 17px;
-                line-height: 45px;
-                transform: translateX(-50%);
-            }
 
             /* Articles */
             .articles {
@@ -403,14 +409,14 @@
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
-                top: 1700px;
+                top: 40px;
             }
 
             .social-icons {
                 order: 1;
                 margin-bottom: 10px;
-                margin-left: -55%;
-                margin-top: -5%;
+                margin-left: 1%;
+                margin-top: 3%;
             }
 
             .link {
@@ -469,8 +475,8 @@
         </div>
     </div>
 
-    <div class="rectangle20"></div>
-    <div class="artikel-terbaru">Artikel Terbaru</div>
+    <div class="rectangle-artikel">Artikel Terbaru</div>
+
 
     <!-- Artikel GlowKoang -->
     <div class="artikel-glowkoang">
