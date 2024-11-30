@@ -330,127 +330,127 @@
             border-radius: 16px;
         }
 
-       /* Media query untuk tampilan mobile */
-@media (max-width: 768px) {
-    /* Navbar */
-    .hamburger {
-        display: block;
-    }
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: white;
-        width: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
+            /* Navbar */
+            .hamburger {
+                display: block;
+            }
 
-    .nav-links.active {
-        display: flex;
-    }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                background-color: white;
+                width: 100%;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
 
-    .nav-links a {
-        margin: 10px 0;
-        padding: 10px;
-    }
+            .nav-links.active {
+                display: flex;
+            }
 
-    /* Produk */
-    .Produk {
-        width: 100%;
-        height: 10%;
-        position: relative;
-    }
+            .nav-links a {
+                margin: 10px 0;
+                padding: 10px;
+            }
 
-    .Ellipse2 {
-        width: 180px;
-        height: 220px;
-        left: 85px;
-        top: 240px;
-    }
+            /* Produk */
+            .Produk {
+                width: 100%;
+                height: 10%;
+                position: relative;
+            }
 
-    .Group65 {
-        width: 100%;
-        height: auto;
-        left: 0;
-        top: 20px;
-    }
+            .Ellipse2 {
+                width: 180px;
+                height: 220px;
+                left: 85px;
+                top: 240px;
+            }
 
-    .Image4,
-    .Rectangle58 {
-        width: 100%;
-        height: 165px;
-        top: -30px;
-    }
+            .Group65 {
+                width: 100%;
+                height: auto;
+                left: 0;
+                top: 20px;
+            }
 
-    .RemovebgPreview {
-        width: 150px;
-        height: 200px;
-        left: 90px;
-        top: 280px;
-        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-        border-radius: 15px;
-    }
+            .Image4,
+            .Rectangle58 {
+                width: 100%;
+                height: 165px;
+                top: -30px;
+            }
 
-    .CitraBodyLotion {
-        left: 22%;
-        top: 180px;
-        font-size: 25px;
-        line-height: 35px;
-    }
+            .RemovebgPreview {
+                width: 150px;
+                height: 200px;
+                left: 90px;
+                top: 280px;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+            }
 
-    .deskproduk {
-        width: 78%;
-        left: 5%;
-        top: 508px;
-        font-size: 20px;
-        line-height: 35px;
-    }
+            .CitraBodyLotion {
+                left: 22%;
+                top: 180px;
+                font-size: 25px;
+                line-height: 35px;
+            }
 
-    .ProdukGlowkoang {
-        top: 20%;
-        left: 50%;
-        font-size: 22px;
-    }
+            .deskproduk {
+                width: 78%;
+                left: 5%;
+                top: 508px;
+                font-size: 20px;
+                line-height: 35px;
+            }
 
-    .back-button {
-        left: 83%;
-        top: 109%;
-        transform: translate(-50%, -50%);
-        font-size: 16px;
-        padding: 10px 20px;
-    }
+            .ProdukGlowkoang {
+                top: 20%;
+                left: 50%;
+                font-size: 22px;
+            }
 
-    /* Footer */
-    .footer {
-        padding: 20px;
-        text-align: center;
-        flex-direction: column;
-        top: 900px;
-    }
+            .back-button {
+                left: 83%;
+                top: 109%;
+                transform: translate(-50%, -50%);
+                font-size: 16px;
+                padding: 10px 20px;
+            }
 
-    .social-icons {
-        order: 1;
-        margin-bottom: 10px;
-        margin-left: -55%;
-        margin-top: -5%;
-    }
+            /* Footer */
+            .footer {
+                padding: 20px;
+                text-align: center;
+                flex-direction: column;
+                top: 900px;
+            }
 
-    .link {
-        width: 32px;
-        height: 32px;
-    }
+            .social-icons {
+                order: 1;
+                margin-bottom: 10px;
+                margin-left: -55%;
+                margin-top: -5%;
+            }
 
-    .copyright-text {
-        font-size: 10px;
-        color: #FDFCE8;
-        order: 2;
-        margin-top: 10px;
-    }
-}
+            .link {
+                width: 32px;
+                height: 32px;
+            }
 
+            .copyright-text {
+                font-size: 10px;
+                color: #FDFCE8;
+                order: 2;
+                margin-top: 10px;
+            }
+        }
     </style>
 </head>
 
@@ -488,22 +488,22 @@
     </div>
 
     <body>
-        <div class="Produk" style="position: relative;">
-            <div class="Rectangle79" style="/* add styles here */"></div>
-            <div class="Group65" style="position: relative;">
-                <img class="Image4" alt="gambar background" src="uploads/y.png" style="/* add styles here */" />
-                <div class="Rectangle58" style="/* add styles here */"></div>
+        <div class="Produk" >
+            <div class="Rectangle79" ></div>
+            <div class="Ellipse2"></div>
+            <div class="Group65">
+                <img class="Image4" alt="gambar background" src="uploads/y.png" />
+                <div class="Rectangle58" ></div>
             </div>
 
-            <div class="Ellipse2" style="/* add styles here */"> </div>
 
-            <img class="RemovebgPreview" alt="gambar citra" src="uploads/citra.png" style="/* add styles here */" />
+            <img class="RemovebgPreview" alt="gambar citra" src="uploads/citra.png"/>
 
-            <div class="CitraBodyLotion" style="font-size: 24px; font-weight: bold; /* adjust styles as needed */">
+            <div class="CitraBodyLotion">
                 Citra Body Lotion
             </div>
 
-            <div class="deskproduk" style="text-align: justify; color: black; font-size: 16px; line-height: 1.5;">
+            <div class="deskproduk" >
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                 esse
                 cillum
