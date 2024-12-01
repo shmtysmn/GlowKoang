@@ -159,12 +159,12 @@
             margin: 20px 0;
         }
 
-        /* bagian desk */
-        .deskakt {
+         /* bagian desk */
+         .deskakt {
             width: 795px;
             position: absolute;
             left: 57px;
-            top: 651px;
+            top: 395px;
             text-align: justify;
             color: black;
             font-size: 33px;
@@ -179,15 +179,15 @@
             height: 408px;
             position: absolute;
             left: 989px;
-            top: 536px;
+            top: 320px;
         }
 
-        .UjiKelayakanProduk {
+        .Promo {
             width: 536px;
             height: 58px;
             position: absolute;
             left: 159px;
-            top: 536px;
+            top: 273px;
             text-align: justify;
             color: black;
             font-size: 45px;
@@ -204,7 +204,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 1020px;
+            top: 872px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -375,28 +375,16 @@
             <a href="/produk">Produk</a>
             <a href="/aktivitas">Aktivitas</a>
             <a href="/kontak">Kontak</a>
-
-            <!-- Dropdown Bahasa -->
-            <div class="dropdown">
-                <button class="dropbtn">Bahasa ▼</button>
-                <div class="dropdown-content">
-                    <a href="in">Indonesia</a>
-                    <a href="en">English</a>
-                </div>
-            </div>
         </div>
     </div>
 
-    <div class="Aktifitas" style="width: 100%; height: 1000px; position: relative; background: white;">
+    <div class="Aktifitas" style="width: 100%; height: 800px; position: relative; background: white;">
         <img class="Image4" style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px;"
             alt="gambar background" src="uploads/Group 117.png" />
         <div class="Rectangle58"
             style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px; background: rgba(0, 0, 0, 0.40);">
         </div>
 
-        <div class="Rectangle68"
-            style="width: 100%; height: 635px; position: absolute; left: 17px; top: 372px; background: white;">
-        </div>
 
         <div class="deskakt">
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -406,7 +394,7 @@
 
         <img class="fotouji" alt="gambar uji" src="uploads/promo.png" />
 
-        <div class="UjiKelayakanProduk">
+        <div class="Promo">
             Promo
         </div>
 

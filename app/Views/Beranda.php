@@ -680,8 +680,6 @@
                 <a href="/produk">Produk</a>
                 <a href="/aktivitas">Aktivitas</a>
                 <a href="/kontak">Kontak</a>
-
-
             </div>
         </div>
 

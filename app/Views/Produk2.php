@@ -121,18 +121,6 @@
             /* Jarak antar link */
         }
 
-
-
-        /*halaman beranda */
-        .hero-section {
-            position: relative;
-            width: 100%;
-            height: 826px;
-            background-image: url('uploads/bg.png');
-            background-size: cover;
-            background-position: center;
-        }
-
         /* Logo styles */
         .logo {
             position: absolute;
@@ -158,13 +146,13 @@
         }
 
         .Produk {
-            width: 1442px;
+            width: 100%;
             height: 1006px;
             position: relative;
         }
 
         .Rectangle79 {
-            width: 1442px;
+            width: 100%;
             /* height: 100px; */
             position: absolute;
             left: 0;
@@ -176,22 +164,22 @@
             width: 367px;
             height: 452px;
             position: absolute;
-            left: 80px;
+            left: 20px;
             top: 349px;
             background: #D8CBC4;
             border-radius: 9999px;
         }
 
         .Group65 {
-            width: 1440px;
+            width: 100%;
             height: 245px;
             position: absolute;
-            left: 2px;
+            
             top: 50px;
         }
 
         .Image4 {
-            width: 1530px;
+            width: 100%;
             height: 258px;
             position: absolute;
             left: 0;
@@ -199,7 +187,7 @@
         }
 
         .Rectangle58 {
-            width: 1530px;
+            width: 100%;
             height: 258px;
             position: absolute;
             left: 0;
@@ -211,7 +199,7 @@
             width: 258px;
             height: 369px;
             position: absolute;
-            left: 154px;
+            left: 75px;
             top: 391px;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 25px;
@@ -231,8 +219,8 @@
 
         .deskproduk {
             position: absolute;
-            left: 551px;
-            top: 480px;
+            left: 451px;
+            top: 350px;
             text-align: justify;
             color: black;
             font-size: 30px;
@@ -240,6 +228,7 @@
             font-weight: 200;
             line-height: 57.6px;
             word-wrap: break-word;
+            padding: 10% 5%;
         }
 
         /* produk glowkoang */
@@ -272,13 +261,10 @@
             font-size: 20px;
             color: black;
             position: absolute;
-            left: 1200px;
+            left: 1100px;
             top: 800px;
             cursor: pointer;
         }
-
-
-
 
         /* Footer Styles */
         .footer {
@@ -417,6 +403,7 @@
 
             .back-button {
                 left: 83%;
+                /* top: %; */
                 transform: translate(-50%, -50%);
                 font-size: 16px;
                 padding: 10px 20px;
@@ -473,15 +460,6 @@
             <a href="/produk">Produk</a>
             <a href="/aktivitas">Aktivitas</a>
             <a href="/kontak">Kontak</a>
-
-            <!-- Dropdown Bahasa -->
-            <div class="dropdown">
-                <button class="dropbtn">Bahasa ▼</button>
-                <div class="dropdown-content">
-                    <a href="in">Indonesia</a>
-                    <a href="en">English</a>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -498,7 +476,7 @@
             <img class="RemovebgPreview" alt="gambar citra" src="uploads/ovale.png"/>
 
             <div class="CitraBodyLotion">
-                Ovale Bengkoang
+                Ovale Facial Lotion
             </div>
 
             <div class="deskproduk" >

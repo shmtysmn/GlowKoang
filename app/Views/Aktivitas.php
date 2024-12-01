@@ -332,15 +332,6 @@
             <a href="/produk" id="produks">Produk</a>
             <a href="/aktivitas" id="aktivitas">Aktivitas</a>
             <a href="/kontak" id="contact">Kontak</a>
-
-            <!-- Dropdown Bahasa -->
-            <div class="dropdown">
-                <button class="dropbtn">Bahasa ▼</button>
-                <div class="dropdown-content">
-                    <a href="in">Indonesia</a>
-                    <a href="en">English</a>
-                </div>
-            </div>
         </div>
     </div>
 
