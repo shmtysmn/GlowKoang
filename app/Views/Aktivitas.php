@@ -158,48 +158,61 @@
             margin: 20px 0;
         }
 
-        /* box */
+        /* Aktivitas Section */
         .Group103 {
-            height: 494px;
-            left: 4px;
-            top: 295px;
-            position: relative;
-            width: 100%;
             display: flex;
-            justify-content: space-around;
+            gap: 50px;
+            /* Jarak antar kartu */
+            justify-content: center;
             flex-wrap: wrap;
+            position: relative;
+            margin-top: 263px;
+            /* Atur margin untuk memberi ruang */
         }
 
         .activity-item {
-            width: 314px;
-            height: 494px;
+            width: 272px;
+            /* Sama seperti artikel */
+            height: 425px;
+            /* Sama seperti artikel */
             background: #D8CBC4;
-            border-radius: 30px;
-            margin: 10px;
+            border-radius: 10px;
+            padding: 15px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: center;
             position: relative;
         }
 
         .activity-item img {
-            width: 200px;
-            height: 285px;
-            margin-top: 20px;
+            width: 100%;
+            /* Mengisi penuh elemen */
+            height: 290px;
+            /* Sama seperti gambar di artikel */
+            border-radius: 15px;
+            object-fit: cover;
         }
 
         .activity-title {
-            font-size: 27px;
-            font-family: Petrona;
             color: black;
-            margin-top: 20px;
+            font-size: 20px;
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            line-height: 30px;
+            margin-top: 15px;
+            text-decoration: none;
         }
+
 
         /* Footer Styles */
         .footer {
             width: 100%;
-            height: 105px;
-            position: absolute;
+            height: 83px;
+            position: relative;
             left: 0;
-            top: 1020px;
+            top: 30px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -241,6 +254,7 @@
             height: 100%;
             border-radius: 16px;
         }
+
         @media (max-width: 768px) {
             .hamburger {
                 display: block;
@@ -278,20 +292,21 @@
             }
         }
 
-        /* Mobile Styling */
+        /* Responsiveness for Mobile */
         @media (max-width: 768px) {
 
+            /* Footer */
             .footer {
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
-                top: 2430px;
+                top: 40px;
             }
 
             .social-icons {
                 order: 1;
                 margin-bottom: 10px;
-                margin-left: -55%;
+                margin-left: -52%;
                 margin-top: -5%;
             }
 
@@ -301,7 +316,8 @@
             }
 
             .copyright-text {
-                font-size: 10px;
+        font-size: 12px; /* Mengurangi ukuran font */
+        line-height: 18px;
                 color: #FDFCE8;
                 order: 2;
                 margin-top: 10px;
@@ -348,11 +364,12 @@
     <div class="Group103">
         <?php foreach ($aktivitas as $item): ?>
             <div class="activity-item">
-                <img src="<?= base_url('uploads/' . $item['foto_aktivitas']) ?>" alt="<?= $item['nama_aktivitas_in'] ?>" />
+                <img src="<?= base_url('uploads/' . esc($item['foto_aktivitas'])) ?>"
+                    alt="<?= esc($item['nama_aktivitas_in']) ?>" />
                 <div class="activity-title">
-                    <a href="<?= base_url('/aktivitas' . $item['id_aktivitas']) ?>" class="btn btn-link"
+                    <a href="<?= base_url('aktivitas/' . esc($item['slug'])) ?>" class="btn btn-link"
                         style="text-decoration: none; color: inherit;">
-                        <?= strtoupper($item['nama_aktivitas_in']) ?>
+                        <?= esc(strtoupper($item['nama_aktivitas_in'])) ?>
                     </a>
                 </div>
             </div>

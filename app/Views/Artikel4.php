@@ -168,7 +168,7 @@
 
         .banner img {
             width: 100%;
-            height: auto;
+            height: 135px;
         }
 
         .banner-overlay {
@@ -235,7 +235,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 1360px;
+            /* top: 1360px; */
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -338,11 +338,26 @@
 
         /* Mobile Styling */
         @media (max-width: 768px) {
+            
+      div[style*="display: flex; justify-content: space-between;"] {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+      }
+
+      div[style*="flex: 2; padding-right: 20px;"] {
+        padding-right: 0;
+        margin-bottom: 20px;
+      }
+
+      div[style*="flex: 1;"] {
+        margin-top: 0;
+      }
             .footer {
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
-                top: 1789px;
+                top: 2322px;
             }
 
             .social-icons {
@@ -394,9 +409,12 @@
         </div>
     </div>
 
-    <!-- Banner Section -->
-    <div class="banner">
+     <!-- Banner Section -->
+     <div class="banner">
         <img src="uploads/Group 117.png" alt="banner glowkoang" />
+        <div class="Rectangle58"
+            style="width: 100%; height: 136px; position: absolute; left: 0; top: -1px; background: rgba(0, 0, 0, 0.40);">
+        </div>
         <div class="artikel-glowkoang">
             <span>Artikel &nbsp;</span><span>GlowKoang</span>
         </div>

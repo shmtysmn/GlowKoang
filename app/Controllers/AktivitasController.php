@@ -21,4 +21,16 @@ class AktivitasController extends BaseController
         dd($data); // Hapus ini setelah pengujian selesai
         return view('aktivitas', $data); // Ganti dengan view yang sesuai
     }
+    public function detail($slug)
+    {
+        $aktivitasModel = new AktivitasModel();
+        $aktivitas = $aktivitasModel->where('slug', $slug)->first();
+
+        if (!$aktivitas) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Aktivitas tidak ditemukan");
+        }
+
+        return view('detail_aktivitas', ['aktivitas' => $aktivitas]);
+    }
+
 }

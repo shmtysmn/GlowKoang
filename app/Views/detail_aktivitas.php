@@ -164,13 +164,13 @@
             width: 795px;
             position: absolute;
             left: 57px;
-            top: 395px;
+            top: 307px;
             text-align: justify;
             color: black;
-            font-size: 33px;
+            font-size: 25px;
             font-family: Petrona;
             font-weight: 300;
-            line-height: 57.6px;
+            line-height: 37.6px;
             word-wrap: break-word;
         }
 
@@ -183,14 +183,14 @@
         }
 
         .UjiKelayakanProduk {
-            width: 536px;
+            width: 180px;
             height: 58px;
             position: absolute;
-            left: 159px;
-            top: 273px;
+            left: 419px;
+            top: 220px;
             text-align: justify;
             color: black;
-            font-size: 45px;
+            font-size: 36px;
             font-family: Poppins;
             font-weight: 500;
             line-height: 57.6px;
@@ -204,7 +204,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 960px;
+            top: 142%;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -313,9 +313,9 @@
             }
 
             .UjiKelayakanProduk {
-                font-size: 24px;
+                font-size: 30px;
                 /* Ukuran font lebih kecil */
-                width: 90%;
+                /* width: 90%; */
                 /* Memaksimalkan lebar layar */
                 left: 38%;
                 /* Menyesuaikan posisi horizontal */
@@ -330,6 +330,7 @@
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
+                top: 265%;
             }
 
             .social-icons {
@@ -359,7 +360,7 @@
     <div class="navbar">
         <!-- Logo Section -->
         <div class="logo">
-            <img src="uploads/logo.png" alt="Logo">
+            <img src="/uploads/logo.png" alt="Logo">
             <span>GlowKoang</span>
         </div>
         <!-- Hamburger Menu -->
@@ -380,22 +381,16 @@
 
     <div class="Aktifitas" style="width: 100%; height: 800px; position: relative; background: white;">
         <img class="Image4" style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px;"
-            alt="gambar background" src="uploads/Group 117.png" />
+            alt="gambar background" src="/uploads/Group 117.png" />
         <div class="Rectangle58"
             style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px; background: rgba(0, 0, 0, 0.40);">
         </div>
 
-        <div class="deskakt">
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum
-            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
-        </div>
-
-        <img class="fotouji" alt="gambar uji" src="uploads/uji.png" />
-
-        <div class="UjiKelayakanProduk">
-            Uji Kelayakan Produk
-        </div>
+        <div class="aktivitas-container">
+        <img class="fotouji" alt="<?= $aktivitas['nama_aktivitas_in']; ?>" src="<?= base_url('uploads/' . $aktivitas['foto_aktivitas']); ?>" />
+        <div class="UjiKelayakanProduk"><?= $aktivitas['nama_aktivitas_in']; ?></div>
+        <div class="deskakt"><?= $aktivitas['deskripsi_aktivitas_in']; ?></div>
+    </div>
 
 
         <div class="AktivitasGlowkoang"
@@ -414,22 +409,22 @@
         <div class="social-icons">
             <div class="link">
                 <a href="https://www.facebook.com/" target="_blank">
-                    <img src="uploads/link.png" alt="Icon 1">
+                    <img src="/uploads/link.png" alt="Icon 1">
                 </a>
             </div>
             <div class="link">
                 <a href="https://twitter.com/" target="_blank">
-                    <img src="uploads/twitter.png" alt="Icon 2">
+                    <img src="/uploads/twitter.png" alt="Icon 2">
                 </a>
             </div>
             <div class="link">
                 <a href="https://www.instagram.com/" target="_blank">
-                    <img src="uploads/instagram.png" alt="Icon 3">
+                    <img src="/uploads/instagram.png" alt="Icon 3">
                 </a>
             </div>
             <div class="link">
                 <a href="https://www.youtube.com/" target="_blank">
-                    <img src="uploads/youtube.png" alt="Icon 4">
+                    <img src="/uploads/youtube.png" alt="Icon 4">
                 </a>
             </div>
         </div>

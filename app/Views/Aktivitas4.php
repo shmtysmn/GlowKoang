@@ -182,7 +182,7 @@
             top: 320px;
         }
 
-        .Promo {
+        .UjiKelayakanProduk {
             width: 536px;
             height: 58px;
             position: absolute;
@@ -204,7 +204,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 872px;
+            top: 960px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -385,7 +385,6 @@
             style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px; background: rgba(0, 0, 0, 0.40);">
         </div>
 
-
         <div class="deskakt">
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum
@@ -394,7 +393,7 @@
 
         <img class="fotouji" alt="gambar uji" src="uploads/promo.png" />
 
-        <div class="Promo">
+        <div class="UjiKelayakanProduk">
             Promo
         </div>
 

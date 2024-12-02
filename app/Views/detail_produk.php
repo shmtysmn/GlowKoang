@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentang Kami</title>
-    <meta name="title" content="GlowKoang - Tentang">
+    <title>Produk1</title>
+    <meta name="title" content="GlowKoang - Produk">
     <meta name="description"
-        content="Pelajari lebih lanjut tentang GlowKoang, brand kecantikan yang mengutamakan bahan alami dari bengkoang. Kami berkomitmen untuk memberikan produk perawatan kulit yang berkualitas tinggi, aman, dan efektif untuk membantu Anda mendapatkan kulit yang sehat dan bercahaya. Temukan perjalanan kami dan visi di balik setiap produk yang kami tawarkan.">
+        content="Jelajahi rangkaian produk kecantikan GlowKoang yang terbuat dari bengkoang berkualitas tinggi. Temukan krim wajah, serum, dan produk perawatan kulit lainnya yang membantu menjaga kesehatan dan kecantikan kulit Anda secara alami. Dapatkan produk yang sesuai dengan kebutuhan kulit Anda dan rasakan manfaatnya!">
 
     <!-- Canonical Tag -->
     <link rel="canonical" href="<?= current_url() ?>">
-
     <style>
         /* Resetting some default styles */
         * {
@@ -122,19 +121,6 @@
             /* Jarak antar link */
         }
 
-
-
-
-        /*halaman beranda */
-        .hero-section {
-            position: relative;
-            width: 100%;
-            height: 826px;
-            background-image: url('uploads/bg.png');
-            background-size: cover;
-            background-position: center;
-        }
-
         /* Logo styles */
         .logo {
             position: absolute;
@@ -159,157 +145,125 @@
             margin: 20px 0;
         }
 
-        /* Group and Image styles */
+        .Produk {
+            width: 100%;
+            height: 1006px;
+            position: relative;
+        }
+
+        .Rectangle79 {
+            width: 100%;
+            /* height: 100px; */
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: white;
+        }
+
+        .Ellipse2 {
+            width: 367px;
+            height: 452px;
+            position: absolute;
+            left: 20px;
+            top: 349px;
+            background: #D8CBC4;
+            border-radius: 9999px;
+        }
+
         .Group65 {
             width: 100%;
-            height: 249px;
+            height: 245px;
             position: absolute;
-            top: 57px;
-            left: 0px;
+
+            top: 50px;
         }
 
         .Image4 {
             width: 100%;
-            height: 270px;
+            height: 258px;
             position: absolute;
-            top: -80px;
-            left: 0px;
+            left: 0;
+            top: -50px;
         }
 
         .Rectangle58 {
             width: 100%;
-            height: 269px;
+            height: 258px;
             position: absolute;
-            top: -80px;
-            left: 0px;
-            background: rgba(0, 0, 0, 0.40);
+            left: 0;
+            top: -50px;
+            background: rgba(0, 0, 0, 0.4);
         }
 
-        .TentangGlowkoang {
+        .RemovebgPreview {
+            width: 258px;
+            height: 369px;
             position: absolute;
-            top: 100px;
-            left: 40%;
-            font-family: Poppins;
-            font-weight: 400;
-            word-wrap: break-word;
+            left: 75px;
+            top: 391px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
         }
 
-        .TentangGlowkoang .text-white {
-            color: white;
-            font-size: 35px;
-            /* Sesuaikan ukuran font */
-            line-height: 40px;
-        }
-
-        .TentangGlowkoang .highlighted {
-            color: #FF7B00;
-            font-size: 35px;
-            /* Sesuaikan ukuran font */
-            line-height: 40px;
-        }
-
-
-
-
-
-        /* Group and Image styles */
-        .Group107 {
-            width: 100%;
-            height: 500px;
+        .CitraBodyLotion {
             position: absolute;
-            top: 301px;
-            left: -3px;
-        }
-
-        .Vector {
-            width: 100%;
-            height: 80px;
-            position: absolute;
-            top: 246px;
-            /* left: 3px; */
-            background: #B6A99B;
-        }
-
-
-
-
-        .Group62 {
-            height: 291.77px;
-            position: absolute;
-            top: 267px;
-            left: 59px;
-        }
-
-        .gambar1 {
-            width: 308.94px;
-            height: 170.08px;
-            position: absolute;
-            top: 70%;
-            left: 0px;
-            border-radius: 15px;
-        }
-
-        .gambar2 {
-            width: 261.32px;
-            height: 190.82px;
-            position: absolute;
-            top: 80%;
-            left: 144.68px;
-            border-radius: 15px;
-        }
-
-
-
-
-
-        /* Deskripsi styles */
-        .deskripsi {
-            width: 832px;
-            height: auto;
-            position: absolute;
-            top: 550px;
-            left: 533px;
-            text-align: justify;
+            left: 542px;
+            top: 376px;
             color: black;
-            font-family: Petrona;
-            font-size: 20px;
-            font-weight: 300;
-            line-height: 50px;
-            word-wrap: break-word;
-        }
-
-
-
-        .Line11 {
-            width: 146px;
-            height: 0px;
-            position: absolute;
-            top: 475px;
-            left: 905px;
-            border: 3px solid black;
-        }
-
-
-
-        /* Tentang Kami styles */
-        .TentangKami {
-            width: auto;
-            height: auto;
-            position: absolute;
-            top: 420px;
-            left: 890px;
-            color: black;
-            font-family: Inika;
-            font-size: 30px !important;
+            font-size: 45px;
+            font-family: Poppins, sans-serif;
             font-weight: 400;
             line-height: 57.6px;
             word-wrap: break-word;
         }
 
-        /* Responsive Typography */
-        .TentangGlowkoang span,
-        .TentangKami {
-            font-size: 5vw;
+        .deskproduk {
+            position: absolute;
+            left: 451px;
+            top: 350px;
+            text-align: justify;
+            color: black;
+            font-size: 25px;
+            font-family: Petrona, serif;
+            font-weight: 200;
+            line-height: 37.6px;
+            word-wrap: break-word;
+            padding: 10% 5%;
+        }
+
+        /* produk glowkoang */
+        .ProdukGlowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 7%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: Poppins, sans-serif;
+        }
+
+        .white-text {
+            color: white;
+        }
+
+        .orange-text {
+            color: #FF7B00;
+        }
+
+        /* Style untuk tombol kembali */
+        .back-button {
+            padding: 15px 30px;
+            background-color: #EDB27A;
+            border: none;
+            border-radius: 30px;
+            font-size: 20px;
+            color: black;
+            position: absolute;
+            left: 1154px;
+            top: 100%;
+            cursor: pointer;
         }
 
         /* Footer Styles */
@@ -318,7 +272,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 1020px;
+            top: 119%;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -361,7 +315,7 @@
             border-radius: 16px;
         }
 
-        /* Media query untuk tampilan mobile (max-width: 768px) */
+        /* Media query untuk tampilan mobile */
         @media (max-width: 768px) {
 
             /* Navbar */
@@ -389,78 +343,70 @@
                 padding: 10px;
             }
 
-            /* Group and Elements */
+            /* Produk */
+            .Produk {
+                width: 100%;
+                height: 10%;
+                position: relative;
+            }
+
+            .Ellipse2 {
+                width: 180px;
+                height: 220px;
+                left: 85px;
+                top: 240px;
+            }
+
             .Group65 {
-                height: 200px;
-                top: 40px;
+                width: 100%;
+                height: auto;
+                left: 0;
+                top: 20px;
             }
 
             .Image4,
             .Rectangle58 {
-                height: 250px;
-                top: -40px;
+                width: 100%;
+                height: 165px;
+                top: -30px;
             }
 
-            .TentangGlowkoang {
-                top: 70px;
-                left: 20%;
-                font-size: 100px;
-                text-align: center;
+            .RemovebgPreview {
+                width: 150px;
+                height: 200px;
+                left: 90px;
+                top: 280px;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
             }
 
-            .TentangGlowkoang .text-white,
-            .TentangGlowkoang .highlighted {
+            .CitraBodyLotion {
+                left: 22%;
+                top: 180px;
                 font-size: 25px;
-                line-height: 30px;
+                line-height: 35px;
             }
 
-            .Group107 {
-                height: 300px;
-                top: 300px;
-                left: 0;
-            }
-
-            .Vector {
-                height: 60px;
-                top: -55px;
-                left: 0;
-            }
-
-            .gambar1,
-            .gambar2 {
-                height: auto;
-                border-radius: 10px;
-            }
-
-            .gambar1 {
-                width: 50%;
-                margin-top: -37%;
-                margin-left: 7%;
-            }
-
-            .gambar2 {
-                width: 45%;
-                margin-top: -32%;
-                margin-left: 8%;
-            }
-
-            .deskripsi {
-                width: 90%;
-                font-size: 16px;
-                line-height: 30px;
-                top: 630px;
-                left: 5%;
-            }
-
-            .Line11 {
-                top: 333px;
-                left: 28%;
-            }
-
-            .TentangKami {
+            .deskproduk {
+                left: 0%;
+                top: 508px;
                 font-size: 20px;
-                top: 275px;
-                left: 25%;
+                line-height: 35px;
+                padding: 5% 5%;
+            }
+
+            .ProdukGlowkoang {
+                top: 84px;
+                left: 50%;
+                font-size: 22px;
+            }
+
+            .back-button {
+                left: 83%;
+                top: 1393px;
+                transform: translate(-50%, -50%);
+                font-size: 16px;
+                padding: 10px 20px;
             }
 
             /* Footer */
@@ -468,6 +414,7 @@
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
+                top: 1447px;
             }
 
             .social-icons {
@@ -497,15 +444,13 @@
     <div class="navbar">
         <!-- Logo Section -->
         <div class="logo">
-            <img src="uploads/logo.png" alt="Logo">
+            <img src="/uploads/logo.png" alt="Logo">
             <span>GlowKoang</span>
         </div>
-
         <!-- Hamburger Menu -->
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Simbol hamburger -->
         </div>
-
 
         <!-- Navigation Links -->
         <div id="nav-links" class="nav-links">
@@ -518,71 +463,68 @@
         </div>
     </div>
 
-    <div class="Group65">
-        <img class="Image4" alt="gambar background" src="uploads/y.png" />
-        <div class="Rectangle58"></div>
-    </div>
-    <div class="TentangGlowkoang">
-        <span class="text-white">Tentang </span>
-        <span class="highlighted">GlowKoang</span>
-    </div>
-        <img class="gambar1" alt="desk_produk1" src="uploads/gambardes1.png" />
-        <img class="gambar2" alt="desk_produk2" src="uploads/gambardes2.png" />
-        <div class="Vector"></div>
-    
-
-    <div class="Line11"></div>
-
-    <div class="TentangKami">
-        Tentang Kami
-    </div>
-
-    <div class="deskripsi">
-        Glowkoang adalah brand kecantikan yang menghadirkan rangkaian produk perawatan kulit dan tubuh dengan bahan
-        alami bengkoang. Terinspirasi dari khasiat bengkoang dalam mencerahkan kulit, Glowkoang menawarkan solusi
-        skincare yang membantu merawat kulit agar tetap lembut, cerah, dan sehat. Dengan kandungan alami dan ramah
-        kulit, produk Glowkoang dirancang khusus untuk wanita yang mendambakan kulit bersinar alami dan perawatan yang
-        menyegarkan.
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-        <div class="copyright-text">
-            Copyright © 2024 GlowKoang, Design by GlowKoang
-        </div>
-
-        <!-- Social Media Icons -->
-        <div class="social-icons">
-            <div class="link">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="uploads/link.png" alt="Icon 1">
-                </a>
+    <body>
+        <div class="Produk">
+            <div class="Rectangle79"></div>
+            <div class="Ellipse2"></div>
+            <div class="Group65">
+                <img class="Image4" alt="gambar background" src="/uploads/y.png" />
+                <div class="Rectangle58"></div>
             </div>
-            <div class="link">
-                <a href="https://twitter.com/" target="_blank">
-                    <img src="uploads/twitter.png" alt="Icon 2">
-                </a>
-            </div>
-            <div class="link">
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="uploads/instagram.png" alt="Icon 3">
-                </a>
-            </div>
-            <div class="link">
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img src="uploads/youtube.png" alt="Icon 4">
-                </a>
-            </div>
-        </div>
-    </div>
 
-    <script>
-        function toggleMenu() {
-            var navLinks = document.getElementById("nav-links");
-            navLinks.classList.toggle("active");
-        }
-    </script>
-</body>
 
+
+            <div class="produk-container">
+                <img class="RemovebgPreview" alt="<?= $produk['nama_produk_in']; ?>"
+                    src="<?= base_url('uploads/' . $produk['foto_produk']); ?>" />
+                <div class="CitraBodyLotion"><?= $produk['nama_produk_in']; ?></div>
+                <div class="deskproduk"><?= $produk['deskripsi_produk_in']; ?></div>
+            </div>
+
+            <button onclick="history.back()" class="back-button" style="margin-top: 20px;">Kembali</button>
+
+            <div class="ProdukGlowkoang"
+                style="display: flex; align-items: center; font-size: 35px; font-family: Poppins;">
+                <span class="white-text" style="color: white;">Produk &nbsp;</span>
+                <span class="orange-text" style="color: #FF7B00;">GlowKoang</span>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="copyright-text">
+                    Copyright © 2024 GlowKoang, Design by GlowKoang
+                </div>
+
+                <!-- Social Media Icons -->
+                <div class="social-icons">
+                    <div class="link">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="/uploads/link.png" alt="Icon 1">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="/uploads/twitter.png" alt="Icon 2">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="/uploads/instagram.png" alt="Icon 3">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="/uploads/youtube.png" alt="Icon 4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function toggleMenu() {
+                    var navLinks = document.getElementById("nav-links");
+                    navLinks.classList.toggle("active");
+                }
+            </script>
+    </body>
 
 </html>

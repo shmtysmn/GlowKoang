@@ -182,7 +182,7 @@
             top: 320px;
         }
 
-        .Influencer {
+        .UjiKelayakanProduk {
             width: 536px;
             height: 58px;
             position: absolute;
@@ -204,7 +204,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 872px;
+            top: 960px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -393,7 +393,7 @@
 
         <img class="fotouji" alt="gambar uji" src="uploads/influe.png" />
 
-        <div class="Influencer">
+        <div class="UjiKelayakanProduk">
             Influencer
         </div>
 

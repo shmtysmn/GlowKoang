@@ -13,9 +13,9 @@ class ProdukController extends BaseController
     
         // Pilih kolom berdasarkan bahasa yang dipilih
         if ($lang == 'en') {
-            $data['produks'] = $produkModel->select('id_produk, nama_produk_en AS nama_produk, deskripsi_produk_en AS deskripsi_produk, foto_produk')->findAll();
+            $data['produks'] = $produkModel->select('id_produk, nama_produk_en AS nama_produk, deskripsi_produk_en AS deskripsi_produk, foto_produk, slug')->findAll();
         } else {
-            $data['produks'] = $produkModel->select('id_produk, nama_produk_in AS nama_produk, deskripsi_produk_in AS deskripsi_produk, foto_produk')->findAll();
+            $data['produks'] = $produkModel->select('id_produk, nama_produk_in AS nama_produk, deskripsi_produk_in AS deskripsi_produk, foto_produk, slug')->findAll();
         }
         return view('produk', $data); // Ganti dengan view yang sesuai
     }
@@ -27,4 +27,15 @@ class ProdukController extends BaseController
         dd($data);
         return view('produk', $data); // Ganti dengan view yang sesuai
     }
+    public function detail($slug)
+    {
+        $produkModel = new ProdukModel();
+        $produk = $produkModel->where('slug', $slug)->first();
+
+        if (!$produk) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Produk tidak ditemukan");
+        }
+
+        return view('detail_produk', ['produk' => $produk]);
+    } 
 }

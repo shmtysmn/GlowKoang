@@ -479,7 +479,7 @@
             <div class="article">
                 <div class="image-frame"></div>
                 <img class="image" src="uploads/<?= esc($artikel['foto_artikel']) ?>" />
-                <a href="<?= base_url('/artikel' . esc($artikel['id_artikel'])) ?>" class="text-link">
+                <a href="<?= base_url('artikel/' . esc($artikel['slug'])) ?>" class="text-link">
                     <div class="text-link a"><?= esc($artikel['judul_artikel']) ?></div>
                 </a>
             </div>

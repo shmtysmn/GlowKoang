@@ -242,38 +242,47 @@
         /* Footer Styles */
         .footer {
             width: 100%;
-            height: 105px;
-            position: absolute;
-            left: 0;
-            top: 970px;
+            height: auto;
+            /* Sesuaikan dengan konten */
+            position: relative;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
+            padding: 20px 15px;
+            top: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            /* Agar fleksibel */
+            justify-content: space-between;
+            /* Menyebar isi */
+            align-items: center;
+            /* Rata tengah vertikal */
         }
 
+        /* Copyright Text */
         .copyright-text {
-            width: auto;
-            height: auto;
-            position: absolute;
-            left: 50%;
-            top: 39.25px;
-            transform: translateX(-50%);
             color: #FDFCE8;
             font-size: 13px;
             font-family: 'DM Sans', sans-serif;
             font-weight: 400;
             line-height: 19.50px;
-            word-wrap: break-word;
+            text-align: center;
+            /* Untuk teks responsif */
+            flex: 1 1 100%;
+            /* Default memenuhi seluruh baris */
+            margin-bottom: 10px;
         }
 
-        /* Responsive social icons */
+        /* Social Icons */
         .social-icons {
-            position: absolute;
-            top: 33px;
-            left: 85%;
             display: flex;
             gap: 10px;
+            justify-content: center;
+            flex: 1 1 auto;
+            /* Fleksibel sesuai konten */
         }
 
+        /* Link Styles */
         .link {
             width: 32px;
             height: 32px;
@@ -325,34 +334,43 @@
             }
         }
 
-        /* Mobile Styling */
-        @media (max-width: 768px) {
-            .footer {
-                padding: 20px;
-                text-align: center;
-                flex-direction: column;
-                top: 1950px;
-            }
+        @media screen and (max-width: 768px) {
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
 
-            .social-icons {
-                order: 1;
-                margin-bottom: 10px;
-                margin-left: -55%;
-                margin-top: -5%;
-            }
+    /* Copyright Text */
+    .copyright-text {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 
-            .link {
-                width: 32px;
-                height: 32px;
-            }
+    /* Social Icons */
+    .social-icons {
+        gap: 8px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-            .copyright-text {
-                font-size: 10px;
-                color: #FDFCE8;
-                order: 2;
-                margin-top: 10px;
-            }
-        }
+    /* Link Styles */
+    .link {
+        width: 28px;
+        height: 28px;
+    }
+
+    .link img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+    }
+}
+
     </style>
 </head>
 
@@ -391,7 +409,7 @@
         </div>
 
         <div class="ProdukGlowkoang"
-            style="display: flex; justify-content: center; align-items: center; position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
+            style="display: flex; justify-content: center; align-items: center; position: absolute; top: 7%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
             <span style="color: white;">Produk &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
         </div>
 
@@ -401,7 +419,7 @@
                     <img class="image" alt="<?= $produk['nama_produk'] ?>"
                         src="<?= base_url('uploads/' . $produk['foto_produk']) ?>" />
                     <div class="rectangle16">
-                    <a href="<?= base_url('/produk' . esc($produk['id_produk'])) ?>" class="rectangle17">
+                    <a href="<?= base_url('produk/' . esc($produk['slug'])) ?>" class="rectangle17">
                             <div class="citraBodyLotion">
                                 <?= $produk['nama_produk'] ?>
                             </div>

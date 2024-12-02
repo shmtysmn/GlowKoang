@@ -194,11 +194,32 @@
             line-height: 1.5;
             margin: 20px 0;
         }
+        
+        /* Artikel GlowKoang */
+        .artikel-glowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+        }
 
-        /* Kontak Section */
+        .artikel-glowkoang span:first-child {
+            color: white;
+        }
+
+        .artikel-glowkoang span:last-child {
+            color: #FF7B00;
+        }
+
+
         .kontak {
-            width: 100%;
-            height: 1024px;
+            /* width: 100%; */
+            /* height: 1024px; */
             position: relative;
             background: white;
         }
@@ -212,148 +233,86 @@
 
         .image-4 {
             width: 100%;
-            height: 258px;
+            height: 169px;
             position: absolute;
-            top: -90px;
+            top: -81px;
         }
 
         .rectangle-58 {
             width: 100%;
-            height: 258px;
+            height: 170px;
             position: absolute;
-            top: -90px;
+            top: -82px;
             background: rgba(0, 0, 0, 0.40);
         }
 
-        .map-maker-standard {
-            width: 570px;
-            height: 284px;
+        .kontak-glowkoang h2 {
             position: absolute;
-            top: 337px;
-            left: 66px;
-        }
-
-        .contact-info {
-            width: 444px;
-            height: 168px;
-            position: absolute;
-            top: 668px;
-            left: 69px;
-            color: black;
-            font-size: 20px;
-            font-family: 'Inika', serif;
-            line-height: 44px;
-        }
-
-        .kontak-glowkoang {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 15%;
+            top: -18%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 35px;
-            font-family: 'Poppins', sans-serif;
             color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            z-index: 2;
         }
 
-        .kontak-glowkoang span:last-child {
-            color: #FF7B00;
+        /* Content Wrapper */
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 159px 8px;
+            padding: 20px;
         }
 
-        .group-113 {
-            width: 164px;
-            height: 44px;
-            position: absolute;
-            top: 853px;
-            left: 972px;
+        /* Left Content */
+        .content-left {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .rectangle-84 {
-            width: 164px;
-            height: 43px;
-            background: #EDB27A;
-            border-radius: 13px;
+        .contact-box h3 {
+            margin-top: 0;
         }
 
-        .kirim-pesan {
-            position: absolute;
-            left: 27px;
-            top: 0;
-            color: black;
-            font-size: 20px;
-            font-family: 'Inika', serif;
-            line-height: 44px;
+        .contact-box p {
+            margin: 10px 0;
+            color: #666;
         }
 
-        .rectangle-85,
-        .rectangle-87,
-        .rectangle-88,
-        .rectangle-86 {
-            background: white;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        .contact-box button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
-        .rectangle-85 {
-            width: 335px;
-            height: 54px;
-            position: absolute;
-            top: 337px;
-            left: 703px;
+        .contact-box button:hover {
+            background-color: #45a049;
         }
 
-        .rectangle-87 {
-            width: 335px;
-            height: 54px;
-            position: absolute;
-            top: 418px;
-            left: 703px;
+        /* Google Maps Section */
+        .maps-container {
+            flex: 1;
+            height: 300px;
+            /* Disesuaikan agar tidak terlalu besar */
+            border-radius: 10px;
+            overflow: hidden;
         }
 
-        .rectangle-88 {
-            width: 697px;
-            height: 317px;
-            position: absolute;
-            top: 499px;
-            left: 703px;
+        .maps-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
 
-        .rectangle-86 {
-            width: 335px;
-            height: 54px;
-            position: absolute;
-            top: 337px;
-            left: 1069px;
-        }
-
-        .form-label {
-            position: absolute;
-            color: black;
-            font-size: 20px;
-            font-family: 'Inika', serif;
-            line-height: 44px;
-        }
-
-        #name {
-            top: 342px;
-            left: 717px;
-        }
-
-        #email {
-            top: 342px;
-            left: 1084px;
-        }
-
-        #subject {
-            top: 423px;
-            left: 720px;
-        }
-
-        #pesan {
-            top: 504px;
-            left: 720px;
-        }
 
         /* Footer Styles */
         .footer {
@@ -361,7 +320,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 1020px;
+            top: 723px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -406,6 +365,21 @@
 
         /* Mobile Styling */
         @media (max-width: 768px) {
+
+            .content-wrapper {
+                flex-direction: column;
+            }
+
+            .content-left {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .maps-container {
+                margin-left: 0;
+                height: 300px;
+            }
+
             .footer {
                 padding: 20px;
                 text-align: center;
@@ -461,34 +435,39 @@
 
     <!-- Kontak Section -->
     <div class="kontak">
+        <!-- Background Section -->
         <div class="group-65">
-            <img class="image-4" alt="gambar background" src="uploads/y.png" />
+            <img class="image-4" alt="Background Kontak GlowKoang" src="uploads/y.png" />
             <div class="rectangle-58"></div>
         </div>
-        <img class="map-maker-standard" alt="gambar peta" src="uploads/peta.png" />
-        <div class="contact-info">
-            Email: GlowKoang@gmail.com<br />
-            Ig: @GlowKoang<br />
-            Telp/WA: +62 251 882 512 933
+    </div>
+     <!-- Artikel GlowKoang -->
+     <div class="artikel-glowkoang">
+        <span>Artikel &nbsp;</span><span>GlowKoang</span>
+    </div>
+
+    <!-- Content Wrapper Section -->
+    <div class="content-wrapper">
+        <!-- Left Content: Contact Information -->
+        <div class="content-left">
+            <div class="contact-box">
+                <h3>Kontak Kami</h3>
+                <p><strong>Alamat:</strong> Jl. Jaya Milk No. 123, Batu, Jawa Timur</p>
+                <p><strong>Email:</strong> <a href="mailto:contact@healthymilk.co.id">contact@healthymilk.co.id</a>
+                </p>
+                <p><strong>Telepon:</strong> <a href="tel:+6281234567890">+62 812-3456-7890</a></p>
+                <button onclick="window.location.href='mailto:contact@healthymilk.co.id'">Hubungi Kami</button>
+            </div>
         </div>
 
-        <div class="kontak-glowkoang">
-            <span>Kontak &nbsp;</span><span>GlowKoang</span>
+        <!-- Right Content: Google Maps Embed -->
+        <div class="maps-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15807.976362496498!2d112.5356125871582!3d-7.8956849999999905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788110b42bc893%3A0x2f2bf5c3f2b4eedd!2sPabrik%20Pengolahan%20Susu%20Sapi%20Kud%20%22Batu%22!5e0!3m2!1sid!2sid!4v1728281642160!5m2!1sid!2sid"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                title="Google Maps Lokasi GlowKoang" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-
-        <div class="group-113">
-            <div class="rectangle-84"></div>
-            <div class="kirim-pesan">Kirim Pesan</div>
-        </div>
-
-        <div class="rectangle-85"></div>
-        <div class="rectangle-87"></div>
-        <div class="rectangle-88"></div>
-        <div class="rectangle-86"></div>
-        <div class="form-label" id="name">Your name</div>
-        <div class="form-label" id="email">Your Email</div>
-        <div class="form-label" id="subject">Subject</div>
-        <div class="form-label" id="pesan">Pesan</div>
     </div>
 
     <!-- Footer -->

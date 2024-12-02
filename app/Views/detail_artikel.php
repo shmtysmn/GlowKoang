@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UjiKelayakanProduk</title>
-    <meta name="title" content="GlowKoang - Aktivitas">
+    <title>Artikel1</title>
+    <meta name="title" content="GlowKoang - Artikel1">
     <meta name="description"
-        content="Temukan berbagai aktivitas menarik dan acara yang diselenggarakan oleh GlowKoang. Ikuti kami untuk update terbaru mengenai promosi, workshop kecantikan, dan acara komunitas yang menginspirasi. Bergabunglah dengan kami untuk merayakan kecantikan alami dan berbagi pengalaman!">
+        content="Baca artikel menarik seputar kecantikan, perawatan kulit, dan manfaat bengkoang di GlowKoang. Temukan tips dan trik untuk merawat kulit Anda, ulasan produk, dan informasi terbaru tentang dunia kecantikan. Dapatkan wawasan yang berguna untuk meningkatkan rutin kecantikan Anda!">
 
     <!-- Canonical Tag -->
     <link rel="canonical" href="<?= current_url() ?>">
-
     <style>
         /* Resetting some default styles */
         * {
             box-sizing: border-box;
         }
 
+        /* Masukkan CSS Anda di sini */
         body {
             margin: 0;
             font-family: 'Petrona', sans-serif;
@@ -159,44 +159,75 @@
             margin: 20px 0;
         }
 
-         /* bagian desk */
-         .deskakt {
-            width: 795px;
-            position: absolute;
-            left: 57px;
-            top: 395px;
-            text-align: justify;
-            color: black;
-            font-size: 33px;
-            font-family: Petrona;
-            font-weight: 300;
-            line-height: 57.6px;
-            word-wrap: break-word;
+        /* Banner Section */
+        .banner {
+            width: 100%;
+            height: auto;
+            position: relative;
         }
 
-        .fotouji {
-            width: 317px;
-            height: 408px;
-            position: absolute;
-            left: 989px;
-            top: 320px;
+        .banner img {
+            width: 100%;
+            height: 139px;
         }
 
-        .UjiKelayakanProduk {
-            width: 536px;
-            height: 58px;
+        .banner-overlay {
             position: absolute;
-            left: 159px;
-            top: 273px;
-            text-align: justify;
-            color: black;
-            font-size: 45px;
-            font-family: Poppins;
-            font-weight: 500;
-            line-height: 57.6px;
-            word-wrap: break-word;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(14, 26, 24, 0.50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
+        .banner-title {
+            color: white;
+            font-size: 48px;
+            font-family: Inter, sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        /* Container utama */
+        .artikel-container {
+            width: 100%;
+            height: auto;
+            padding: 40px 0;
+            background: linear-gradient(234deg, #A6D4FF 0%, white 40%, rgba(178, 218, 255, 0.09) 96%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: space-between;
+        }
+
+        /* Heading */
+        .heading-container {
+            text-align: center;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .heading-line {
+            width: 50px;
+            height: 2px;
+            background: #1BBCA3;
+        }
+
+        .heading-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #384F4B;
+        }
 
         /* Footer Styles */
         .footer {
@@ -204,7 +235,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 960px;
+            /* top: 1249px; */
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -247,6 +278,27 @@
             border-radius: 16px;
         }
 
+        /* Artikel GlowKoang */
+        .artikel-glowkoang {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .artikel-glowkoang span:first-child {
+            color: white;
+        }
+
+        .artikel-glowkoang span:last-child {
+            color: #FF7B00;
+        }
+
         /* Media query untuk tampilan mobile */
         @media (max-width: 768px) {
             .hamburger {
@@ -285,51 +337,28 @@
             }
         }
 
-        
-
-        @media (max-width: 480px) {
-            .deskakt {
-                font-size: 23px;
-                /* Ukuran font lebih kecil */
-                width: 90%;
-                /* Memaksimalkan lebar layar */
-                left: 5%;
-                /* Mengatur ulang posisi horizontal */
-                top: 537px;
-                /* Menyesuaikan posisi vertikal */
-            }
-
-            .fotouji {
-                width: 226px;
-                /* Lebar gambar lebih kecil */
-                height: 233px;
-                /* Sesuaikan tinggi */
-                left: 50%;
-                /* Menyelaraskan gambar ke tengah */
-                top: 267px;
-                /* Menyesuaikan posisi vertikal */
-                transform: translateX(-50%);
-                /* Menyelaraskan gambar di tengah */
-            }
-
-            .UjiKelayakanProduk {
-                font-size: 24px;
-                /* Ukuran font lebih kecil */
-                width: 90%;
-                /* Memaksimalkan lebar layar */
-                left: 38%;
-                /* Menyesuaikan posisi horizontal */
-                top: 197px;
-                /* Menyesuaikan posisi vertikal */
-            }
-        }
-
         /* Mobile Styling */
         @media (max-width: 768px) {
+            
+      div[style*="display: flex; justify-content: space-between;"] {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+      }
+
+      div[style*="flex: 2; padding-right: 20px;"] {
+        padding-right: 0;
+        margin-bottom: 20px;
+      }
+
+      div[style*="flex: 1;"] {
+        margin-top: 0;
+      }
             .footer {
                 padding: 20px;
                 text-align: center;
                 flex-direction: column;
+                top: auto;
             }
 
             .social-icons {
@@ -359,9 +388,10 @@
     <div class="navbar">
         <!-- Logo Section -->
         <div class="logo">
-            <img src="uploads/logo.png" alt="Logo">
+            <img src="/uploads/logo.png" alt="Logo">
             <span>GlowKoang</span>
         </div>
+
         <!-- Hamburger Menu -->
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Simbol hamburger -->
@@ -378,31 +408,68 @@
         </div>
     </div>
 
-    <div class="Aktifitas" style="width: 100%; height: 800px; position: relative; background: white;">
-        <img class="Image4" style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px;"
-            alt="gambar background" src="uploads/Group 117.png" />
-        <div class="Rectangle58"
-            style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px; background: rgba(0, 0, 0, 0.40);">
+    <!-- Banner Section -->
+    <div class="banner">
+    <div class="Rectangle58"
+            style="width: 100%; height: 258px; position: absolute; left: 0; top: -119px; background: rgba(0, 0, 0, 0.40);">
         </div>
-
-        <div class="deskakt">
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum
-            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
-        </div>
-
-        <img class="fotouji" alt="gambar uji" src="uploads/uji.png" />
-
-        <div class="UjiKelayakanProduk">
-            Uji Kelayakan Produk
-        </div>
-
-
-        <div class="AktivitasGlowkoang"
-            style="display: flex; justify-content: center; align-items: center; position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-family: Poppins;">
-            <span style="color: white;">Aktivitas &nbsp;</span><span style="color: #FF7B00;">GlowKoang</span>
+        <img src="/uploads/Group 117.png" alt="banner glowkoang"/>
+        <div class="artikel-glowkoang">
+            <span>Artikel &nbsp;</span><span>GlowKoang</span>
         </div>
     </div>
+
+
+    <div style="display: flex; justify-content: space-between; width: 90%; padding: 20px; background: white;">
+    <!-- Artikel Utama -->
+    <div style="flex: 2; padding-right: 20px;">
+        <img style="width: 100%; height: auto; border: 5px #3D251E solid;" 
+             alt="<?= $artikel->judul_artikel ?>" 
+             src="<?= base_url('uploads/' . $artikel->foto_artikel) ?>" />
+             
+        <div style="padding: 50px; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 5px #3D251E solid; margin-top: 20px;">
+            <div style="color: black; font-size: 14px; font-family: Inika; font-weight: 400;">
+                <?= date('d M Y', strtotime($artikel->created_at)) ?>
+            </div>
+            <div style="color: black; font-size: 32px; font-family: Roboto; font-weight: 700; margin-top: 10px;">
+                <?= $artikel->judul_artikel ?>
+            </div>
+            <div style="color: black; font-size: 16px; font-family: Times New Roman; font-weight: 400; margin-top: 20px; line-height: 1.6;">
+                <?= nl2br($artikel->deskripsi_artikel) ?>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar "Baca Juga" -->
+    <div style="flex: 1;">
+        <div style="background: white; padding: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px #3D251E solid;">
+            <div style="text-align: center; font-size: 24px; font-family: Inika; font-weight: 400; margin-bottom: 10px;">
+                Baca Juga
+            </div>
+
+            <!-- Ambil artikel terkait -->
+            <?php foreach ($related_articles as $related): ?>
+            <a href="<?= base_url('artikel/' . $related->slug) ?>" style="text-decoration: none; color: inherit;">
+                <div style="display: flex; gap: 15px; margin-top: 20px;">
+                    <img style="width: 147px; height: auto;" 
+                         alt="<?= $related->judul_artikel ?>" 
+                         src="<?= base_url('uploads/' . $related->foto_artikel) ?>" />
+                    <div>
+                        <div style="font-size: 14px; color: black; margin-bottom: 8px;">
+                            <?= date('d M Y', strtotime($related->created_at)) ?>
+                        </div>
+                        <div style="font-size: 16px; color: blue; font-family: Inika; font-weight: 400;">
+                            <?= $related->judul_artikel ?>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <hr style="border: 1px solid #3D251E;">
+            <?php endforeach; ?>
+        </div>
+    </div>
+</div>
+
 
     <!-- Footer -->
     <div class="footer">
@@ -414,22 +481,22 @@
         <div class="social-icons">
             <div class="link">
                 <a href="https://www.facebook.com/" target="_blank">
-                    <img src="uploads/link.png" alt="Icon 1">
+                    <img src="/uploads/link.png" alt="Icon 1">
                 </a>
             </div>
             <div class="link">
                 <a href="https://twitter.com/" target="_blank">
-                    <img src="uploads/twitter.png" alt="Icon 2">
+                    <img src="/uploads/twitter.png" alt="Icon 2">
                 </a>
             </div>
             <div class="link">
                 <a href="https://www.instagram.com/" target="_blank">
-                    <img src="uploads/instagram.png" alt="Icon 3">
+                    <img src="/uploads/instagram.png" alt="Icon 3">
                 </a>
             </div>
             <div class="link">
                 <a href="https://www.youtube.com/" target="_blank">
-                    <img src="uploads/youtube.png" alt="Icon 4">
+                    <img src="/uploads/youtube.png" alt="Icon 4">
                 </a>
             </div>
         </div>

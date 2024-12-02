@@ -159,11 +159,11 @@
             margin: 20px 0;
         }
 
-        /* bagian desk */
-        .deskakt {
-            width: 50%;
+         /* bagian desk */
+         .deskakt {
+            width: 795px;
             position: absolute;
-            left: 5%;
+            left: 57px;
             top: 395px;
             text-align: justify;
             color: black;
@@ -182,7 +182,7 @@
             top: 320px;
         }
 
-        .Testimoni {
+        .UjiKelayakanProduk {
             width: 536px;
             height: 58px;
             position: absolute;
@@ -204,7 +204,7 @@
             height: 105px;
             position: absolute;
             left: 0;
-            top: 872px;
+            top: 960px;
             background: rgba(222, 202, 182, 0.90);
             border-top: 1px solid rgba(255, 255, 255, 0.17);
         }
@@ -385,9 +385,7 @@
             style="width: 100%; height: 258px; position: absolute; left: 0; top: -80px; background: rgba(0, 0, 0, 0.40);">
         </div>
 
-      
-
-        <div class="deskakt">
+        <div class="deskakt">1
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
@@ -395,7 +393,7 @@
 
         <img class="fotouji" alt="gambar uji" src="uploads/testi.png" />
 
-        <div class="Testimoni">
+        <div class="UjiKelayakanProduk">
             Testimoni
         </div>
 

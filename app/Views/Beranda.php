@@ -523,7 +523,7 @@
 
             .produk,
             .glowkoang {
-                font-size: 40px;
+                font-size: 30px;
                 font-family: Poppins, sans-serif;
                 font-weight: 500;
                 line-height: 57.60px;
@@ -574,15 +574,15 @@
             }
 
             .Group110 .Rectangle83 {
-                top: 130px;
+                top: 66px;
             }
 
             .Group112 .Rectangle83 {
-                top: 60px;
+                top: 1px;
             }
 
             .Group111 .Rectangle83 {
-                top: 100px;
+                top: 50px;
             }
 
             .BacaSelengkapnya2,
@@ -598,28 +598,30 @@
             }
 
             .BacaSelengkapnya2 {
-                top: 150px;
+                top: 85px;
             }
 
             .BacaSelengkapnya3 {
-                top: 80px;
+                top: 21px;
             }
 
             .BacaSelengkapnya1 {
-                top: 120px;
+                top: 70px;
             }
+
             .Group103 {
-            height: 494px;
-            left: 84px;
-            top: 3403px;
-            position: relative;
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        /* Media query untuk tampilan mobile */
-        @media (max-width: 768px) {
+                height: 494px;
+                left: 84px;
+                top: 3403px;
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+            /* Media query untuk tampilan mobile */
+            @media (max-width: 768px) {
                 .hamburger {
                     display: block;
                     /* Tampilkan hamburger di mobile */
@@ -655,6 +657,34 @@
                     /* Padding untuk link */
                 }
             }
+
+           
+
+            /* Small Mobile (less than 480px) */
+            @media (max-width: 480px) {
+
+                .Group110,
+                .Group112,
+                .Group111 {
+                    width: 180px;
+                    height: 50px;
+                    left: 30px;
+                    /* Adjust for smaller screens */
+                }
+
+                .Rectangle83 {
+                    width: 160px;
+                    height: 50px;
+                    left: 10px;
+                }
+
+                .BacaSelengkapnya2,
+                .BacaSelengkapnya3,
+                .BacaSelengkapnya1 {
+                    font-size: 16px;
+                    left: 15px;
+                }
+            }
         </style>
     </head>
 
@@ -683,13 +713,6 @@
             </div>
         </div>
 
-        <div class="Rectangle80"
-            style="width: 196px; height: 64px; left: 514px; top: 3813px; position: absolute; background: #E4D6CF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 15px">
-        </div>
-        <div class="bgluar"
-            style="width: 1439px; height: 912px; left: 0px; top: 3209px; position: absolute; background: white"></div>
-        <div class="Rectangle46"
-            style="width: 1440px; height: 69px; left: 0px; top: 0px; position: absolute; background: white"></div>
         <div class="Ellipse5"
             style="width: 478px; height: 389px; left: -183px; top: 1581px; position: absolute; background: #D9D9D9; border-radius: 9999px">
         </div>
@@ -698,24 +721,41 @@
         <div class="Vector produk"
             style="width: 100%; height: 250px; left: 0px; top: 3000px; position: absolute; background: rgba(250, 229, 198, 0.80)">
         </div>
-        <div class="desk1"
-            style="width: 693px; height: 183px; left: 500px; top: 2000px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. </div>
-        <div class="desk2"
-            style="width: 675px; height: 180px; left: 282px; top: 2420px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.</div>
-        <div class="desk3"
-            style="width: 690px; height: 157px; left: 572px; top: 2820px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.</div>
+
+        <div class="bgluar"
+            style="width: 1439px; height: 912px; left: 0px; top: 3252px; position: absolute; background: white"></div>
+
+
+        <div class="Group110">
+            <a href="/produk1">
+                <div class="Rectangle83"></div>
+                <div class="BacaSelengkapnya2">Baca selengkapnya ....</div>
+            </a>
+        </div>
+
+        <div class="Group112">
+            <a href="/produk1">
+                <div class="Rectangle83"></div>
+                <div class="BacaSelengkapnya3">Baca selengkapnya ....</div>
+            </a>
+        </div>
+
+        <div class="Group111">
+            <a href="/produk1">
+                <div class="Rectangle83"></div>
+                <div class="BacaSelengkapnya1">Baca selengkapnya ....</div>
+            </a>
+        </div>
         <div class="bg1"
             style="width: 298px; height: 303px; left: 151px; top: 1939px; position: absolute; background: #D8CBC4; border-radius: 9999px">
         </div>
         <img class="citra"
             style="width: 259px; height: 300px; left: 210px; top: 1959px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px"
             alt="gambar cintra" src="uploads/citra.png" />
+        <div class="desk1"
+            style="width: 693px; height: 183px; left: 500px; top: 2000px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. </div>
         <div class="Group109" style="width: 310px; height: 344px; left: 1010px; top: 2335px; position: absolute">
             <div class="bg2"
                 style="width: 298px; height: 303px; left: 12px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 9999px">
@@ -724,6 +764,10 @@
                 style="width: 267px; height: 300px; left: 0px; top: 44px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px"
                 alt="gambar ovale" src="uploads/ovale.png" />
         </div>
+        <div class="desk2"
+            style="width: 675px; height: 180px; left: 282px; top: 2420px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.</div>
         <div class="Group108" style="width: 326px; height: 374px; left: 163px; top: 2767px; position: absolute">
             <div class="bg3"
                 style="width: 298px; height: 295px; left: 0px; top: 0px; position: absolute; background: #D8CBC4; border-radius: 9999px">
@@ -732,6 +776,11 @@
                 style="width: 277px; height: 300px; left: 49px; top: 29px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px"
                 alt="gambar pelembab" src="uploads/pelembab.png" />
         </div>
+        <div class="desk3"
+            style="width: 690px; height: 157px; left: 572px; top: 2820px; position: absolute; text-align: center; color: black; font-size: 33px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.</div>
+
         <div class="Group80" style="width: 100%; height: 881px; left: -3px; top: 895px; position: absolute">
             <div class="strip"
                 style="width: 100%; height: 881px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.90)">
@@ -774,7 +823,7 @@
 
         </div>
         <div class="Rectangle76"
-            style="width: 400px; height: 100px; left: 68%; top: 1785px; position: absolute; background: #EDB27A; border-radius: 30px">
+            style="width: 307px; height: 100px; left: 68%; top: 1785px; position: absolute; background: #EDB27A; border-radius: 30px">
         </div>
 
         <div class="produk-glowkoang">
@@ -811,45 +860,29 @@
             </div>
             <div class="UjiKelayakanProduk"
                 style="width: 355px; height: 49px; left: 374px; top: 345px; position: absolute; text-align: justify; color: black; font-size: 23px; font-family: Petrona; font-weight: 400; line-height: 30px; word-wrap: break-word">
-                <a href="/aktivitas2" style="color: black; text-decoration: none;">UJI KELAYAKAN PRODUK</div>
+                <a href="/aktivitas2" style="color: black; text-decoration: none;">UJI KELAYAKAN PRODUK
+            </div>
             <div class="btn3"
                 style="width: 203px; height: 49px; left: 771px; top: 345px; position: absolute; background: #D8CBC4; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
             </div>
             <div class="Influencer"
                 style="left: 788px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-                <a href="/aktivitas3" style="color: black; text-decoration: none;">INFLUENCER</div>
+                <a href="/aktivitas3" style="color: black; text-decoration: none;">INFLUENCER
+            </div>
             <div class="btn2"
                 style="width: 195px; height: 49px; left: 1102px; top: 345px; position: absolute; background: #D8CBC4; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
             </div>
             <div class="Promo"
                 style="left: 1148px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-                <a href="/aktivitas4" style="color: black; text-decoration: none;">PROMO</div>
+                <a href="/aktivitas4" style="color: black; text-decoration: none;">PROMO
+            </div>
             <div class="btn1"
                 style="width: 160px; height: 49px; left: 68px; top: 345px; position: absolute; background: #D8CBC4; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
             </div>
             <div class="Testimoni"
                 style="left: 80px; top: 341px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Petrona; font-weight: 300; line-height: 57.60px; word-wrap: break-word">
-                <a href="/aktivitas1" style="color: black; text-decoration: none;">TESTIMONI</div>
-        </div> 
-        <div class="Group110">
-            <a href="/produk1">
-                <div class="Rectangle83"></div>
-                <div class="BacaSelengkapnya2">Baca selengkapnya ....</div>
-            </a>
-        </div>
-
-        <div class="Group112">
-            <a href="/produk1">
-                <div class="Rectangle83"></div>
-                <div class="BacaSelengkapnya3">Baca selengkapnya ....</div>
-            </a>
-        </div>
-
-        <div class="Group111">
-            <a href="/produk1">
-                <div class="Rectangle83"></div>
-                <div class="BacaSelengkapnya1">Baca selengkapnya ....</div>
-            </a>
+                <a href="/aktivitas1" style="color: black; text-decoration: none;">TESTIMONI
+            </div>
         </div>
 
 
@@ -874,7 +907,6 @@
                 Glowkoang</div>
             <div class="WelcomeTo">Welcome to</div>
             <div class="Glowkoang">GlowKoang</div>
-        </div>
         </div>
         <div class="Group100">
             <div class="Group99">
